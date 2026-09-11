@@ -1,0 +1,58 @@
+id,service_type,registration,image,voice,files,web_search,status,operator_country,duplicate_of,country_confidence
+de-textcortex,assistant,required,,,,,ACTIVE,Germany,,verified
+de-privatemode-chat,assistant,optional,,,True,,ACTIVE,,,curator-verified
+ar-aki-agent,agent,required,,,,True,ACTIVE,Argentina,,verified
+at-comfyai,assistant,optional,,,,,ACTIVE,,,verified
+br-maritaca,model-chat,unknown,,True,True,True,ACTIVE,Brazil,,verified
+bg-bggpt,model-chat,unknown,,,,,ACTIVE,Bulgaria,,verified
+ca-cohere,playground,required,,,,,ACTIVE,Canada,,verified
+ca-chat-jimmy,assistant,unknown,,,,,ACTIVE,,,curator-verified
+ca-augure,workspace,required,,,True,True,ACTIVE,Canada,,verified
+cl-copuchat,model-chat,none,,,,,ACTIVE,Chile,,verified
+cn-deepseek,model-chat,required,,,True,True,ACTIVE,,,curator-verified
+cn-dola,assistant,unknown,,,,,ACTIVE,Singapore,,curator-verified
+cn-ernie,assistant,unknown,,,,,ACTIVE,,,curator-verified
+cn-kimi-ai,assistant,required,True,,,True,ACTIVE,China,,verified
+cn-manus,agent,unknown,True,,,True,ACTIVE,,,curator-verified
+cn-minimax,assistant,unknown,,,,,ACTIVE,Singapore,,curator-verified
+cn-qwen,assistant,required,,,,,ACTIVE,Singapore,,curator-verified
+cn-xiaomi-mimo-studio,playground,unknown,,,,,ACTIVE,,,curator-verified
+cn-z-ai,assistant,unknown,,,,True,ACTIVE,,,curator-verified
+cn-tencent-ai-studio,playground,unknown,,,,,ACTIVE,,,curator-verified
+cn-tencent-ai-studio-international,playground,unknown,,,,,ACTIVE,,,curator-verified
+ec-yachaq-ai,model-chat,none,,,,,ACTIVE,Ecuador,,verified
+ae-falcon-llm-chat,model-chat,none,,,,,ACTIVE,,,curator-verified
+es-luzia,assistant,unknown,True,True,True,True,ACTIVE,,,curator-verified
+fr-le-chat,assistant,optional,True,,True,True,ACTIVE,France,,verified
+in-kruti,assistant,unknown,,,,,LIMITED,,,curator-verified
+id-sahabat-ai,model-chat,unknown,,,,,ACTIVE,Indonesia,,verified
+it-crystal,assistant,unknown,,,,,ACTIVE,,,curator-verified
+it-chatminerva,model-chat,unknown,,,,,ACTIVE,,,curator-verified
+jp-felo,search-assistant,unknown,,,,,ACTIVE,Japan,,verified
+ma-chatyfai,multi-model-platform,required,True,,,True,ACTIVE,Morocco,,verified
+no-bineric-chat,multi-model-platform,unknown,True,,,True,ACTIVE,,,curator-verified
+nl-loes,assistant,unknown,,,,,ACTIVE,Netherlands,,verified
+pl-pllum-chat,model-chat,unknown,,,,,ACTIVE,Poland,,verified
+ru-alice-yandex,assistant,optional,True,True,True,True,ACTIVE,Russia,,verified
+ru-gigachat,assistant,unknown,,,,,ACTIVE,,,curator-verified
+sg-sea-lion-playground,playground,required,,,,,ACTIVE,Singapore,,verified
+ch-lumo,assistant,optional,True,,True,True,ACTIVE,Switzerland,,verified
+ch-public-ai,multi-model-platform,optional,True,,,True,ACTIVE,,,partial
+us-chatgpt,assistant,required,True,True,True,True,ACTIVE,United States,,verified
+us-claude,assistant,required,True,,,True,ACTIVE,United States,,verified
+us-copilot,assistant,optional,True,True,True,True,ACTIVE,United States,,verified
+us-gemini,assistant,required,True,True,True,,ACTIVE,United States,,verified
+us-google-ai-studio,playground,required,True,,,,ACTIVE,United States,,verified
+us-grok,assistant,required,True,True,True,True,ACTIVE,United States,,verified
+us-ibm-granite-playground,playground,none,,,,True,LIMITED,United States,,verified
+us-laguna,model-chat,unknown,,True,,,ACTIVE,,,curator-verified
+us-meta-ai,assistant,unknown,True,,,,ACTIVE,United States,,verified
+us-monkey-code,coding-agent,unknown,,,,,ACTIVE,,,curator-verified
+us-morphic,search-assistant,unknown,,,,True,ACTIVE,,,curator-verified
+us-notebooklm,research-notebook,required,,True,True,True,ACTIVE,United States,,verified
+us-perplexity,search-assistant,optional,True,True,True,True,ACTIVE,,,curator-verified
+us-pi,assistant,unknown,,True,,,ACTIVE,,,curator-verified
+us-textcortex,assistant,required,,,,,ACTIVE,Germany,de-textcortex,verified
+us-venice,multi-model-platform,optional,True,True,True,True,ACTIVE,United States,,verified
+us-you-com,search-assistant,unknown,,,,True,ACTIVE,,,curator-verified
+uz-coreai-chat,multi-model-platform,optional,,,,,ACTIVE,Uzbekistan,,verified
