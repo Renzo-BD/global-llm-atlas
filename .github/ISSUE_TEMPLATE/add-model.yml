@@ -1,0 +1,33 @@
+name: "🌐 Add / suggest a model"
+description: Suggest a public conversational LLM/MLLM for review
+title: "[ADD] "
+body:
+  - type: input
+    id: name
+    attributes: {label: "Service / model name"}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: "Public web chat URL"}
+    validations: {required: true}
+  - type: input
+    id: country
+    attributes: {label: "Country association"}
+    validations: {required: true}
+  - type: dropdown
+    id: access
+    attributes:
+      label: "Free access"
+      options: ["Free without payment", "Free tier", "Unsure"]
+    validations: {required: true}
+  - type: textarea
+    id: languages
+    attributes: {label: "English / Spanish usability", description: "What did you test?"}
+    validations: {required: true}
+  - type: input
+    id: date
+    attributes: {label: "Date manually tested", placeholder: "YYYY-MM-DD"}
+    validations: {required: true}
+  - type: textarea
+    id: notes
+    attributes: {label: "Evidence / notes", description: "Registration, limitations and anything ambiguous."}

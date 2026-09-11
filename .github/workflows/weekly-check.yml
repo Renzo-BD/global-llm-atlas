@@ -1,0 +1,45 @@
+name: Weekly URL check
+on:
+  schedule:
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: checker
+        shell: bash
+        run: |
+          REPORT="reports/url-check-$(date -u +%F).md"
+          echo "report=$REPORT" >> "$GITHUB_OUTPUT"
+          set +e
+          python scripts/check_urls.py --report "$REPORT"
+          CODE=$?
+          set -e
+          if [ "$CODE" -eq 10 ]; then echo "suspects=true" >> "$GITHUB_OUTPUT"; elif [ "$CODE" -eq 0 ]; then echo "suspects=false" >> "$GITHUB_OUTPUT"; else exit "$CODE"; fi
+      - if: steps.checker.outputs.suspects == 'true'
+        id: branch
+        shell: bash
+        run: |
+          BRANCH="bot/url-check-${GITHUB_RUN_ID}"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+          git config user.name "global-llm-atlas-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add "${{ steps.checker.outputs.report }}"
+          git commit -m "chore: flag suspect URLs from weekly check"
+          git push origin "$BRANCH"
+      - if: steps.checker.outputs.suspects == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh pr create --base main --head "${{ steps.branch.outputs.branch }}" --title "chore: weekly URL check needs human review" --body "Automated checks found suspect URLs. This PR only adds a report and does not change canonical status. Verify in a normal browser before editing data/llms.json." || gh issue create --title "Weekly URL check needs human review" --body "Review ${{ steps.checker.outputs.report }} on branch ${{ steps.branch.outputs.branch }}."

@@ -1,0 +1,26 @@
+name: "🚨 Report broken / changed access"
+description: Report a service that may be down, restricted, moved or discontinued
+title: "[CHECK] "
+body:
+  - type: input
+    id: name
+    attributes: {label: "Service name"}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: "URL tested"}
+    validations: {required: true}
+  - type: input
+    id: date
+    attributes: {label: "Date tested", placeholder: "YYYY-MM-DD"}
+    validations: {required: true}
+  - type: dropdown
+    id: result
+    attributes:
+      label: "What happened?"
+      options: ["Page does not load", "Chat no longer works", "Requires payment", "Geographically restricted", "Appears discontinued", "URL changed", "Other"]
+    validations: {required: true}
+  - type: textarea
+    id: details
+    attributes: {label: "Details", description: "Browser result, error, redirect, screenshot or other evidence."}
+    validations: {required: true}
