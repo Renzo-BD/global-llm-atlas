@@ -1,58 +1,58 @@
-id,name,url,country,country_es,iso2,continent,status,last_manual_verification
-de-textcortex,TextCortex,https://app.textcortex.com/c,Germany,Alemania,DE,Europe,ACTIVE,2026-09-10
-de-privatemode-chat,PrivateMode Chat,https://chat.privatemode.ai/?utm_source=chatgpt.com,Germany,Alemania,DE,Europe,ACTIVE,2026-09-10
-ar-aki-agent,Aki Agent,https://aki.ar/projects?projectId=3672,Argentina,Argentina,AR,South America,ACTIVE,2026-09-10
-at-comfyai,ComfyAI,https://comfyai.de/app/,Austria,Austria,AT,Europe,ACTIVE,2026-09-10
-br-maritaca,Maritaca,https://chat.maritaca.ai/,Brazil,Brasil,BR,South America,ACTIVE,2026-09-10
-bg-bggpt,BgGPT,https://bggpt.ai/?utm_source=chatgpt.com,Bulgaria,Bulgaria,BG,Europe,ACTIVE,2026-09-10
-ca-cohere,Cohere,https://dashboard.cohere.com/playground/chat,Canada,Canadá,CA,North America,ACTIVE,2026-09-10
-ca-chat-jimmy,Chat Jimmy,https://chatjimmy.ai/,Canada,Canadá,CA,North America,ACTIVE,2026-09-10
-ca-augure,Augure,https://chat.augureai.ca/chat,Canada,Canadá,CA,North America,ACTIVE,2026-09-10
-cl-copuchat,Copuchat,https://copuchat.latamgpt.org/?utm_source=chatgpt.com,Chile,Chile,CL,South America,ACTIVE,2026-09-10
-cn-deepseek,DeepSeek,https://chat.deepseek.com/,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-dola,Dola,https://www.dola.com/chat,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-ernie,ERNIE,https://ernie.baidu.com/,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-kimi-ai,Kimi AI,https://www.kimi.com/chat/history,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-manus,Manus,https://manus.im/app,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-minimax,MiniMax,https://www.minimax.io/,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-qwen,Qwen,https://chat.qwen.ai/,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-xiaomi-mimo-studio,Xiaomi MiMo Studio,https://aistudio.xiaomimimo.com/#/chat/c9145824a5e81376af0c62cfa2c1ef87,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-z-ai,Z.ai,https://chat.z.ai/,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-tencent-ai-studio,Tencent AI Studio,https://aistudio.tencent.com/,China,China,CN,Asia,ACTIVE,2026-09-10
-cn-tencent-ai-studio-international,Tencent AI Studio International,https://aistudio.tencent.ai/,China,China,CN,Asia,ACTIVE,2026-09-10
-ec-yachaq-ai,YACHAQ AI,https://yachaq.ai/?utm_source=chatgpt.com,Ecuador,Ecuador,EC,South America,ACTIVE,2026-09-10
-ae-falcon-llm-chat,Falcon LLM Chat,https://chat.falconllm.tii.ae/anonymous-chat,United Arab Emirates,Emiratos Árabes Unidos,AE,Asia,ACTIVE,2026-09-10
-es-luzia,Luzia,https://chat.luzia.com/es,Spain,España,ES,Europe,ACTIVE,2026-09-10
-fr-le-chat,Le Chat,https://chat.mistral.ai/chat,France,Francia,FR,Europe,ACTIVE,2026-09-10
-in-kruti,Kruti,https://www.kruti.ai/,India,India,IN,Asia,ACTIVE,2026-09-10
-id-sahabat-ai,Sahabat-AI,https://chat.sahabat-ai.com/dashboard,Indonesia,Indonesia,ID,Asia,ACTIVE,2026-09-10
-it-crystal,Crystal,https://agent.crystal.ai/,Italy,Italia,IT,Europe,ACTIVE,2026-09-10
-it-chatminerva,ChatMinerva,https://chatminerva.org/,Italy,Italia,IT,Europe,ACTIVE,2026-09-10
-jp-felo,Felo,https://felo.ai/es/search,Japan,Japón,JP,Asia,ACTIVE,2026-09-10
-ma-chatyfai,ChatyfAI,https://chatyfai.com/en/chat,Morocco,Marruecos,MA,Africa,ACTIVE,2026-09-10
-no-bineric-chat,Bineric Chat,https://chat.bineric.com/,Norway,Noruega,NO,Europe,ACTIVE,2026-09-10
-nl-loes,Loes,https://chat.loes.ai/?utm_source=chatgpt.com,Netherlands,Países Bajos,NL,Europe,ACTIVE,2026-09-10
-pl-pllum-chat,PLLuM Chat,https://pllum.clarin-pl.eu/pllum_8x7b,Poland,Polonia,PL,Europe,ACTIVE,2026-09-10
-ru-alice-yandex,Alice (Yandex),https://alice.yandex.ru/?utm_source=yagpt_land&utm_campaign=button,Russia,Rusia,RU,Europe / Asia,ACTIVE,2026-09-10
-ru-gigachat,GigaChat,https://giga.chat/sessions/019fd25d-5f69-7ee1-9dc8-dc3ab43effd0,Russia,Rusia,RU,Europe / Asia,ACTIVE,2026-09-10
-sg-sea-lion-playground,SEA-LION Playground,https://playground.sea-lion.ai/chat,Singapore,Singapur,SG,Asia,ACTIVE,2026-09-10
-ch-lumo,Lumo,https://lumo.proton.me/u/1/?welcome=true,Switzerland,Suiza,CH,Europe,ACTIVE,2026-09-10
-ch-public-ai,Public AI,https://chat.publicai.co/,Switzerland,Suiza,CH,Europe,ACTIVE,2026-09-10
-us-chatgpt,ChatGPT,https://chatgpt.com/,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-claude,Claude,https://claude.ai/new,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-copilot,Copilot,https://copilot.microsoft.com/,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-gemini,Gemini,https://gemini.google.com/app,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-google-ai-studio,Google AI Studio,https://aistudio.google.com/generate-speech,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-grok,Grok,https://grok.com/,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-ibm-granite-playground,IBM Granite Playground,https://www.ibm.com/granite/playground,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-laguna,Laguna,https://chat.poolside.ai/,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-meta-ai,Meta AI,https://www.meta.ai/?nr=1,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-monkey-code,Monkey Code,https://monkeycode-ai.net/console/task/11809376-a768-4a58-a68f-384112667aac,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-morphic,Morphic,https://chat.morphic.sh/,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-notebooklm,NotebookLM,https://notebooklm.google.com/,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-perplexity,Perplexity,https://www.perplexity.ai/,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-pi,Pi,https://pi.ai/onboarding,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-textcortex,TextCortex,https://app.textcortex.com/user/dashboard/chat,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-venice,Venice,https://venice.ai/chat,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-us-you-com,You.com,https://you.com/?,United States,Estados Unidos,US,North America,ACTIVE,2026-09-10
-uz-coreai-chat,CoreAI Chat,https://chat.coreai.uz/,Uzbekistan,Uzbekistán,UZ,Asia,ACTIVE,2026-09-10
+id,name,url,country,country_es,iso2,continent,service_type,registration,capability_text,capability_image,capability_voice,capability_files,capability_web_search,status,last_manual_verification,operator_country,duplicate_of,country_confidence
+de-textcortex,TextCortex,https://app.textcortex.com/c,Germany,Alemania,DE,Europe,assistant,required,true,,,,,ACTIVE,2026-09-10,Germany,,verified
+de-privatemode-chat,PrivateMode Chat,https://chat.privatemode.ai/,Germany,Alemania,DE,Europe,assistant,optional,true,,,true,,ACTIVE,2026-09-10,,,curator-verified
+ar-aki-agent,Aki Agent,https://aki.ar/projects?projectId=3672,Argentina,Argentina,AR,South America,agent,required,true,,,,true,ACTIVE,2026-09-10,Argentina,,verified
+at-comfyai,ComfyAI,https://comfyai.de/app/,Austria,Austria,AT,Europe,assistant,optional,true,,,,,ACTIVE,2026-09-10,,,verified
+br-maritaca,Maritaca,https://chat.maritaca.ai/,Brazil,Brasil,BR,South America,model-chat,unknown,true,,true,true,true,ACTIVE,2026-09-10,Brazil,,verified
+bg-bggpt,BgGPT,https://bggpt.ai/,Bulgaria,Bulgaria,BG,Europe,model-chat,unknown,true,,,,,ACTIVE,2026-09-10,Bulgaria,,verified
+ca-cohere,Cohere,https://dashboard.cohere.com/playground/chat,Canada,Canadá,CA,North America,playground,required,true,,,,,ACTIVE,2026-09-10,Canada,,verified
+ca-chat-jimmy,Chat Jimmy,https://chatjimmy.ai/,Canada,Canadá,CA,North America,assistant,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+ca-augure,Augure,https://chat.augureai.ca/chat,Canada,Canadá,CA,North America,workspace,required,true,,,true,true,ACTIVE,2026-09-10,Canada,,verified
+cl-copuchat,Copuchat,https://copuchat.latamgpt.org/,Chile,Chile,CL,South America,model-chat,none,true,,,,,ACTIVE,2026-09-10,Chile,,verified
+cn-deepseek,DeepSeek,https://chat.deepseek.com/,China,China,CN,Asia,model-chat,required,true,,,true,true,ACTIVE,2026-09-10,,,curator-verified
+cn-dola,Dola,https://www.dola.com/chat,China,China,CN,Asia,assistant,unknown,true,,,,,ACTIVE,2026-09-10,Singapore,,curator-verified
+cn-ernie,ERNIE,https://ernie.baidu.com/,China,China,CN,Asia,assistant,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+cn-kimi-ai,Kimi AI,https://www.kimi.com/chat/history,China,China,CN,Asia,assistant,required,true,true,,,true,ACTIVE,2026-09-10,China,,verified
+cn-manus,Manus,https://manus.im/app,China,China,CN,Asia,agent,unknown,true,true,,,true,ACTIVE,2026-09-10,,,curator-verified
+cn-minimax,MiniMax,https://www.minimax.io/,China,China,CN,Asia,assistant,unknown,true,,,,,ACTIVE,2026-09-10,Singapore,,curator-verified
+cn-qwen,Qwen,https://chat.qwen.ai/,China,China,CN,Asia,assistant,required,true,,,,,ACTIVE,2026-09-10,Singapore,,curator-verified
+cn-xiaomi-mimo-studio,Xiaomi MiMo Studio,https://aistudio.xiaomimimo.com/,China,China,CN,Asia,playground,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+cn-z-ai,Z.ai,https://chat.z.ai/,China,China,CN,Asia,assistant,unknown,true,,,,true,ACTIVE,2026-09-10,,,curator-verified
+cn-tencent-ai-studio,Tencent AI Studio,https://aistudio.tencent.com/,China,China,CN,Asia,playground,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+cn-tencent-ai-studio-international,Tencent AI Studio International,https://aistudio.tencent.ai/,China,China,CN,Asia,playground,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+ec-yachaq-ai,YACHAQ AI,https://yachaq.ai/,Ecuador,Ecuador,EC,South America,model-chat,none,true,,,,,ACTIVE,2026-09-10,Ecuador,,verified
+ae-falcon-llm-chat,Falcon LLM Chat,https://chat.falconllm.tii.ae/anonymous-chat,United Arab Emirates,Emiratos Árabes Unidos,AE,Asia,model-chat,none,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+es-luzia,Luzia,https://chat.luzia.com/es,Spain,España,ES,Europe,assistant,unknown,true,true,true,true,true,ACTIVE,2026-09-10,,,curator-verified
+fr-le-chat,Le Chat,https://chat.mistral.ai/chat,France,Francia,FR,Europe,assistant,optional,true,true,,true,true,ACTIVE,2026-09-10,France,,verified
+in-kruti,Kruti,https://www.kruti.ai/,India,India,IN,Asia,assistant,unknown,true,,,,,LIMITED,2026-09-10,,,curator-verified
+id-sahabat-ai,Sahabat-AI,https://chat.sahabat-ai.com/dashboard,Indonesia,Indonesia,ID,Asia,model-chat,unknown,true,,,,,ACTIVE,2026-09-10,Indonesia,,verified
+it-crystal,Crystal,https://agent.crystal.ai/,Italy,Italia,IT,Europe,assistant,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+it-chatminerva,ChatMinerva,https://chatminerva.org/,Italy,Italia,IT,Europe,model-chat,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+jp-felo,Felo,https://felo.ai/es/search,Japan,Japón,JP,Asia,search-assistant,unknown,true,,,,,ACTIVE,2026-09-10,Japan,,verified
+ma-chatyfai,ChatyfAI,https://chatyfai.com/en/chat,Morocco,Marruecos,MA,Africa,multi-model-platform,required,true,true,,,true,ACTIVE,2026-09-10,Morocco,,verified
+no-bineric-chat,Bineric Chat,https://chat.bineric.com/,Norway,Noruega,NO,Europe,multi-model-platform,unknown,true,true,,,true,ACTIVE,2026-09-10,,,curator-verified
+nl-loes,Loes,https://chat.loes.ai/,Netherlands,Países Bajos,NL,Europe,assistant,unknown,true,,,,,ACTIVE,2026-09-10,Netherlands,,verified
+pl-pllum-chat,PLLuM Chat,https://pllum.clarin-pl.eu/pllum_8x7b,Poland,Polonia,PL,Europe,model-chat,unknown,true,,,,,ACTIVE,2026-09-10,Poland,,verified
+ru-alice-yandex,Alice (Yandex),https://alice.yandex.ru/,Russia,Rusia,RU,Europe / Asia,assistant,optional,true,true,true,true,true,ACTIVE,2026-09-10,Russia,,verified
+ru-gigachat,GigaChat,https://giga.chat/,Russia,Rusia,RU,Europe / Asia,assistant,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+sg-sea-lion-playground,SEA-LION Playground,https://playground.sea-lion.ai/chat,Singapore,Singapur,SG,Asia,playground,required,true,,,,,ACTIVE,2026-09-10,Singapore,,verified
+ch-lumo,Lumo,https://lumo.proton.me/,Switzerland,Suiza,CH,Europe,assistant,optional,true,true,,true,true,ACTIVE,2026-09-10,Switzerland,,verified
+ch-public-ai,Public AI,https://chat.publicai.co/,Switzerland,Suiza,CH,Europe,multi-model-platform,optional,true,true,,,true,ACTIVE,2026-09-10,,,partial
+us-chatgpt,ChatGPT,https://chatgpt.com/,United States,Estados Unidos,US,North America,assistant,required,true,true,true,true,true,ACTIVE,2026-09-10,United States,,verified
+us-claude,Claude,https://claude.ai/new,United States,Estados Unidos,US,North America,assistant,required,true,true,,,true,ACTIVE,2026-09-10,United States,,verified
+us-copilot,Copilot,https://copilot.microsoft.com/,United States,Estados Unidos,US,North America,assistant,optional,true,true,true,true,true,ACTIVE,2026-09-10,United States,,verified
+us-gemini,Gemini,https://gemini.google.com/app,United States,Estados Unidos,US,North America,assistant,required,true,true,true,true,,ACTIVE,2026-09-10,United States,,verified
+us-google-ai-studio,Google AI Studio,https://aistudio.google.com/,United States,Estados Unidos,US,North America,playground,required,true,true,,,,ACTIVE,2026-09-10,United States,,verified
+us-grok,Grok,https://grok.com/,United States,Estados Unidos,US,North America,assistant,required,true,true,true,true,true,ACTIVE,2026-09-10,United States,,verified
+us-ibm-granite-playground,IBM Granite Playground,https://www.ibm.com/granite/playground,United States,Estados Unidos,US,North America,playground,none,true,,,,true,LIMITED,2026-09-10,United States,,verified
+us-laguna,Laguna,https://chat.poolside.ai/,United States,Estados Unidos,US,North America,model-chat,unknown,true,,true,,,ACTIVE,2026-09-10,,,curator-verified
+us-meta-ai,Meta AI,https://www.meta.ai/,United States,Estados Unidos,US,North America,assistant,unknown,true,true,,,,ACTIVE,2026-09-10,United States,,verified
+us-monkey-code,Monkey Code,https://monkeycode-ai.net/,United States,Estados Unidos,US,North America,coding-agent,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
+us-morphic,Morphic,https://chat.morphic.sh/,United States,Estados Unidos,US,North America,search-assistant,unknown,true,,,,true,ACTIVE,2026-09-10,,,curator-verified
+us-notebooklm,NotebookLM,https://notebooklm.google.com/,United States,Estados Unidos,US,North America,research-notebook,required,true,,true,true,true,ACTIVE,2026-09-10,United States,,verified
+us-perplexity,Perplexity,https://www.perplexity.ai/,United States,Estados Unidos,US,North America,search-assistant,optional,true,true,true,true,true,ACTIVE,2026-09-10,,,curator-verified
+us-pi,Pi,https://pi.ai/,United States,Estados Unidos,US,North America,assistant,unknown,true,,true,,,ACTIVE,2026-09-10,,,curator-verified
+us-textcortex,TextCortex,https://app.textcortex.com/user/dashboard/chat,United States,Estados Unidos,US,North America,assistant,required,true,,,,,ACTIVE,2026-09-10,Germany,de-textcortex,verified
+us-venice,Venice,https://venice.ai/chat,United States,Estados Unidos,US,North America,multi-model-platform,optional,true,true,true,true,true,ACTIVE,2026-09-10,United States,,verified
+us-you-com,You.com,https://you.com/,United States,Estados Unidos,US,North America,search-assistant,unknown,true,,,,true,ACTIVE,2026-09-10,,,curator-verified
+uz-coreai-chat,CoreAI Chat,https://chat.coreai.uz/,Uzbekistan,Uzbekistán,UZ,Asia,multi-model-platform,optional,true,,,,,ACTIVE,2026-09-10,Uzbekistan,,verified
