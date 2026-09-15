@@ -24,7 +24,7 @@ ec-yachaq-ai,YACHAQ AI,https://yachaq.ai/,Ecuador,Ecuador,EC,South America,model
 ae-falcon-llm-chat,Falcon LLM Chat,https://chat.falconllm.tii.ae/anonymous-chat,United Arab Emirates,Emiratos Árabes Unidos,AE,Asia,model-chat,none,true,,,,,ACTIVE,2026-09-10,,,curator-verified
 es-luzia,Luzia,https://chat.luzia.com/es,Spain,España,ES,Europe,assistant,unknown,true,true,true,true,true,ACTIVE,2026-09-10,,,curator-verified
 fr-le-chat,Le Chat,https://chat.mistral.ai/chat,France,Francia,FR,Europe,assistant,optional,true,true,,true,true,ACTIVE,2026-09-10,France,,verified
-in-kruti,Kruti,https://www.kruti.ai/,India,India,IN,Asia,assistant,unknown,true,,,,,LIMITED,2026-09-10,,,curator-verified
+in-kruti,Kruti,https://www.kruti.ai/,India,India,IN,Asia,assistant,unknown,true,,,,,INACTIVE,2026-09-15,,,curator-verified
 id-sahabat-ai,Sahabat-AI,https://chat.sahabat-ai.com/dashboard,Indonesia,Indonesia,ID,Asia,model-chat,unknown,true,,,,,ACTIVE,2026-09-10,Indonesia,,verified
 it-crystal,Crystal,https://agent.crystal.ai/,Italy,Italia,IT,Europe,assistant,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
 it-chatminerva,ChatMinerva,https://chatminerva.org/,Italy,Italia,IT,Europe,model-chat,unknown,true,,,,,ACTIVE,2026-09-10,,,curator-verified
