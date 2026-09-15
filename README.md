@@ -39,13 +39,9 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 | `ACTIVE` | **55** |
 | `LIMITED` | **2** |
 
-The v0.2.0 release preserves the original curator-tested seed. `MULTI MODELOS` remains **explicitly excluded**, and no outside service was silently mixed into the seed release.
-
 The canonical metadata includes service type, registration, text/image/voice/files/web-search capabilities, operator country, duplicate relationships, country confidence and provenance. A `null` capability means **not independently verified** — never “unsupported” by default.
 
 ## 🚀 Use the data
-
-The project is intentionally useful beyond the website:
 
 | Resource | Purpose |
 |---|---|
@@ -72,9 +68,7 @@ print(f"Active access points: {len(active)}")
 
 ## 🗺️ Interactive atlas
 
-The **[GitHub Pages atlas](https://renzo-bd.github.io/global-llm-atlas/)** provides a responsive world view, live metrics, text search, country/service-type/status filters, registration information, capability indicators, operator-country and duplicate metadata, and direct access links.
-
-Unknown capabilities are rendered as `?`, not as negative claims.
+The **[GitHub Pages atlas](https://renzo-bd.github.io/global-llm-atlas/)** provides a responsive world view, live metrics, text search, country/service-type/status filters, registration information, capability indicators, operator-country and duplicate metadata, and direct access links. Unknown capabilities are rendered as `?`, not as negative claims.
 
 ## ✅ What qualifies?
 
@@ -86,9 +80,7 @@ Repositories-only projects, closed demos, abandoned services and purely private/
 
 `country` / `country_es` represents the atlas association supported by the project's evidence. It is not automatically the legal domicile of the operating entity. Where official evidence identifies another jurisdiction, `operator_country` records it separately.
 
-`country_confidence` uses `verified`, `curator-verified`, or `partial`. Uncertainty stays visible rather than being guessed away.
-
-Automated reachability is deliberately **non-authoritative**. A successful HTTP response does not prove that a conversational service is usable, and a failed request does not automatically make a service inactive.
+`country_confidence` uses `verified`, `curator-verified`, or `partial`. Uncertainty stays visible rather than being guessed away. Automated reachability is deliberately **non-authoritative**: a successful HTTP response does not prove that a conversational service is usable, and a failed request does not automatically make a service inactive.
 
 ## 🔬 Notable v0.2.0 findings
 
