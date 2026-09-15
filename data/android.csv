@@ -1,0 +1,28 @@
+id,status,distribution,url,verified,note
+at-comfyai,native,google-play,https://play.google.com/store/apps/details?id=de.comfyai,2026-09-15,
+br-maritaca,native,google-play,https://play.google.com/store/apps/details?id=com.maritaca.app,2026-09-15,
+bg-bggpt,native,google-play,https://play.google.com/store/apps/details?id=com.insait.bggpt,2026-09-15,
+cn-deepseek,native,google-play,https://play.google.com/store/apps/details?id=com.deepseek.chat,2026-09-15,
+cn-ernie,regional,official-regional,https://ernie.baidu.com/,2026-09-15,
+cn-kimi-ai,native,official-download,https://www.kimi.com/en/products/download,2026-09-15,
+cn-manus,native,google-play,https://play.google.com/store/apps/details?id=tech.butterfly.app,2026-09-15,
+cn-minimax,native,official-download,https://chat.minimax.io/download,2026-09-15,
+cn-qwen,native,google-play,https://play.google.com/store/apps/details?id=com.tongyi.intl,2026-09-15,
+es-luzia,native,google-play,https://play.google.com/store/apps/details?id=co.thewordlab.luzia,2026-09-15,
+fr-le-chat,native,google-play,https://play.google.com/store/apps/details?id=ai.mistral.chat,2026-09-15,Android app now branded Vibe by Mistral.
+jp-felo,native,google-play,https://play.google.com/store/apps/details?id=ai.felo.search,2026-09-15,
+ru-alice-yandex,native,google-play,https://play.google.com/store/apps/details?id=com.yandex.aliceapp,2026-09-15,
+ru-gigachat,regional,rustore,https://www.rustore.ru/catalog/app/com.sdkit.search.app,2026-09-15,
+ch-lumo,native,google-play,https://play.google.com/store/apps/details?id=me.proton.android.lumo,2026-09-15,
+us-chatgpt,native,google-play,https://play.google.com/store/apps/details?id=com.openai.chatgpt,2026-09-15,
+us-claude,native,google-play,https://play.google.com/store/apps/details?id=com.anthropic.claude,2026-09-15,
+us-gemini,native,google-play,https://play.google.com/store/apps/details?id=com.google.android.apps.bard,2026-09-15,
+us-grok,native,google-play,https://play.google.com/store/apps/details?id=ai.x.grok,2026-09-15,
+us-meta-ai,native,google-play,https://play.google.com/store/apps/details?id=com.facebook.stella,2026-09-15,
+us-notebooklm,native,google-play,https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind,2026-09-15,
+us-perplexity,native,google-play,https://play.google.com/store/apps/details?id=ai.perplexity.app.android,2026-09-15,
+us-pi,native,google-play,https://play.google.com/store/apps/details?id=ai.inflection.pi,2026-09-15,
+us-venice,native,google-play,https://play.google.com/store/apps/details?id=com.ai.venice,2026-09-15,
+us-you-com,native,google-play,https://play.google.com/store/apps/details?id=com.you.browser,2026-09-15,
+de-textcortex,pwa,web-install,https://app.textcortex.com/c,2026-09-15,Installable mobile web experience; not counted as a native Android app.
+us-textcortex,pwa,web-install,https://app.textcortex.com/user/dashboard/chat,2026-09-15,Duplicate access point for the same TextCortex service.
