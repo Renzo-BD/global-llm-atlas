@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Global LLM Atlas Android access metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["project", "dimension", "version", "released", "methodology", "entries"],
+  "properties": {
+    "project": {"const": "Global LLM Atlas"},
+    "dimension": {"const": "android"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$"},
+    "released": {"type": "string", "format": "date"},
+    "methodology": {"type": "string"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "status", "distribution", "url", "verified"],
+        "properties": {
+          "id": {"type": "string"},
+          "status": {"enum": ["native", "regional", "pwa", "integrated", "beta"]},
+          "distribution": {"enum": ["google-play", "rustore", "official-download", "official-regional", "web-install", "integrated", "other-official"]},
+          "url": {"type": "string", "format": "uri"},
+          "verified": {"type": "string", "format": "date"},
+          "note": {"type": "string"}
+        }
+      }
+    }
+  }
+}
