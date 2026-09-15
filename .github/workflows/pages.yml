@@ -18,6 +18,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Vendor map dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p vendor
+          curl --fail --location --retry 3 --retry-delay 2 --retry-all-errors \
+            https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js \
+            --output vendor/leaflet.js
+          curl --fail --location --retry 3 --retry-delay 2 --retry-all-errors \
+            https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css \
+            --output vendor/leaflet.css
+          test -s vendor/leaflet.js
+          test -s vendor/leaflet.css
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("index.html")
+          text = p.read_text(encoding="utf-8")
+          text = text.replace(
+              "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+              "vendor/leaflet.css",
+          )
+          text = text.replace(
+              "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+              "vendor/leaflet.js",
+          )
+          text = text.replace(
+              "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+          )
+          p.write_text(text, encoding="utf-8")
+          PY
+          grep -q 'vendor/leaflet.js' index.html
+          grep -q 'vendor/leaflet.css' index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
