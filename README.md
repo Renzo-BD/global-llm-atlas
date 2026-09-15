@@ -1,91 +1,109 @@
 # 🌐 Global LLM Atlas
 
-> A curated, versioned atlas of **public conversational LLM/MLLM web experiences around the world**.
+> **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
 [![Version](https://img.shields.io/badge/version-v0.2.0-blue)](CHANGELOG.md)
 ![Access points](https://img.shields.io/badge/access%20points-57-2ea44f)
 ![Unique services](https://img.shields.io/badge/unique%20services-56-56d7c5)
 ![Countries](https://img.shields.io/badge/country%20associations-25-7b61ff)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Global LLM Atlas** is a curated dataset, interactive directory and maintenance workflow for publicly accessible conversational AI services. It records where each access point is associated, what kind of service it is, whether registration is required, selected capabilities, lifecycle status and when the access was manually checked.
+**[🗺️ Explore the interactive atlas](https://renzo-bd.github.io/global-llm-atlas/)** · **[📦 JSON](data/llms.json)** · **[📊 CSV](data/llms.csv)** · **[🤝 Contribute](CONTRIBUTING.md)**
 
-**Español:** atlas mundial curado y versionado de LLM/MLLM y asistentes conversacionales con acceso web público.
+**Global LLM Atlas** is an open, curated and versioned directory of publicly accessible conversational LLM/MLLM services around the world. It combines a reusable dataset, an interactive map and a maintenance workflow designed to distinguish a working AI experience from a merely reachable URL.
 
-## v0.2.0 — canonical metadata migration
+**Español:** atlas mundial abierto, curado y versionado de LLM/MLLM y asistentes conversacionales con acceso web público.
 
-The v0.2.0 release keeps the original scope intact:
+## ⭐ Why star this repo?
 
-- **57 curator-tested access points**
-- **56 unique services** after identifying the second TextCortex URL as a duplicate
-- **25 country/project associations**
-- **55 `ACTIVE`** and **2 `LIMITED`**
-- `MULTI MODELOS` remains **explicitly excluded**
-- no new service was added outside the curator-provided HTML seed
+Star Global LLM Atlas if you want to follow a dataset that aims to answer a deceptively difficult question: **what conversational AI can people actually access around the world?**
 
-The canonical JSON now includes service type, registration, text/image/voice/files/web-search capabilities, operator country, duplicate relationships, country-confidence and provenance metadata.
+- 🌍 **Country-by-country discovery**, including services outside the usual U.S.-centric lists.
+- 🔎 **Curated evidence** for status, country association, registration and selected capabilities.
+- 🧭 **Interactive world atlas** for browsing rather than digging through a giant link dump.
+- 🧱 **Reusable JSON + CSV + JSON Schema** for research, analysis and other projects.
+- 🩺 **Lifecycle tracking** with `ACTIVE`, `LIMITED`, `UNVERIFIED`, `INACTIVE` and `DISCONTINUED`.
+- 🤖 **Weekly automated checks + human review**: HTTP availability never silently becomes semantic truth.
+- 🧾 **Explicit uncertainty and provenance** instead of filling unknown fields with guesses.
 
-A `null` capability means **not independently verified**. It must not be interpreted as unsupported.
+> **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## Data
+## 📍 Current snapshot — v0.2.0
+
+| Metric | Current canonical dataset |
+|---|---:|
+| Access points | **57** |
+| Unique services | **56** |
+| Country/project associations | **25** |
+| `ACTIVE` | **55** |
+| `LIMITED` | **2** |
+
+The canonical metadata includes service type, registration, text/image/voice/files/web-search capabilities, operator country, duplicate relationships, country confidence and provenance. A `null` capability means **not independently verified** — never “unsupported” by default.
+
+## 🚀 Use the data
 
 | Resource | Purpose |
 |---|---|
 | [`data/llms.json`](data/llms.json) | Canonical source of truth |
-| [`data/llms.csv`](data/llms.csv) | Spreadsheet-friendly canonical export |
-| [`data/schema.json`](data/schema.json) | JSON Schema for validation |
-| [`data/curation-v0.2.csv`](data/curation-v0.2.csv) | v0.2 semantic-curation working matrix |
+| [`data/llms.csv`](data/llms.csv) | Spreadsheet/data-analysis export |
+| [`data/schema.json`](data/schema.json) | JSON Schema validation |
+| [`data/curation-v0.2.csv`](data/curation-v0.2.csv) | v0.2 semantic-curation matrix |
 | [`reports/curation-v0.2.0.md`](reports/curation-v0.2.0.md) | Curation rationale and evidence |
 | [`reports/coverage-v0.1.0.md`](reports/coverage-v0.1.0.md) | Original geographic seed report |
 
-## Status vocabulary
+Example with Python:
 
-| Status | Meaning |
-|---|---|
-| `ACTIVE` | Public access manually verified as working |
-| `LIMITED` | Public access exists but a material restriction affects the experience |
-| `UNVERIFIED` | Current usability has not been manually established |
-| `INACTIVE` | Confirmed unavailable after human review |
-| `DISCONTINUED` | Service/project confirmed discontinued |
+```python
+import json
+from urllib.request import urlopen
 
-Automated reachability checks are deliberately **non-authoritative**. An HTTP response does not prove that a conversational service is usable, and an automated failure does not silently change canonical status.
+url = "https://raw.githubusercontent.com/Renzo-BD/global-llm-atlas/main/data/llms.json"
+with urlopen(url) as response:
+    atlas = json.load(response)
 
-## Country semantics
+active = [x for x in atlas["entries"] if x["status"] == "ACTIVE"]
+print(f"Active access points: {len(active)}")
+```
 
-`country` / `country_es` represents the **atlas association inherited from the curator's seed**. It is not automatically the legal domicile of the operating entity. When official evidence supports a separate operating jurisdiction, it is recorded in `operator_country`.
+## 🗺️ Interactive atlas
 
-`country_confidence` uses `verified`, `curator-verified`, or `partial`. Uncertainty is kept explicit rather than guessed.
+The **[GitHub Pages atlas](https://renzo-bd.github.io/global-llm-atlas/)** provides a responsive world view, live metrics, text search, country/service-type/status filters, registration information, capability indicators, operator-country and duplicate metadata, and direct access links. Unknown capabilities are rendered as `?`, not as negative claims.
 
-## Notable v0.2.0 findings
+## ✅ What qualifies?
 
-- **TextCortex:** two source URLs refer to the same service. The German access point remains canonical; the U.S.-grouped source URL is retained for provenance and points to `duplicate_of: de-textcortex`.
-- **Kruti:** classified `LIMITED` because its official site indicated the web experience was coming soon and directed users to the app at the time of curation.
-- **IBM Granite Playground:** classified `LIMITED` because the public demo has a material usage cap.
-- **Dola, Qwen and MiniMax:** Chinese seed/project association is retained while Singapore operating entities are recorded separately where official terms support that distinction.
-- **Public AI:** Swiss seed association is retained with `partial` confidence because the platform is global/multi-model.
+An entry should represent a **public conversational AI experience** with its own publicly reachable web interface, free access or a free tier, and usability in English or Spanish under the project's curation criteria.
 
-See the [v0.2.0 curation report](reports/curation-v0.2.0.md) for the evidence trail.
+Repositories-only projects, closed demos, abandoned services and purely private/internal interfaces are outside scope. The initial 0.x series grows conservatively; **v1.0.0 will wait for broader systematic country coverage and normalization.**
 
-## Interactive atlas
+## 🧠 Curation model
 
-`index.html` provides a responsive world map, live metrics, text search, country/service-type/status filters, registration information, capability indicators, operator-country and duplicate metadata, and direct access links.
+`country` / `country_es` represents the atlas association supported by the project's evidence. It is not automatically the legal domicile of the operating entity. Where official evidence identifies another jurisdiction, `operator_country` records it separately.
 
-Unknown capabilities are rendered as `?`, not as a negative claim.
+`country_confidence` uses `verified`, `curator-verified`, or `partial`. Uncertainty stays visible rather than being guessed away. Automated reachability is deliberately **non-authoritative**: a successful HTTP response does not prove that a conversational service is usable, and a failed request does not automatically make a service inactive.
 
-## Inclusion principles
+## 🔬 Notable v0.2.0 findings
 
-An access point belongs in the atlas when it is intended to provide a public conversational AI experience, has its own publicly reachable web interface, has free access or a free tier, and is usable in English or Spanish under the project's curation criteria. Repositories, closed demos, abandoned projects and purely private/internal interfaces are outside scope.
+- **TextCortex:** two source URLs refer to the same service; the duplicate relationship is preserved rather than hidden.
+- **Kruti:** `LIMITED` because its official site indicated the web experience was coming soon and directed users to the app at curation time.
+- **IBM Granite Playground:** `LIMITED` because its public demo has a material usage cap.
+- **Dola, Qwen and MiniMax:** project/seed association and operating jurisdiction are kept distinct where official terms support it.
+- **Public AI:** association confidence is explicitly `partial` because it is a global multi-model platform.
 
-The initial 0.x series intentionally grows conservatively. **v1.0.0 should not be declared until the seed is fully normalized and broader country coverage has been systematically audited.**
+See the [`v0.2.0 curation report`](reports/curation-v0.2.0.md) for the evidence trail.
 
-## Maintenance
+## 🤝 Help map the world
 
-The weekly GitHub Actions workflow performs basic reachability checks. Suspect results are reported for review rather than directly changing canonical status. Human or semantic review remains required for login walls, regional restrictions, free-tier changes, conversational usability, capability changes, country ambiguity and discontinuation.
+The most useful contribution is a service from a **country not yet represented**. Before opening a contribution, check that the service has a real conversational web experience and provide evidence for its country/project association, public/free access, registration requirements and capabilities.
 
-## Contributing
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full rules. Corrections and evidence upgrades are just as welcome as new entries.
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md). Please provide evidence for changes to country association, status, registration or capabilities.
+If this dataset is useful to your research, project or AI exploration, **⭐ starring the repository helps more people discover it.**
 
-## License
+## 🛠️ Maintenance
+
+A weekly GitHub Actions workflow performs basic reachability checks. Suspect results are reported for review rather than directly changing canonical status. Human/semantic review remains required for login walls, regional restrictions, free-tier changes, conversational usability, capability changes, country ambiguity and discontinuation.
+
+## 📜 License
 
 MIT — see [`LICENSE`](LICENSE).

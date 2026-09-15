@@ -1,7 +1,7 @@
 # Deep curation report — v0.2.0
 
 **Date:** 2026-09-10  
-**Scope:** the 57 curator-tested seed access points only. `MULTI MODELOS` remains excluded.
+**Scope:** the 57 curator-tested seed access points.
 
 ## Result
 
@@ -10,13 +10,13 @@
 - 25 country/project associations
 - 55 `ACTIVE`; 2 `LIMITED`
 - No entry was deleted merely because metadata was incomplete
-- Curated metadata migrated into canonical `data/llms.json`, synchronized to `data/llms.csv`, and represented by the richer `data/schema.json`
+- Curated metadata migrated into canonical `data/llms.json`, synchronized to `data/llms.csv`, and represented by `data/schema.json`
 
 The working curation matrix remains in `data/curation-v0.2.csv`. Blank capability cells there, and `null` capability values in canonical JSON, mean **not independently verified**, not unsupported.
 
 ## Method
 
-The original seed records the curator's successful access test on 2026-09-10. This pass adds semantic metadata from official product, help, pricing, terms, privacy, imprint and institutional pages where sufficient evidence was available. Unknowns remain unknown rather than being inferred.
+The initial records reflect the curator's successful access test on 2026-09-10. This pass adds semantic metadata from official product, help, pricing, terms, privacy, imprint and institutional pages where sufficient evidence was available. Unknowns remain unknown rather than being inferred.
 
 `country` is an **atlas association**, not automatically legal-company domicile. The canonical dataset therefore records `operator_country` separately where official information supports it.
 
@@ -60,4 +60,4 @@ Text is `true` for all 57 seed access points because conversational text usabili
 
 ## Remaining work before v1.0.0
 
-Future curation should expand official-evidence coverage for entries still marked `curator-verified`, re-test the two `LIMITED` services, normalize direct-session URLs into stable public entry URLs where possible, verify language/access nuances, and preserve lifecycle history instead of silently removing discontinued services. Broader country expansion should remain separate from this seed-normalization work.
+Future curation should expand official-evidence coverage for entries still marked `curator-verified`, re-test the two `LIMITED` services, normalize direct-session URLs into stable public entry URLs where possible, verify language/access nuances, preserve lifecycle history instead of silently removing discontinued services, and continue broader country expansion systematically.
