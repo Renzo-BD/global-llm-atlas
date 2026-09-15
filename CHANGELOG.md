@@ -9,7 +9,7 @@ The project follows [Semantic Versioning](https://semver.org/).
 ### Planned
 - Continue official-evidence review for `curator-verified` country associations.
 - Re-test `LIMITED` services and normalize unstable/direct-session URLs.
-- Expand geographic coverage only after the original seed is sufficiently normalized.
+- Expand geographic coverage systematically.
 - Preserve lifecycle history for services that later become inactive or discontinued.
 
 ## [0.2.0] - 2026-09-10
@@ -35,9 +35,6 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Public AI's Swiss association is marked `partial`.
 - Unknown capability values use `null`/blank and are never silently interpreted as unsupported.
 
-### Scope
-`MULTI MODELOS` remains excluded. No service outside the curator-provided HTML seed was added.
-
 ## [0.1.0] - 2026-09-10
 
 ### Added
@@ -46,6 +43,3 @@ The project follows [Semantic Versioning](https://semver.org/).
 - README directory, interactive map/search UI, JSON Schema and coverage report.
 - Weekly non-authoritative URL checker and GitHub Pages workflow.
 - Contribution guidance, issue templates and MIT license.
-
-### Scope
-Only access points supplied in the curator's HTML bookmark export were included. `MULTI MODELOS` was explicitly excluded.
