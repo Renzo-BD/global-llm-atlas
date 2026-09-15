@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Vendor map dependencies
+      - name: Vendor map dependencies and enrich main atlas
         shell: bash
         run: |
           set -euo pipefail
@@ -31,6 +31,7 @@ jobs:
             --output vendor/leaflet.css
           test -s vendor/leaflet.js
           test -s vendor/leaflet.css
+          test -s android-main.js
           python - <<'PY'
           from pathlib import Path
           p = Path("index.html")
@@ -47,10 +48,13 @@ jobs:
               "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
               "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
           )
+          if 'src="android-main.js"' not in text:
+              text = text.replace("</body>", '<script src="android-main.js"></script></body>')
           p.write_text(text, encoding="utf-8")
           PY
           grep -q 'vendor/leaflet.js' index.html
           grep -q 'vendor/leaflet.css' index.html
+          grep -q 'src="android-main.js"' index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
