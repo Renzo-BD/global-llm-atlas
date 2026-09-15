@@ -1,0 +1,63 @@
+{
+  "project": "Global LLM Atlas",
+  "target_version": "0.3.0",
+  "research_date": "2026-09-15",
+  "scope": "New country associations absent from v0.2.0; MULTI MODELOS excluded.",
+  "status": "staging",
+  "entries": [
+    {
+      "id": "eg-chat-got",
+      "name": "Chat Got",
+      "url": "https://chat-got.ai/",
+      "country": "Egypt",
+      "country_es": "Egipto",
+      "iso2": "EG",
+      "continent": "Africa",
+      "service_type": "assistant",
+      "registration": "none",
+      "capabilities": {"text": true, "image": false, "voice": false, "files": false, "web_search": false},
+      "status": "ACTIVE",
+      "last_manual_verification": "2026-09-15",
+      "operator_country": "Egypt",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {"scope": "v0.3_web_research", "multimodelos_excluded": true, "evidence": ["https://chat-got.ai/", "https://chat-got.ai/about/", "https://chat-got.ai/terms/", "https://chat-got.ai/features/"]}
+    },
+    {
+      "id": "kr-wrtn",
+      "name": "Wrtn",
+      "url": "https://wrtn.ai/",
+      "country": "South Korea",
+      "country_es": "Corea del Sur",
+      "iso2": "KR",
+      "continent": "Asia",
+      "service_type": "multi-model-platform",
+      "registration": "optional",
+      "capabilities": {"text": true, "image": null, "voice": null, "files": true, "web_search": true},
+      "status": "ACTIVE",
+      "last_manual_verification": "2026-09-15",
+      "operator_country": "South Korea",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {"scope": "v0.3_web_research", "multimodelos_excluded": true, "evidence": ["https://help.wrtn.ai/account_notlog", "https://help.wrtn.ai/chat_qna", "https://help.wrtn.ai/chat_file", "https://openai.com/index/wrtn/"]}
+    },
+    {
+      "id": "my-ilmuchat",
+      "name": "ILMUchat",
+      "url": "https://www.ilmu.ai/",
+      "country": "Malaysia",
+      "country_es": "Malasia",
+      "iso2": "MY",
+      "continent": "Asia",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {"text": true, "image": null, "voice": null, "files": true, "web_search": true},
+      "status": "ACTIVE",
+      "last_manual_verification": "2026-09-15",
+      "operator_country": "Malaysia",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {"scope": "v0.3_web_research", "multimodelos_excluded": true, "evidence": ["https://www.ilmu.ai/", "https://www.ytlailabs.com/", "https://www.ilmu.ai/terms-and-conditions/"]}
+    }
+  ]
+}
