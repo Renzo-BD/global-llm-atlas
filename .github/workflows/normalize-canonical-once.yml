@@ -1,0 +1,40 @@
+name: Normalize canonical dataset once
+on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/normalize-canonical-once.yml"]
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Normalize data/llms.json
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/llms.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          d['scope_note'] = '57 curator-tested seed access points; 56 unique services after duplicate normalization.'
+          for e in d['entries']:
+              prov = e.get('provenance') or {}
+              prov.pop('multimodelos_excluded', None)
+              e['provenance'] = prov
+              if e.get('id') == 'in-kruti':
+                  e['status'] = 'INACTIVE'
+                  e['last_manual_verification'] = '2026-09-15'
+          p.write_text(json.dumps(d, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
+          PY
+      - name: Commit normalized canonical JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/llms.json
+          if git diff --cached --quiet; then
+            echo "No canonical changes needed."
+          else
+            git commit -m "chore: normalize canonical dataset metadata"
+            git push
+          fi
