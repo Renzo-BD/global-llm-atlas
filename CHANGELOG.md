@@ -6,31 +6,29 @@ The project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Planned
+- Continue official-evidence review for country associations and Android availability.
+- Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
+- Continue systematic country expansion.
+
+## [0.3.0] - 2026-10-02
+
 ### Added
-- Curated Android-access metadata keyed to stable Atlas IDs in `data/android.json`.
-- Flat Android export in `data/android.csv` and validation schema in `data/android-schema.json`.
-- Dedicated GitHub Pages Android explorer at `android.html` with search, country and distribution-state filters.
-- Direct official app/store/download links and per-record Android verification dates.
-- Android contribution rules distinguishing native, regional-store and PWA/web-install access.
+- 8 verified public conversational AI access points: Chat Got, Wrtn, ILMUchat, HUMAIN Chat, Lovable, Hostinger AI Builder, Base44 and Zapia.
+- 8 new country/project associations: Egypt, South Korea, Malaysia, Saudi Arabia, Sweden, Lithuania, Israel and Uruguay.
+- Six newly verified official Android apps: Wrtn, ILMUchat, HUMAIN Chat, Lovable, Base44 and Zapia.
+- `reports/curation-v0.3.0.md` and `reports/android-curation-2026-10-02.md`.
 
 ### Changed
-- README now exposes Android access as a first-class curated dimension without changing canonical web lifecycle status.
-- Android uncertainty follows the same project rule as capability uncertainty: missing metadata means not independently verified, never unsupported.
-- Existing `fr-le-chat` continuity is preserved while documenting that the current Android app is branded **Vibe by Mistral**.
+- Canonical dataset version is now `0.3.0`: 65 access points, 64 unique services and 33 country/project associations.
+- Lifecycle totals are 62 `ACTIVE`, 2 `LIMITED` and 1 `INACTIVE`.
+- Android metadata version is now `0.2.0`, with 31 unique native/regional Android services plus 1 unique PWA service.
+- The former Hostinger Horizons staging candidate is normalized to **Hostinger AI Builder** and remains `LIMITED` because current free access is time/credit-limited.
+- Main map includes coordinates for all newly represented countries.
 
-### Android findings — 2026-09-15
-- **25 unique services** have a currently verified native or official regional Android app in the conservative Android seed.
-- **TextCortex** is tracked separately as an installable-web/PWA experience and is not counted as a native Android app.
-- **GigaChat** is tracked as an official regional Android distribution through RuStore.
-- **ERNIE** is tracked as an official regional Android distribution rather than assuming global Google Play availability.
-- Third-party wrappers, unofficial APK mirrors and ambiguous store listings are excluded.
-
-### Planned
-- Continue official-evidence review for `curator-verified` country associations.
-- Re-test `LIMITED` and `INACTIVE` services and normalize unstable/direct-session URLs.
-- Expand geographic coverage systematically.
-- Preserve lifecycle history for services that later become inactive or discontinued.
-- Extend the platform model to iOS, Windows and macOS after the Android methodology is stable.
+### Curation notes
+- South Africa's Moja remains deferred because current evidence establishes WhatsApp access but not an independent qualifying browser chat.
+- Portugal's IAChat, Ukraine's Mamay AI Chat and Sweden's AIbott remain deferred pending stronger evidence for the project's English/Spanish usability criterion.
 
 ## [0.2.0] - 2026-09-10
 
