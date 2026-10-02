@@ -26,3 +26,9 @@ us-venice,native,google-play,https://play.google.com/store/apps/details?id=com.a
 us-you-com,native,google-play,https://play.google.com/store/apps/details?id=com.you.browser,2026-09-15,
 de-textcortex,pwa,web-install,https://app.textcortex.com/c,2026-09-15,Installable mobile web experience; not counted as a native Android app.
 us-textcortex,pwa,web-install,https://app.textcortex.com/user/dashboard/chat,2026-09-15,Duplicate access point for the same TextCortex service.
+kr-wrtn,native,google-play,,2026-10-02,
+my-ilmuchat,native,google-play,,2026-10-02,
+sa-humain-chat,native,google-play,,2026-10-02,
+se-lovable,native,google-play,,2026-10-02,
+il-base44,native,google-play,,2026-10-02,
+uy-zapia,native,google-play,,2026-10-02,
