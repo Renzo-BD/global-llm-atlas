@@ -2,11 +2,11 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.2.0-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-57-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-56-56d7c5)
-![Countries](https://img.shields.io/badge/country%20associations-25-7b61ff)
-![Android apps](https://img.shields.io/badge/verified%20Android%20apps-25-3ddc84)
+[![Version](https://img.shields.io/badge/version-v0.3.0-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-65-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-64-56d7c5)
+![Countries](https://img.shields.io/badge/country%20associations-33-7b61ff)
+![Android apps](https://img.shields.io/badge/verified%20Android%20apps-31-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -31,19 +31,24 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.2.0 + Android metadata
+## 📍 Current snapshot — v0.3.0 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **57** |
-| Unique services | **56** |
-| Country/project associations | **25** |
-| Verified native/regional Android apps | **25** |
+| Access points | **65** |
+| Unique services | **64** |
+| Country/project associations | **33** |
+| Verified native/regional Android apps | **31** |
 | Installable-web/PWA Android experiences | **1 unique service** |
 
 The canonical service metadata includes service type, registration, text/image/voice/files/web-search capabilities, operator country, duplicate relationships, country confidence and provenance. A `null` capability means **not independently verified** — never “unsupported” by default.
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
+
+
+### v0.3.0 expansion
+
+The October 2026 expansion adds verified access points associated with **Egypt, South Korea, Malaysia, Saudi Arabia, Sweden, Lithuania, Israel and Uruguay**, and adds six newly verified official Android apps. Web lifecycle and Android availability remain independently curated.
 
 ## 🚀 Use the data
 
@@ -56,7 +61,8 @@ Android metadata follows the same uncertainty rule. Absence from `data/android.j
 | [`data/android.csv`](data/android.csv) | Android metadata spreadsheet export |
 | [`data/android-schema.json`](data/android-schema.json) | Android metadata JSON Schema |
 | [`data/curation-v0.2.csv`](data/curation-v0.2.csv) | v0.2 semantic-curation matrix |
-| [`reports/curation-v0.2.0.md`](reports/curation-v0.2.0.md) | Curation rationale and evidence |
+| [`reports/curation-v0.3.0.md`](reports/curation-v0.3.0.md) | Current v0.3 expansion rationale and evidence |
+| [`reports/curation-v0.2.0.md`](reports/curation-v0.2.0.md) | Original v0.2 curation rationale and evidence |
 | [`reports/coverage-v0.1.0.md`](reports/coverage-v0.1.0.md) | Original geographic seed report |
 
 Example with Python:
@@ -119,7 +125,7 @@ Repositories-only projects, closed demos, abandoned services and purely private/
 - **Public AI:** association confidence is explicitly `partial` because it is a global multi-model platform.
 - **Mistral:** the Android app associated with the existing `fr-le-chat` Atlas ID is now branded **Vibe by Mistral**; the Atlas ID remains stable for continuity.
 
-See the [`v0.2.0 curation report`](reports/curation-v0.2.0.md) for the original evidence trail.
+See the [`v0.3.0 curation report`](reports/curation-v0.3.0.md) for the current expansion evidence trail, and the [`v0.2.0 report`](reports/curation-v0.2.0.md) for the original seed curation.
 
 ## 🤝 Help map the world
 
