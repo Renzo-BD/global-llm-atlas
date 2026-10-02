@@ -56,3 +56,11 @@ us-textcortex,TextCortex,https://app.textcortex.com/user/dashboard/chat,United S
 us-venice,Venice,https://venice.ai/chat,United States,Estados Unidos,US,North America,multi-model-platform,optional,true,true,true,true,true,ACTIVE,2026-09-10,United States,,verified
 us-you-com,You.com,https://you.com/,United States,Estados Unidos,US,North America,search-assistant,unknown,true,,,,true,ACTIVE,2026-09-10,,,curator-verified
 uz-coreai-chat,CoreAI Chat,https://chat.coreai.uz/,Uzbekistan,Uzbekistán,UZ,Asia,multi-model-platform,optional,true,,,,,ACTIVE,2026-09-10,Uzbekistan,,verified
+eg-chat-got,Chat Got,https://chat-got.ai/,Egypt,Egipto,EG,Africa,assistant,none,true,false,false,false,false,ACTIVE,2026-10-02,Egypt,,verified
+kr-wrtn,Wrtn,https://wrtn.ai/,South Korea,Corea del Sur,KR,Asia,multi-model-platform,optional,true,,,true,true,ACTIVE,2026-10-02,South Korea,,verified
+my-ilmuchat,ILMUchat,https://www.ilmu.ai/ilmuchat/,Malaysia,Malasia,MY,Asia,assistant,required,true,true,true,true,true,ACTIVE,2026-10-02,Malaysia,,verified
+sa-humain-chat,HUMAIN Chat,https://chat.humain.ai/,Saudi Arabia,Arabia Saudita,SA,Asia,assistant,required,true,,true,,true,ACTIVE,2026-10-02,Saudi Arabia,,verified
+se-lovable,Lovable,https://lovable.dev/,Sweden,Suecia,SE,Europe,coding-agent,required,true,,,,,ACTIVE,2026-10-02,Sweden,,verified
+lt-hostinger-ai-builder,Hostinger AI Builder,https://www.hostinger.com/ai-builder,Lithuania,Lituania,LT,Europe,coding-agent,required,true,,,,,LIMITED,2026-10-02,Lithuania,,verified
+il-base44,Base44,https://base44.com/,Israel,Israel,IL,Asia,coding-agent,required,true,,,,,ACTIVE,2026-10-02,Israel,,verified
+uy-zapia,Zapia,https://zapia.com/,Uruguay,Uruguay,UY,South America,agent,unknown,true,true,true,true,true,ACTIVE,2026-10-02,Uruguay,,verified
