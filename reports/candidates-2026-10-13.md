@@ -36,3 +36,42 @@ Este informe es una **cola de curación**, no una afirmación de verificación i
 ## Política de actualización
 
 Las afirmaciones de resúmenes previos no sustituyen una comprobación actual. Registrar evidencia oficial por servicio, diferenciar `modelo propio`, `fine-tune` y `plataforma de terceros`, y preservar el historial de cambios. El atlas actual solo contiene una fracción de los países del mundo; **no** presentar esta revisión como auditoría exhaustiva mundial.
+
+## Ampliación geográfica: Sudamérica y Europa (13 de octubre de 2026)
+
+Esta ampliación recoge **registros existentes en el atlas y vacíos por investigar**, sin presentar como nuevos hallazgos servicios ya registrados ni atribuir verificación reciente.
+
+### Sudamérica
+
+| País | Servicio ya registrado | URL oficial registrada | Seguimiento |
+|---|---|---|---|
+| Argentina | Aki Agent | https://aki.ar/projects?projectId=3672 | Verificar plan gratuito y acceso conversacional |
+| Brasil | Maritaca | https://chat.maritaca.ai/ | Confirmar gratuidad y modelos propios |
+| Chile | Copuchat / Latam-GPT | https://copuchat.latamgpt.org/ | Confirmar continuidad del chat y origen del modelo |
+| Ecuador | YACHAQ AI | https://yachaq.ai/ | Revisar gratuidad e interacción |
+| Uruguay | Zapia | https://zapia.com/ | Distinguir agente/plataforma de modelo propio |
+| Perú | Jeimy AI (candidato, no registrado) | https://jeimy.ai/app | Verificar origen, modelo subyacente, acceso y plan gratuito |
+
+**Países sudamericanos sin entrada en la base actual:** Bolivia, Colombia, Guyana, Paraguay, Surinam y Venezuela. Su ausencia en el repositorio **no prueba** que carezcan de LLM/MLLM. Guayana Francesa debe tratarse separadamente como territorio francés, no como país soberano.
+
+### Europa
+
+| País | Servicio(s) ya registrado(s) | Seguimiento |
+|---|---|---|
+| Alemania | TextCortex; PrivateMode Chat | Distinguir plataforma y modelos subyacentes |
+| Austria | ComfyAI | Verificar gratuidad y acceso |
+| Bulgaria | BgGPT | Confirmar modelo propio y web |
+| España | Luzia | Verificar dependencia de terceros |
+| Francia | Le Chat (Mistral) | Separar chatbot gratuito de nuevos modelos API |
+| Italia | Crystal; ChatMinerva | Verificar acceso y origen |
+| Lituania | Hostinger AI Builder | Mantener distinción: agente de programación, no chatbot generalista |
+| Noruega | Bineric Chat | Confirmar plataforma multimodelo |
+| Países Bajos | Loes | Revisar web y nivel gratuito |
+| Polonia | PLLuM Chat | Revisar accesibilidad |
+| Rusia | Alice; GigaChat | Comprobar acceso internacional y restricciones |
+| Suecia | Lovable | Mantener categoría agente de programación |
+| Suiza | Lumo; Public AI | Distinguir modelo propio y agregador |
+
+**Cobertura pendiente:** revisar sistemáticamente los demás países europeos, incluidos Reino Unido, Irlanda, Portugal, Bélgica, Dinamarca, Finlandia, Estonia, Letonia, Chequia, Eslovaquia, Hungría, Rumanía, Grecia, Croacia, Eslovenia, Serbia, Ucrania y otros microestados. No registrar una baja por ausencia en esta muestra.
+
+**Criterio común:** solo agregar a `data/llms.json` y `data/llms.csv` tras comprobar página oficial, interfaz conversacional pública, nivel gratuito y soporte inglés/español. País de proyecto y país del operador son campos distintos. Registrar por separado servicios basados en modelos de terceros y desarrolladores de modelos fundacionales.
