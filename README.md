@@ -2,10 +2,10 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.3.0-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-65-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-64-56d7c5)
-![Countries](https://img.shields.io/badge/country%20associations-33-7b61ff)
+[![Version](https://img.shields.io/badge/version-v0.3.1-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-74-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-73-56d7c5)
+![Countries](https://img.shields.io/badge/country%20associations-39-7b61ff)
 ![Android apps](https://img.shields.io/badge/verified%20Android%20apps-31-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -35,9 +35,9 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **65** |
-| Unique services | **64** |
-| Country/project associations | **33** |
+| Access points | **74** (including 9 unverified candidates) |
+| Unique services | **73** (including 9 unverified candidates) |
+| Country/project associations | **39** |
 | Verified native/regional Android apps | **31** |
 | Installable-web/PWA Android experiences | **1 unique service** |
 
@@ -45,6 +45,10 @@ The canonical service metadata includes service type, registration, text/image/v
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.3.1 candidate visibility
+
+The interactive atlas now also displays **nine UNVERIFIED candidates** (including Jeimy AI in Peru), distinct from 65 previously curated entries. They are not claims of confirmed free-tier access, English/Spanish support, official origin or proprietary model weights. The CSV and JSON exports match the map. See [October candidate and regional review](reports/candidates-2026-10-13.md) for South America and Europe coverage gaps.
 
 ### v0.3.0 expansion
 
