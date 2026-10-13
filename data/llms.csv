@@ -64,3 +64,12 @@ se-lovable,Lovable,https://lovable.dev/,Sweden,Suecia,SE,Europe,coding-agent,req
 lt-hostinger-ai-builder,Hostinger AI Builder,https://www.hostinger.com/ai-builder,Lithuania,Lituania,LT,Europe,coding-agent,required,true,,,,,LIMITED,2026-10-02,Lithuania,,verified
 il-base44,Base44,https://base44.com/,Israel,Israel,IL,Asia,coding-agent,required,true,,,,,ACTIVE,2026-10-02,Israel,,verified
 uy-zapia,Zapia,https://zapia.com/,Uruguay,Uruguay,UY,South America,agent,unknown,true,true,true,true,true,ACTIVE,2026-10-02,Uruguay,,verified
+pk-pakbot,PakBot,https://www.pakbot.online/,Pakistan,Pakistán,PK,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+pk-warisha,Warisha AI,https://warishaai.com/,Pakistan,Pakistán,PK,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+bd-moyna,Moyna AI,https://moyna.ai/en,Bangladesh,Bangladés,BD,Asia,multi-model-platform,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+bd-assistant,Assistant.bd,https://assistant.bd/,Bangladesh,Bangladés,BD,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+kh-angkorai,AngkorAI,https://www.angkorai.ai/,Cambodia,Camboya,KH,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+np-guffgpt,GuffGPT,https://guffgpt.com/,Nepal,Nepal,NP,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+np-shree,Shree AI,https://ai.meetshree.com/,Nepal,Nepal,NP,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+lk-cladik,Cladik,https://cladik.com/,Sri Lanka,Sri Lanka,LK,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+pe-jeimy,Jeimy AI,https://jeimy.ai/app,Peru,Perú,PE,South America,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
