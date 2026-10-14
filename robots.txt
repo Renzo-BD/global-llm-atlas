@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renzo-bd.github.io/global-llm-atlas/sitemap.xml
