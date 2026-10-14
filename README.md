@@ -131,6 +131,14 @@ Repositories-only projects, closed demos, abandoned services and purely private/
 
 See the [`v0.3.0 curation report`](reports/curation-v0.3.0.md) for the current expansion evidence trail, and the [`v0.2.0 report`](reports/curation-v0.2.0.md) for the original seed curation.
 
+## 📣 Share and reuse
+
+- [Community launch posts (EN/ES)](COMMUNITY-LAUNCH-KIT.md)
+- [Outreach and launch strategy](PROMOTION-PLAN.md)
+- [Hugging Face dataset card (prepared for publication)](huggingface/README.md)
+- [Submit an AI service from your country](https://github.com/Renzo-BD/global-llm-atlas/issues/new?template=suggest-country-ai.yml)
+- [Cite the atlas](CITATION.cff)
+
 ## 🤝 Help map the world
 
 The most useful contribution is a service from a **country not yet represented**. Before opening a contribution, check that the service has a real conversational web experience and provide evidence for its country/project association, public/free access, registration requirements and capabilities.
