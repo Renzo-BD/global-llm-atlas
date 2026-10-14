@@ -1,0 +1,61 @@
+name: "🌍 Suggest conversational AI from your country"
+description: "Propose a public conversational AI service with evidence"
+title: "[Country suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for expanding the Global LLM Atlas. Unverified claims are welcome as *candidates*, not confirmed entries. Please do not share personal information.
+  - type: input
+    id: service
+    attributes:
+      label: Service name
+      placeholder: "Official product name"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official public chat URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country or project association
+      description: "Explain why you associate the project with this country."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and primary sources
+      description: "Official site, operator, about page, research or institutional sources."
+    validations:
+      required: true
+  - type: dropdown
+    id: free
+    attributes:
+      label: Public free access
+      options: ["Manually tested", "Officially documented but not tested", "Unknown"]
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: English or Spanish interface
+      options: ["English", "Spanish", "Both", "Not independently verified"]
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Last manually tested (YYYY-MM-DD)
+      placeholder: "2026-10-13 or Not tested"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Access limitations and model-origin uncertainty
+      description: "Registration, geographic restrictions, third-party model vs proprietary weights, etc."
