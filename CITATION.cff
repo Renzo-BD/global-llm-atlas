@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use Global LLM Atlas in research, please cite this repository."
+title: "Global LLM Atlas: A curated, versioned atlas of publicly accessible conversational AI"
+authors:
+  - name: "Renzo-BD"
+type: software
+license: MIT
+url: "https://renzo-bd.github.io/global-llm-atlas/"
+repository-code: "https://github.com/Renzo-BD/global-llm-atlas"
+version: "0.3.1"
+abstract: "An interactive atlas and reusable dataset of public conversational LLM/MLLM access points, with country association, lifecycle, provenance and Android availability."
