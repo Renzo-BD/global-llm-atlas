@@ -10,7 +10,7 @@
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**[🗺️ Explore the interactive atlas](https://renzo-bd.github.io/global-llm-atlas/)** · **[🤖 Explore Android access](https://renzo-bd.github.io/global-llm-atlas/android.html)** · **[📦 JSON](data/llms.json)** · **[📊 CSV](data/llms.csv)** · **[🤝 Contribute](CONTRIBUTING.md)**
+**[🗺️ Explore the interactive atlas](https://renzo-bd.github.io/global-llm-atlas/)** · **[🤖 Explore Android access](https://renzo-bd.github.io/global-llm-atlas/android.html)** · **[📦 JSON](data/llms.json)** · **[📊 CSV](data/llms.csv)** · **[🤝 Contribute](CONTRIBUTING.md)** · **[📣 Share / community launch kit](COMMUNITY-LAUNCH-KIT.md)**
 
 **Global LLM Atlas** is an open, curated and versioned directory of publicly accessible conversational LLM/MLLM services around the world. It combines a reusable dataset, an interactive map and a maintenance workflow designed to distinguish a working AI experience from a merely reachable URL.
 
@@ -31,7 +31,7 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.3.0 + Android metadata
+## 📍 Current snapshot — v0.3.1 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
