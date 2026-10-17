@@ -11,6 +11,16 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.3.2] - 2026-10-16
+
+### Added
+- Three UNVERIFIED discovery candidates: Liquid AI Playground, Gnani Evon Playground and Asta, with official evidence and explicit access-test limitations.
+- Worldwide review report with deferred Beam and AMALIA projects and primary-source exclusion of Monolith-1.0.
+
+### Changed
+- JSON, CSV, README and atlas copy synchronized: 77 access points, 76 unique services, 39 country associations, 12 UNVERIFIED candidates.
+- Added model-announcement provenance for Meta, Gemini, Mistral and Falcon without inferring access or changing existing lifecycle states.
+
 ## [0.3.0] - 2026-10-02
 
 ### Added
