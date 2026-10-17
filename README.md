@@ -2,9 +2,9 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.3.2-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-77-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-76-56d7c5)
+[![Version](https://img.shields.io/badge/version-v0.3.3-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-76-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-75-56d7c5)
 ![Countries](https://img.shields.io/badge/country%20associations-39-7b61ff)
 ![Android apps](https://img.shields.io/badge/verified%20Android%20apps-31-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
@@ -31,12 +31,12 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.3.2 + Android metadata
+## 📍 Current snapshot — v0.3.3 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **77** (including 12 unverified candidates) |
-| Unique services | **76** (including 12 unverified candidates) |
+| Access points | **76** (including 12 unverified candidates) |
+| Unique services | **75** (including 12 unverified candidates) |
 | Country/project associations | **39** |
 | Verified native/regional Android apps | **31** |
 | Installable-web/PWA Android experiences | **1 unique service** |
@@ -46,9 +46,9 @@ The canonical service metadata includes service type, registration, text/image/v
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
 
-### v0.3.2 candidate visibility
+### v0.3.3 candidate visibility
 
-The interactive atlas displays **12 UNVERIFIED candidates** (including Jeimy AI in Peru, Liquid AI Playground, Gnani Evon Playground and Asta), distinct from 65 previously curated entries. See the [October 16 worldwide review](reports/curation-v0.3.2.md) for evidence, model updates, deferred projects and the Monolith-1.0 exclusion. They are not claims of confirmed free-tier access, English/Spanish support, official origin or proprietary model weights. The CSV and JSON exports match the map. See [October candidate and regional review](reports/candidates-2026-10-13.md) for South America and Europe coverage gaps.
+The interactive atlas displays **12 UNVERIFIED candidates** (including Jeimy AI in Peru, Liquid AI Playground, Gnani Evon Playground and Asta), distinct from 64 previously curated entries. See the [October 16 worldwide review](reports/curation-v0.3.2.md) for evidence, model updates, deferred projects and the Monolith-1.0 exclusion. They are not claims of confirmed free-tier access, English/Spanish support, official origin or proprietary model weights. The CSV and JSON exports match the map. See [October candidate and regional review](reports/candidates-2026-10-13.md) for South America and Europe coverage gaps.
 
 ### v0.3.0 expansion
 
@@ -123,7 +123,7 @@ Repositories-only projects, closed demos, abandoned services and purely private/
 ## 🔬 Notable findings
 
 - **TextCortex:** two source URLs refer to the same service; the duplicate relationship is preserved rather than hidden. Its Android-access metadata is classified as `pwa`, not native.
-- **Kruti:** currently `INACTIVE` for the tracked public web access after recheck on 2026-09-15; mobile availability must be curated independently.
+- **Kruti:** removed from the current directory at curator request on 2026-10-16. Its former INACTIVE record and evidence are preserved in the [retirement note](reports/retired-kruti-2026-10-16.md).
 - **IBM Granite Playground:** `LIMITED` because its public demo has a material usage cap.
 - **Dola, Qwen and MiniMax:** project/seed association and operating jurisdiction are kept distinct where official terms support it.
 - **Public AI:** association confidence is explicitly `partial` because it is a global multi-model platform.

@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "released": "2026-10-16",
-  "scope_note": "65 previously curated access points plus 12 explicitly UNVERIFIED candidates. Official-source discovery does not confirm free access, conversational usability or English/Spanish support.",
+  "scope_note": "64 previously curated access points plus 12 UNVERIFIED candidates. Kruti retired from the current directory at curator request; historical evidence retained in reports/retired-kruti-2026-10-16.md.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -670,32 +670,6 @@
             "note": "API public preview; weights announced for end of October, not established as released at review date. Availability in Le Chat not independently established."
           }
         ]
-      }
-    },
-    {
-      "id": "in-kruti",
-      "name": "Kruti",
-      "url": "https://www.kruti.ai/",
-      "country": "India",
-      "country_es": "India",
-      "iso2": "IN",
-      "continent": "Asia",
-      "service_type": "assistant",
-      "registration": "unknown",
-      "capabilities": {
-        "text": true,
-        "image": null,
-        "voice": null,
-        "files": null,
-        "web_search": null
-      },
-      "status": "INACTIVE",
-      "last_manual_verification": "2026-09-15",
-      "operator_country": null,
-      "duplicate_of": null,
-      "country_confidence": "curator-verified",
-      "provenance": {
-        "scope": "curator_html_seed"
       }
     },
     {

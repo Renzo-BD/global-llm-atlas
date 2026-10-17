@@ -11,6 +11,15 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.3.3] - 2026-10-16
+
+### Removed
+- Kruti (`in-kruti`) from the current JSON/CSV directory and map at curator request. Its former INACTIVE record and evidence are retained in `reports/retired-kruti-2026-10-16.md`.
+- No permanent-shutdown claim is inferred from the official maintenance notice.
+
+### Changed
+- Current totals: 76 access points, 75 unique services, 39 country associations and 12 UNVERIFIED candidates.
+
 ## [0.3.2] - 2026-10-16
 
 ### Added
