@@ -75,3 +75,10 @@ pe-jeimy,Jeimy AI,https://jeimy.ai/app,Peru,Perú,PE,South America,assistant,unk
 us-liquid-playground,Liquid AI Playground,https://playground.liquid.ai/,United States,Estados Unidos,US,North America,playground,required,true,,,,,UNVERIFIED,2026-10-16,,,partial
 in-gnani-evon,Gnani Evon Playground,https://playground.gnani.ai/,India,India,IN,Asia,playground,unknown,true,,,,,UNVERIFIED,2026-10-16,,,partial
 us-asta,Asta,https://asta.allen.ai/,United States,Estados Unidos,US,North America,search-assistant,unknown,true,,,,,UNVERIFIED,2026-10-16,,,partial
+gb-gb1,GB1,https://gb1.ai/,United Kingdom,Reino Unido,GB,Europe,assistant,unknown,true,,,,,UNVERIFIED,2026-10-20,United Kingdom,,verified
+us-arcee-chat,Arcee Chat,https://chat.arcee.ai/,United States,Estados Unidos,US,North America,model-chat,unknown,true,,,,,UNVERIFIED,2026-10-20,United States,,verified
+in-indus,Indus by Sarvam,https://indus.sarvam.ai/,India,India,IN,Asia,model-chat,required,true,,,,,UNVERIFIED,2026-10-20,India,,verified
+cn-longcat,LongCat,https://longcat.ai/,China,China,CN,Asia,model-chat,unknown,true,,,,,UNVERIFIED,2026-10-20,China,,verified
+cn-stepfun,StepFun Chat,https://chat.stepfun.com/chats/new,China,China,CN,Asia,assistant,required,true,,,,,UNVERIFIED,2026-10-20,China,,verified
+pl-bielik-chat,Bielik Chat,https://chat.bielik.ai/,Poland,Polonia,PL,Europe,model-chat,required,true,,,,,UNVERIFIED,2026-10-20,Poland,,verified
+pe-catia,CatIA (PCM),https://catalogoia.servicios.gob.pe/catia,Peru,Perú,PE,South America,assistant,unknown,true,,,,,UNVERIFIED,2026-10-20,Peru,,verified

@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.3.3",
-  "released": "2026-10-16",
-  "scope_note": "64 previously curated access points plus 12 UNVERIFIED candidates. Kruti retired from the current directory at curator request; historical evidence retained in reports/retired-kruti-2026-10-16.md.",
+  "version": "0.3.4",
+  "released": "2026-10-20",
+  "scope_note": "64 previously curated access points plus 19 UNVERIFIED candidates. The 2026-10-20 review adds six general conversational candidates and CatIA, a specialized Peruvian institutional assistant using a third-party model. Official-source review is not a successful conversation or free-tier test. Kolibri remains in the review report pending qualifying public web chat. Kruti retirement history is preserved.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -2076,6 +2076,291 @@
           "https://allenai.org/blog/astabrief"
         ],
         "note": "AstaBrief 8B released 2026-10-02, adapted from Qwen3-8B, available in Asta report Fast mode. Asta also offers a Claude-powered Thinking mode: do not attribute every Asta response to AstaBrief. Free tier and successful conversation not independently tested."
+      }
+    },
+    {
+      "id": "gb-gb1",
+      "name": "GB1",
+      "url": "https://gb1.ai/",
+      "country": "United Kingdom",
+      "country_es": "Reino Unido",
+      "iso2": "GB",
+      "continent": "Europe",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-20",
+      "operator_country": "United Kingdom",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-20",
+        "sources": [
+          "https://gb1.ai/",
+          "https://gb1.ai/ai-assistants/",
+          "https://www.locailabs.com/blog/gb1-goes-local",
+          "https://help.gb1.ai/en/articles/12792217-is-there-a-free-trial"
+        ],
+        "note": "Official British assistant. Historical Locai L1 documentation identifies Qwen 3 adaptation; later Jupiter models are separate variants. Do not infer the current model served. Landing page advertises free access, while billing help describes a paid plan with a seven-day refund; sustained free tier and access from Peru remain untested.",
+        "android_review": {
+          "review_date": "2026-10-20",
+          "result": "official_conversational_app_documented",
+          "sources": [
+            "https://play.google.com/store/apps/details?id=com.locai.mobile"
+          ],
+          "note": "Official Google Play listing by Locai Labs Limited. Installation and availability for a Peruvian account were not tested."
+        }
+      }
+    },
+    {
+      "id": "us-arcee-chat",
+      "name": "Arcee Chat",
+      "url": "https://chat.arcee.ai/",
+      "country": "United States",
+      "country_es": "Estados Unidos",
+      "iso2": "US",
+      "continent": "North America",
+      "service_type": "model-chat",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-20",
+      "operator_country": "United States",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-20",
+        "sources": [
+          "https://www.arcee.ai/",
+          "https://www.arcee.ai/open-source-catalog"
+        ],
+        "note": "Official Arcee website links Chat for Free and its model catalog links Trinity-Large-Thinking to this chat. JavaScript app requires an interactive access test. Current free limits, model selector and successful English/Spanish conversation remain untested.",
+        "android_review": {
+          "review_date": "2026-10-20",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://www.arcee.ai/",
+            "https://www.arcee.ai/open-source-catalog"
+          ],
+          "note": "No official Android conversational app identified in this review. On-device model weights do not establish a native Android app."
+        }
+      }
+    },
+    {
+      "id": "in-indus",
+      "name": "Indus by Sarvam",
+      "url": "https://indus.sarvam.ai/",
+      "country": "India",
+      "country_es": "India",
+      "iso2": "IN",
+      "continent": "Asia",
+      "service_type": "model-chat",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-20",
+      "operator_country": "India",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-20",
+        "sources": [
+          "https://www.sarvam.ai/blogs/introducing-indus",
+          "https://indus.sarvam.ai/"
+        ],
+        "note": "Sarvam introduced Indus on 2026-02-20 as a limited-beta interface to its 105B model. Current entry redirects to login. English support is declared in the official Android listing. Current web model, free-tier limits, international registration and successful conversation remain untested.",
+        "android_review": {
+          "review_date": "2026-10-20",
+          "result": "official_conversational_app_documented",
+          "sources": [
+            "https://play.google.com/store/apps/details?id=ai.sarvam.indus"
+          ],
+          "note": "Official Google Play listing by Sarvam AI. Installation, sign-in and Peruvian availability were not tested."
+        }
+      }
+    },
+    {
+      "id": "cn-longcat",
+      "name": "LongCat",
+      "url": "https://longcat.ai/",
+      "country": "China",
+      "country_es": "China",
+      "iso2": "CN",
+      "continent": "Asia",
+      "service_type": "model-chat",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-20",
+      "operator_country": "China",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-20",
+        "sources": [
+          "https://tech.meituan.com/2026/06/30/LongCat2.0.html",
+          "https://www.meituan.com/news/NN260116211001625",
+          "https://github.com/meituan-longcat/LongCat-Flash-Omni#app"
+        ],
+        "note": "Meituan identifies longcat.ai as official chat and has documented free online use. LongCat-2.0 technical documentation and the Android/iOS app instructions are public. Current chat interaction, free limits, model selector, English/Spanish usability and registration from Peru remain untested.",
+        "android_review": {
+          "review_date": "2026-10-20",
+          "result": "official_conversational_app_documented",
+          "sources": [
+            "https://github.com/meituan-longcat/LongCat-Flash-Omni#app"
+          ],
+          "note": "Publisher README explicitly offers Android through an official QR code. Link points to those instructions; QR target, APK signature, current package and installation were not independently tested. No Google Play listing is claimed."
+        }
+      }
+    },
+    {
+      "id": "cn-stepfun",
+      "name": "StepFun Chat",
+      "url": "https://chat.stepfun.com/chats/new",
+      "country": "China",
+      "country_es": "China",
+      "iso2": "CN",
+      "continent": "Asia",
+      "service_type": "assistant",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-20",
+      "operator_country": "China",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-20",
+        "sources": [
+          "https://chat.stepfun.com/chats/new",
+          "https://play.google.com/store/apps/details?id=cn.yuewen.ywapp"
+        ],
+        "note": "Official conversational interface and Android listing verified as publisher sources. Store description names both Step models and DeepSeek-R1; not every answer should be attributed to a proprietary Step model. Newcomer membership promotion is not evidence of sustained free access. Country/phone registration, English/Spanish usability and successful conversation remain untested.",
+        "android_review": {
+          "review_date": "2026-10-20",
+          "result": "official_conversational_app_documented",
+          "sources": [
+            "https://play.google.com/store/apps/details?id=cn.yuewen.ywapp"
+          ],
+          "note": "Official Google Play listing by Shanghai StepFun company, linking yuewen.cn and stepfun.ai. Installation, supported phone countries and Peruvian availability were not tested."
+        }
+      }
+    },
+    {
+      "id": "pl-bielik-chat",
+      "name": "Bielik Chat",
+      "url": "https://chat.bielik.ai/",
+      "country": "Poland",
+      "country_es": "Polonia",
+      "iso2": "PL",
+      "continent": "Europe",
+      "service_type": "model-chat",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-20",
+      "operator_country": "Poland",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-20",
+        "sources": [
+          "https://bielik.ai/jak-korzystac-z-bielika/",
+          "https://chat.bielik.ai/",
+          "https://bielik.ai/obywatel-bielik-juz-na-smartfonach/"
+        ],
+        "note": "SpeakLeash links its official conversational demo; it redirects to SpeakLeash sign-in. Model license does not establish current chat limits. English/Spanish conversation, current model and free access remain untested. Obywatel Bielik is a separate photo-contribution app, not a verified mobile version of Bielik Chat.",
+        "android_review": {
+          "review_date": "2026-10-20",
+          "result": "related_app_only",
+          "sources": [
+            "https://bielik.ai/obywatel-bielik-juz-na-smartfonach/",
+            "https://play.google.com/store/apps/details?id=pl.obywatel.bielik"
+          ],
+          "note": "Obywatel Bielik collects photographs/descriptions for the project. It is not counted as Android conversational access to Bielik Chat. No official conversational app verified."
+        }
+      }
+    },
+    {
+      "id": "pe-catia",
+      "name": "CatIA (PCM)",
+      "url": "https://catalogoia.servicios.gob.pe/catia",
+      "country": "Peru",
+      "country_es": "Perú",
+      "iso2": "PE",
+      "continent": "South America",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-20",
+      "operator_country": "Peru",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-20",
+        "sources": [
+          "https://catalogoia.servicios.gob.pe/catia"
+        ],
+        "note": "Public institutional assistant of Peru's SGTD/PCM for the national AI catalog. Transparency page declares deepseek-v4-flash via Huawei Cloud, Spanish responses and catalog-only scope. Record as a Peruvian institutional deployment of third-party technology, not a Peruvian foundation model. Chat controls are visible; successful conversation and access conditions remain untested.",
+        "android_review": {
+          "review_date": "2026-10-20",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://catalogoia.servicios.gob.pe/catia"
+          ],
+          "note": "Official evidence describes a website widget; no dedicated Android app or installable PWA was verified."
+        }
       }
     }
   ]

@@ -1,9 +1,9 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "android",
-  "version": "0.2.0",
-  "released": "2026-10-02",
-  "methodology": "Only Android availability backed by a current official product/store/download source is listed. Absence from this file means not independently verified, never unsupported.",
+  "version": "0.3.0",
+  "released": "2026-10-20",
+  "methodology": "Only Android availability backed by an official product/store/download source is listed. A verification date records source review, not APK installation, a security audit, successful login or availability in every country. Absence means not independently verified, never unsupported. Related non-conversational companion apps are excluded from conversational access counts.",
   "entries": [
     {
       "id": "at-comfyai",
@@ -238,6 +238,38 @@
       "distribution": "google-play",
       "url": "https://play.google.com/store/apps/details?id=com.brainlogic.zapia",
       "verified": "2026-10-02"
+    },
+    {
+      "id": "gb-gb1",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=com.locai.mobile",
+      "verified": "2026-10-20",
+      "note": "Official Google Play listing by Locai Labs Limited. Installation and availability for a Peruvian account were not tested."
+    },
+    {
+      "id": "in-indus",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=ai.sarvam.indus",
+      "verified": "2026-10-20",
+      "note": "Official Google Play listing by Sarvam AI. Installation, sign-in and Peruvian availability were not tested."
+    },
+    {
+      "id": "cn-stepfun",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=cn.yuewen.ywapp",
+      "verified": "2026-10-20",
+      "note": "Official Google Play listing by Shanghai StepFun company, linking yuewen.cn and stepfun.ai. Installation, supported phone countries and Peruvian availability were not tested."
+    },
+    {
+      "id": "cn-longcat",
+      "status": "native",
+      "distribution": "official-download",
+      "url": "https://github.com/meituan-longcat/LongCat-Flash-Omni#app",
+      "verified": "2026-10-20",
+      "note": "Publisher README explicitly offers Android through an official QR code. Link points to those instructions; QR target, APK signature, current package and installation were not independently tested. No Google Play listing is claimed."
     }
   ]
 }

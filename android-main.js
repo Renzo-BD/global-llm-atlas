@@ -18,7 +18,7 @@
     android.textContent = 'Android';
     const play = document.createElement('th');
     play.dataset.androidCol = '1';
-    play.textContent = 'Google Play';
+    play.textContent = 'Android access';
     row.insertBefore(play, row.children[webIndex + 1] || null);
     row.insertBefore(android, play);
   };
@@ -41,13 +41,14 @@
 
       const playTd = document.createElement('td');
       playTd.dataset.androidCell = '1';
-      if (meta?.distribution === 'google-play' && meta.url) {
+      if (meta?.url) {
         const a = document.createElement('a');
         a.className = 'open';
         a.href = meta.url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
-        a.textContent = 'Play ↗';
+        a.textContent = meta.distribution === 'google-play' ? 'Play ↗' : meta.status === 'pwa' ? 'Web app ↗' : 'Download ↗';
+        a.title = meta.note || 'Official Android access channel';
         playTd.appendChild(a);
       } else {
         playTd.innerHTML = '<span class="sub">—</span>';
