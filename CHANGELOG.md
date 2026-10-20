@@ -11,6 +11,24 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.3.4] - 2026-10-20
+
+### Added
+- Seven UNVERIFIED access points: GB1 (United Kingdom), Arcee Chat (United States), Indus (India), LongCat and StepFun (China), Bielik Chat (Poland), and CatIA/PCM (Peru).
+- Four official Android conversational app channels: GB1, Indus and StepFun on Google Play; LongCat via publisher-provided Android QR/download instructions.
+- Structured Android review outcomes and an evidence report at `reports/curation-v0.3.4-2026-10-20.md`.
+- Schema, JSON/CSV, reference and JavaScript checks before Pages deployment.
+
+### Fixed
+- Six Android CSV URLs missing despite being present in canonical JSON.
+- Current map/readme/citation/Hugging Face card snapshots and the UK map marker.
+- Main-atlas Android access links now include official download and PWA channels.
+
+### Curation
+- 83 access points, 82 unique services, 40 country associations, 19 UNVERIFIED candidates and 35 native/regional Android app records.
+- Android evidence is source-reviewed, not an installation or access-from-Peru test.
+- CatIA is attributed to a Peruvian institutional deployment of DeepSeek/Huawei Cloud. Obywatel Bielik is not counted as a conversational app. Kolibri remains deferred.
+
 ## [0.3.3] - 2026-10-16
 
 ### Removed

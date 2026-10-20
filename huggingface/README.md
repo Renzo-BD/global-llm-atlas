@@ -27,7 +27,7 @@ This directory is **not** a benchmark, leaderboard or dataset of model weights. 
 
 ## Current snapshot
 
-Version **0.3.1**: 74 access points, including **9 UNVERIFIED candidates**. 39 country/project associations. Counts and field values change as the source is updated.
+Version **0.3.4** (2026-10-20): 83 access points, 82 unique services, including **19 UNVERIFIED candidates**. 40 country/project associations and 35 official native/regional Android app records. Counts and field values change as the source is updated.
 
 ## Files for a future Hugging Face dataset repository
 
@@ -46,7 +46,7 @@ Copy `data/llms.csv`, `data/llms.json`, `data/android.csv` and `data/android.jso
 
 ## Limitations
 
-The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Nine candidate records were unverified at the 2026-10-13 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
+The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Nineteen candidate records were unverified at the 2026-10-20 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
 
 ## Responsible use and updates
 

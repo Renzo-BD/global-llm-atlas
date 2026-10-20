@@ -26,9 +26,13 @@ us-venice,native,google-play,https://play.google.com/store/apps/details?id=com.a
 us-you-com,native,google-play,https://play.google.com/store/apps/details?id=com.you.browser,2026-09-15,
 de-textcortex,pwa,web-install,https://app.textcortex.com/c,2026-09-15,Installable mobile web experience; not counted as a native Android app.
 us-textcortex,pwa,web-install,https://app.textcortex.com/user/dashboard/chat,2026-09-15,Duplicate access point for the same TextCortex service.
-kr-wrtn,native,google-play,,2026-10-02,
-my-ilmuchat,native,google-play,,2026-10-02,
-sa-humain-chat,native,google-play,,2026-10-02,
-se-lovable,native,google-play,,2026-10-02,
-il-base44,native,google-play,,2026-10-02,
-uy-zapia,native,google-play,,2026-10-02,
+kr-wrtn,native,google-play,https://play.google.com/store/apps/details?id=com.wrtn.app,2026-10-02,
+my-ilmuchat,native,google-play,https://play.google.com/store/apps/details?id=com.ytlailabs.ilmu.chat,2026-10-02,
+sa-humain-chat,native,google-play,https://play.google.com/store/apps/details?id=ai.humain.chat,2026-10-02,
+se-lovable,native,google-play,https://play.google.com/store/apps/details?id=dev.lovable.build,2026-10-02,
+il-base44,native,google-play,https://play.google.com/store/apps/details?id=com.base44.android,2026-10-02,
+uy-zapia,native,google-play,https://play.google.com/store/apps/details?id=com.brainlogic.zapia,2026-10-02,
+gb-gb1,native,google-play,https://play.google.com/store/apps/details?id=com.locai.mobile,2026-10-20,Official Google Play listing by Locai Labs Limited. Installation and availability for a Peruvian account were not tested.
+in-indus,native,google-play,https://play.google.com/store/apps/details?id=ai.sarvam.indus,2026-10-20,"Official Google Play listing by Sarvam AI. Installation, sign-in and Peruvian availability were not tested."
+cn-stepfun,native,google-play,https://play.google.com/store/apps/details?id=cn.yuewen.ywapp,2026-10-20,"Official Google Play listing by Shanghai StepFun company, linking yuewen.cn and stepfun.ai. Installation, supported phone countries and Peruvian availability were not tested."
+cn-longcat,native,official-download,https://github.com/meituan-longcat/LongCat-Flash-Omni#app,2026-10-20,"Publisher README explicitly offers Android through an official QR code. Link points to those instructions; QR target, APK signature, current package and installation were not independently tested. No Google Play listing is claimed."
