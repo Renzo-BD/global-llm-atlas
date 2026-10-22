@@ -1,0 +1,77 @@
+{
+  "project": "Global LLM Atlas",
+  "dimension": "peru-research-watchlist",
+  "version": "0.4.1",
+  "reviewed": "2026-10-22",
+  "scope_note": "Research leads only; these records are excluded from the main access-point and country counts. Publisher claims are distinguished from executed tests. Missing Android evidence does not establish lack of support.",
+  "entries": [
+    {
+      "id": "pe-yachay-slm-research",
+      "name": "Yachay SLM",
+      "association": "Peru; personal project by Carlos Mauro Cárdenas, not independently verified as a UNI institutional release",
+      "url": "https://github.com/unimauro/yachay-slm",
+      "type": "small-language-model",
+      "assessment": "Repository describes a from-scratch Nano track and a General LoRA track based on Qwen2.5-0.5B. Public code/weights exist; not executed in this review.",
+      "catalog_decision": "watchlist_only_public_web_chat_not_verified",
+      "sources": [
+        "https://github.com/unimauro/yachay-slm",
+        "https://unimauro.github.io/"
+      ],
+      "android_review": {
+        "review_date": "2026-10-22",
+        "result": "no_official_conversational_app_verified",
+        "sources": [
+          "https://github.com/unimauro/yachay-slm",
+          "https://unimauro.github.io/"
+        ],
+        "note": "Reviewed publisher sources and targeted Google Play searches. No attributable native Android app verified; no installation or PWA verification performed."
+      }
+    },
+    {
+      "id": "pe-qubert-research",
+      "name": "QuBERT / Llamacha",
+      "association": "Southern Quechua research; no university ownership inferred",
+      "url": "https://github.com/Llamacha/QuBERT",
+      "type": "masked-language-model",
+      "assessment": "Repository documents pretraining on Southern Quechua, RoBERTa-style fill-mask use, tokenizer and downloadable model resources. Not a verified general conversational assistant.",
+      "catalog_decision": "watchlist_only_not_a_qualifying_conversational_service",
+      "sources": [
+        "https://github.com/Llamacha/QuBERT",
+        "https://huggingface.co/datasets/Llamacha/monolingual-quechua-iic"
+      ],
+      "android_review": {
+        "review_date": "2026-10-22",
+        "result": "no_official_conversational_app_verified",
+        "sources": [
+          "https://github.com/Llamacha/QuBERT",
+          "https://huggingface.co/datasets/Llamacha/monolingual-quechua-iic"
+        ],
+        "note": "Reviewed publisher sources and targeted Google Play searches. No attributable native Android app verified; no installation or PWA verification performed."
+      }
+    },
+    {
+      "id": "regional-latamgpt-peru-research",
+      "name": "LatamGPT — Peru cooperation",
+      "association": "Regional project led by CENIA in Chile with documented Peru cooperation",
+      "url": "https://latamgpt.org/",
+      "type": "regional-language-model",
+      "assessment": "Official launch describes Llama 3.1 70B base plus regional data/training. Peru/Chile memorandum documents cooperation, not an independently released Peruvian foundation model.",
+      "catalog_decision": "already_represented_by_cl-copuchat",
+      "sources": [
+        "https://latamgpt.org/faq",
+        "https://cenia.cl/2026/02/10/latam-gpt-la-primera-ia-regional-abierta-creada-con-datos-latinoamericanos/",
+        "https://www.gob.pe/institucion/pcm/noticias/1294929-peru-y-chile-impulsan-alianza-estrategica-para-desarrollar-inteligencia-artificial-propia-en-la-region"
+      ],
+      "android_review": {
+        "review_date": "2026-10-22",
+        "result": "no_official_conversational_app_verified",
+        "sources": [
+          "https://latamgpt.org/faq",
+          "https://cenia.cl/2026/02/10/latam-gpt-la-primera-ia-regional-abierta-creada-con-datos-latinoamericanos/",
+          "https://www.gob.pe/institucion/pcm/noticias/1294929-peru-y-chile-impulsan-alianza-estrategica-para-desarrollar-inteligencia-artificial-propia-en-la-region"
+        ],
+        "note": "Reviewed publisher sources and targeted Google Play searches. No attributable native Android app verified; no installation or PWA verification performed."
+      }
+    }
+  ]
+}

@@ -11,6 +11,15 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.4.1] - 2026-10-22
+
+### Changed
+- Jeimy source review records reproduced access errors, required registration, publisher-declared provider and unresolved model provenance; lifecycle stays UNVERIFIED.
+- Copuchat provenance documents official LatamGPT FAQ and Peru cooperation without duplicate country attribution or a new conversation-test date.
+- Added Peru research watchlist and university/government evidence report, with Android review outcomes. Yachay and QuBERT are not counted as qualifying public chats.
+- No new native Android app verified; 88 access points, 87 unique services, 42 country associations and 37 native/regional apps retained.
+- README, map notice, citation and repository Hugging Face card reference this follow-up.
+
 ## [0.4.0] - 2026-10-22
 
 ### Added

@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "released": "2026-10-22",
-  "scope_note": "64 previously curated access points plus 24 UNVERIFIED candidates. The 2026-10-22 official-source review adds MATE, Euria, NG∞AI, Labiba and GovGuide Nigeria, including new associations with South Africa and Nigeria. Source review is not a successful conversation, guest-access or free-tier test. Country association does not establish model-training origin. Historical curation and Kruti retirement are preserved.",
+  "scope_note": "64 previously curated access points plus 24 UNVERIFIED candidates. The 2026-10-22 official-source review adds MATE, Euria, NG∞AI, Labiba and GovGuide Nigeria, including new associations with South Africa and Nigeria. Source review is not a successful conversation, guest-access or free-tier test. Country association does not establish model-training origin. Historical curation and Kruti retirement are preserved. The Peru follow-up on 2026-10-22 documents Jeimy access errors without declaring shutdown, updates Copuchat/LatamGPT provenance, and tracks Yachay/QuBERT separately from qualifying public chats. No additional native Android apps were verified.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -261,7 +261,25 @@
       "duplicate_of": null,
       "country_confidence": "verified",
       "provenance": {
-        "scope": "curator_html_seed"
+        "scope": "curator_html_seed",
+        "official_source_review": {
+          "review_date": "2026-10-22",
+          "sources": [
+            "https://latamgpt.org/faq",
+            "https://cenia.cl/2026/02/10/latam-gpt-la-primera-ia-regional-abierta-creada-con-datos-latinoamericanos/",
+            "https://www.gob.pe/institucion/pcm/noticias/1294929-peru-y-chile-impulsan-alianza-estrategica-para-desarrollar-inteligencia-artificial-propia-en-la-region"
+          ],
+          "note": "Official FAQ identifies Copuchat as the experimental LatamGPT-SFT interface and explains conversation collection for model alignment. PCM/CENIA document Peru's regional cooperation. Keep Chile association and existing Atlas ID; no duplicate Peruvian foundation-model entry is added. Source review does not revalidate the previously curated ACTIVE lifecycle."
+        },
+        "android_review": {
+          "review_date": "2026-10-22",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://latamgpt.org/faq",
+            "https://latamgpt.org/"
+          ],
+          "note": "Official sources describe web chat and downloadable model weights. No attributable official native Android listing was verified in publisher-source and Google Play searches. Model-weight download is not an Android app."
+        }
       }
     },
     {
@@ -1966,7 +1984,7 @@
       "iso2": "PE",
       "continent": "South America",
       "service_type": "assistant",
-      "registration": "unknown",
+      "registration": "required",
       "capabilities": {
         "text": true,
         "image": null,
@@ -1975,13 +1993,43 @@
         "web_search": null
       },
       "status": "UNVERIFIED",
-      "last_manual_verification": "2026-10-13",
+      "last_manual_verification": "2026-10-22",
       "operator_country": null,
       "duplicate_of": null,
       "country_confidence": "partial",
       "provenance": {
-        "scope": "candidate_pending_independent_verification",
-        "note": "Candidate only; free tier, language, country of origin and underlying model not independently confirmed"
+        "scope": "official_source_review_access_unconfirmed",
+        "note": "Publisher advertises Colibrí/Colibrí 2, Águila and Apu, with a limited free Colibrí plan and account registration. Complaint book reviewed on 2026-10-22 identifies the provider as 'Infinity Group Dev · Jeimy AI'; full legal entity, named founders and model-training provenance remain uncorroborated. No independent base-model attribution is established.",
+        "review_date": "2026-10-22",
+        "sources": [
+          "https://jeimy.ai/",
+          "https://jeimy.ai/chat",
+          "https://jeimy.ai/reclamaciones",
+          "https://jeimy.ai/terminos",
+          "https://docs.jeimy.ai/api/modelos/",
+          "https://www.npmjs.com/package/@jeimy-ai/cli"
+        ],
+        "access_review": {
+          "review_date": "2026-10-22",
+          "result": "access_problem_reproduced_chat_not_verified",
+          "user_report": "Curator reports the page does not load.",
+          "observations": [
+            "Chrome navigation to https://jeimy.ai/ returned net::ERR_CONNECTION_RESET in the preceding review on the same date.",
+            "Other HTTP retrievals returned presentation HTML for both / and /app; later requests returned 403.",
+            "Search extraction still retrieved the chat marketing page; current retrieval of legal/model documentation also failed."
+          ],
+          "limitation": "Mixed outcomes do not prove shutdown or reliable availability. No successful conversation or authenticated chat was verified; retain UNVERIFIED."
+        },
+        "android_review": {
+          "review_date": "2026-10-22",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://jeimy.ai/chat",
+            "https://jeimy.ai/",
+            "https://www.npmjs.com/package/@jeimy-ai/cli"
+          ],
+          "note": "Publisher describes mobile-browser access and a terminal CLI. Official product-source and targeted Google Play searches found no attributable native Android listing. Neither native support nor unsupported status is inferred; no PWA installation was verified."
+        }
       }
     },
     {

@@ -2,7 +2,7 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.4.0-blue)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-v0.4.1-blue)](CHANGELOG.md)
 ![Access points](https://img.shields.io/badge/access%20points-88-2ea44f)
 ![Unique services](https://img.shields.io/badge/unique%20services-87-56d7c5)
 ![Countries](https://img.shields.io/badge/country%20associations-42-7b61ff)
@@ -31,7 +31,7 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.4.0 + Android metadata
+## 📍 Current snapshot — v0.4.1 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
@@ -45,6 +45,14 @@ The canonical service metadata includes service type, registration, text/image/v
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.4.1 Peru follow-up — October 22
+
+**Jeimy remains UNVERIFIED:** Chrome reproduced a connection-reset error; other retrievals returned presentation content or 403. A working chat and shutdown are both unconfirmed. Publisher pages identify Infinity Group Dev · Jeimy AI, but named founders, legal identity and underlying model provenance remain uncorroborated.
+
+**Yachay SLM and QuBERT** are documented in the [Peru research watchlist](data/research-peru.json), outside public-chat counts. **LatamGPT** is already represented by Copuchat; Peru cooperation is added as provenance. No official native Android app was verified for these projects or Jeimy. Existing MATE/Euria listings are retained.
+
+See the [Peru evidence and Android report](reports/peru-research-2026-10-22.md), including UNI, PUCP, Universidad del Pacífico, Universidad de Lima, Cayetano, UNMSM and UCSP. Snapshot totals remain unchanged.
 
 ### v0.4.0 discovery review — October 22
 
