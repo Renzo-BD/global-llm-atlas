@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "android",
-  "version": "0.3.0",
-  "released": "2026-10-20",
+  "version": "0.4.0",
+  "released": "2026-10-22",
   "methodology": "Only Android availability backed by an official product/store/download source is listed. A verification date records source review, not APK installation, a security audit, successful login or availability in every country. Absence means not independently verified, never unsupported. Related non-conversational companion apps are excluded from conversational access counts.",
   "entries": [
     {
@@ -270,6 +270,22 @@
       "url": "https://github.com/meituan-longcat/LongCat-Flash-Omni#app",
       "verified": "2026-10-20",
       "note": "Publisher README explicitly offers Android through an official QR code. Link points to those instructions; QR target, APK signature, current package and installation were not independently tested. No Google Play listing is claimed."
+    },
+    {
+      "id": "ch-mate",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=com.swisswise.mate",
+      "verified": "2026-10-22",
+      "note": "Official Google Play listing and publisher product evidence reviewed. Installation, login and availability from Peru were not tested."
+    },
+    {
+      "id": "ch-euria",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=com.infomaniak.euria",
+      "verified": "2026-10-22",
+      "note": "Official Google Play listing and publisher product evidence reviewed. Installation, login and availability from Peru were not tested."
     }
   ]
 }

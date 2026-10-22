@@ -11,6 +11,18 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.4.0] - 2026-10-22
+
+### Added
+- Five UNVERIFIED discovery candidates: MATE, Euria, NG∞AI, Labiba and GovGuide Nigeria.
+- Two country associations: South Africa and Nigeria, with map coordinates.
+- Two official Google Play listings: MATE and Euria. Android metadata version is 0.4.0.
+- Official-source evidence, free-tier caveats and deferred candidates in `reports/curation-v0.4.0-2026-10-22.md`.
+
+### Changed
+- Synchronized JSON/CSV, map, README, citation and local Hugging Face dataset card: 88 access points, 87 unique services, 42 country associations, 24 UNVERIFIED candidates, 37 native/regional Android apps and one unique PWA service.
+- Source review does not establish successful conversation, unrestricted guest access, Peruvian availability or independent national base models. Existing lifecycle states remain unchanged.
+
 ## [0.3.4] - 2026-10-20
 
 ### Added

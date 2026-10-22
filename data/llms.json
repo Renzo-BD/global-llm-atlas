@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.3.4",
-  "released": "2026-10-20",
-  "scope_note": "64 previously curated access points plus 19 UNVERIFIED candidates. The 2026-10-20 review adds six general conversational candidates and CatIA, a specialized Peruvian institutional assistant using a third-party model. Official-source review is not a successful conversation or free-tier test. Kolibri remains in the review report pending qualifying public web chat. Kruti retirement history is preserved.",
+  "version": "0.4.0",
+  "released": "2026-10-22",
+  "scope_note": "64 previously curated access points plus 24 UNVERIFIED candidates. The 2026-10-22 official-source review adds MATE, Euria, NG∞AI, Labiba and GovGuide Nigeria, including new associations with South Africa and Nigeria. Source review is not a successful conversation, guest-access or free-tier test. Country association does not establish model-training origin. Historical curation and Kruti retirement are preserved.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -2360,6 +2360,229 @@
             "https://catalogoia.servicios.gob.pe/catia"
           ],
           "note": "Official evidence describes a website widget; no dedicated Android app or installable PWA was verified."
+        }
+      }
+    },
+    {
+      "id": "ch-mate",
+      "name": "MATE by Swisswise",
+      "url": "https://app.swissmate.ai/",
+      "country": "Switzerland",
+      "country_es": "Suiza",
+      "iso2": "CH",
+      "continent": "Europe",
+      "service_type": "assistant",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-22",
+      "operator_country": "Switzerland",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-22",
+        "sources": [
+          "https://swisswise.com/en/mateapp",
+          "https://swissmate.ai/en/pricing",
+          "https://swissmate.ai/en",
+          "https://play.google.com/store/apps/details?id=com.swisswise.mate"
+        ],
+        "note": "Swisswise GmbH in Bern identifies itself as operator. Free plan advertises 10 requests per month; registration required. Login page was retrieved, but no account or conversation was tested. Offline mode and image generation belong to paid tiers. This is a Swiss assistant deployment; no independently trained Swiss base model is established.",
+        "android_review": {
+          "review_date": "2026-10-22",
+          "result": "official_google_play_listing_verified",
+          "sources": [
+            "https://swisswise.com/en/mateapp",
+            "https://swissmate.ai/en/pricing",
+            "https://swissmate.ai/en",
+            "https://play.google.com/store/apps/details?id=com.swisswise.mate"
+          ],
+          "note": "Official Google Play listing and publisher product evidence reviewed. Installation, login and availability from Peru were not tested."
+        }
+      }
+    },
+    {
+      "id": "ch-euria",
+      "name": "Euria (Infomaniak)",
+      "url": "https://euria.infomaniak.com/",
+      "country": "Switzerland",
+      "country_es": "Suiza",
+      "iso2": "CH",
+      "continent": "Europe",
+      "service_type": "assistant",
+      "registration": "optional",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-22",
+      "operator_country": "Switzerland",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-22",
+        "sources": [
+          "https://www.infomaniak.com/en/apps/download-euria",
+          "https://news.infomaniak.com/en/euria-sovereign-ai-assistant/",
+          "https://news.infomaniak.com/es/euria-asistente-ia-soberano/",
+          "https://github.com/Infomaniak/android-euria",
+          "https://play.google.com/store/apps/details?id=com.infomaniak.euria"
+        ],
+        "note": "Infomaniak describes a free Swiss-hosted assistant using selected open-source models, not a newly established foundation model. Its announcement offers guest access; the Android repository also describes my kSuite account use. English and Spanish official documentation found. Web extraction returned no readable content, so guest flow, quotas and conversation remain untested.",
+        "android_review": {
+          "review_date": "2026-10-22",
+          "result": "official_google_play_listing_verified",
+          "sources": [
+            "https://www.infomaniak.com/en/apps/download-euria",
+            "https://news.infomaniak.com/en/euria-sovereign-ai-assistant/",
+            "https://news.infomaniak.com/es/euria-asistente-ia-soberano/",
+            "https://github.com/Infomaniak/android-euria",
+            "https://play.google.com/store/apps/details?id=com.infomaniak.euria"
+          ],
+          "note": "Official Google Play listing and publisher product evidence reviewed. Installation, login and availability from Peru were not tested."
+        }
+      }
+    },
+    {
+      "id": "za-ng-ai",
+      "name": "NG∞AI",
+      "url": "https://ng-ai.co.za/",
+      "country": "South Africa",
+      "country_es": "Sudáfrica",
+      "iso2": "ZA",
+      "continent": "Africa",
+      "service_type": "assistant",
+      "registration": "optional",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-22",
+      "operator_country": "South Africa",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-22",
+        "sources": [
+          "https://ng-ai.co.za/",
+          "https://ng-ai.co.za/privacy"
+        ],
+        "note": "Community-funded South African pilot with embedded web chat and optional free accounts. English, isiZulu and Afrikaans are advertised. Free while the pilot is online, subject to rate limits and downtime. Own local infrastructure does not establish from-scratch model training. Privacy terms explicitly record and review conversations. No message was submitted; backend availability and response language remain untested.",
+        "android_review": {
+          "review_date": "2026-10-22",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://ng-ai.co.za/",
+            "https://ng-ai.co.za/privacy"
+          ],
+          "note": "No official dedicated conversational Android app verified. Browser or WhatsApp access is not counted as a native app; similarly named store apps are not attributed without publisher evidence."
+        }
+      }
+    },
+    {
+      "id": "ca-labiba",
+      "name": "Labiba (OLabiba)",
+      "url": "https://www.olabiba.com/",
+      "country": "Canada",
+      "country_es": "Canadá",
+      "iso2": "CA",
+      "continent": "North America",
+      "service_type": "assistant",
+      "registration": "none",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-22",
+      "operator_country": null,
+      "duplicate_of": null,
+      "country_confidence": "partial",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-22",
+        "sources": [
+          "https://www.olabiba.com/",
+          "https://www.olabiba.com/faq/",
+          "https://www.olabiba.com/free-ai-chatbot-no-sign-up/"
+        ],
+        "note": "Official FAQ identifies a Canadian team and advertises free no-account chat in English, Spanish and other languages. Canadian association is publisher self-identification, not a verified legal domicile or model-training origin. Page extraction includes human-verification dialog markup; whether it blocks a real session was not tested. No conversation, privacy audit or unlimited-use test was performed.",
+        "android_review": {
+          "review_date": "2026-10-22",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://www.olabiba.com/",
+            "https://www.olabiba.com/faq/",
+            "https://www.olabiba.com/free-ai-chatbot-no-sign-up/"
+          ],
+          "note": "No official dedicated conversational Android app verified. Browser or WhatsApp access is not counted as a native app; similarly named store apps are not attributed without publisher evidence."
+        }
+      }
+    },
+    {
+      "id": "ng-govguide",
+      "name": "GovGuide Nigeria",
+      "url": "https://govguide.ng/chat",
+      "country": "Nigeria",
+      "country_es": "Nigeria",
+      "iso2": "NG",
+      "continent": "Africa",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-22",
+      "operator_country": "Nigeria",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_access_test",
+        "review_date": "2026-10-22",
+        "sources": [
+          "https://govguide.ng/",
+          "https://govguide.ng/chat",
+          "https://govguide.ng/faq",
+          "https://govguide.ng/privacy-policy",
+          "https://fmcide.gov.ng/fmcide-and-meta-launch-govguide-nigeria-an-ai-powered-government-services-chatbot/"
+        ],
+        "note": "Nigerian government-information assistant built by Publica AI with FMCIDE/NCAIR and Meta open-source models including Llama. English and three Nigerian languages are announced. Landing page advertises free access; chat URL is indexed, but direct extraction returned no readable content. Registration, sustained free use and successful conversation remain untested. Privacy policy limits it to informational guidance, not transactions or binding government decisions.",
+        "android_review": {
+          "review_date": "2026-10-22",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://govguide.ng/",
+            "https://govguide.ng/chat",
+            "https://govguide.ng/faq",
+            "https://govguide.ng/privacy-policy",
+            "https://fmcide.gov.ng/fmcide-and-meta-launch-govguide-nigeria-an-ai-powered-government-services-chatbot/"
+          ],
+          "note": "No official dedicated conversational Android app verified. Browser or WhatsApp access is not counted as a native app; similarly named store apps are not attributed without publisher evidence."
         }
       }
     }

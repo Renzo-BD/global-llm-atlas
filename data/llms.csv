@@ -82,3 +82,8 @@ cn-longcat,LongCat,https://longcat.ai/,China,China,CN,Asia,model-chat,unknown,tr
 cn-stepfun,StepFun Chat,https://chat.stepfun.com/chats/new,China,China,CN,Asia,assistant,required,true,,,,,UNVERIFIED,2026-10-20,China,,verified
 pl-bielik-chat,Bielik Chat,https://chat.bielik.ai/,Poland,Polonia,PL,Europe,model-chat,required,true,,,,,UNVERIFIED,2026-10-20,Poland,,verified
 pe-catia,CatIA (PCM),https://catalogoia.servicios.gob.pe/catia,Peru,Perú,PE,South America,assistant,unknown,true,,,,,UNVERIFIED,2026-10-20,Peru,,verified
+ch-mate,MATE by Swisswise,https://app.swissmate.ai/,Switzerland,Suiza,CH,Europe,assistant,required,true,,,,,UNVERIFIED,2026-10-22,Switzerland,,verified
+ch-euria,Euria (Infomaniak),https://euria.infomaniak.com/,Switzerland,Suiza,CH,Europe,assistant,optional,true,,,,,UNVERIFIED,2026-10-22,Switzerland,,verified
+za-ng-ai,NG∞AI,https://ng-ai.co.za/,South Africa,Sudáfrica,ZA,Africa,assistant,optional,true,,,,,UNVERIFIED,2026-10-22,South Africa,,verified
+ca-labiba,Labiba (OLabiba),https://www.olabiba.com/,Canada,Canadá,CA,North America,assistant,none,true,,,,,UNVERIFIED,2026-10-22,,,partial
+ng-govguide,GovGuide Nigeria,https://govguide.ng/chat,Nigeria,Nigeria,NG,Africa,assistant,unknown,true,,,,,UNVERIFIED,2026-10-22,Nigeria,,verified
