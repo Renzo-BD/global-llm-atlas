@@ -2,11 +2,11 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.4.1-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-88-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-87-56d7c5)
+[![Version](https://img.shields.io/badge/version-v0.5.0-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-89-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-88-56d7c5)
 ![Countries](https://img.shields.io/badge/country%20associations-42-7b61ff)
-![Android apps](https://img.shields.io/badge/verified%20Android%20apps-37-3ddc84)
+![Android apps](https://img.shields.io/badge/verified%20Android%20apps-38-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -31,20 +31,26 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.4.1 + Android metadata
+## 📍 Current snapshot — v0.5.0 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **88** (including 24 unverified candidates) |
-| Unique services | **87** (including 24 unverified candidates) |
+| Access points | **89** (including 25 unverified candidates) |
+| Unique services | **88** (including 25 unverified candidates) |
 | Country/project associations | **42** |
-| Verified native/regional Android apps | **37** |
+| Verified native/regional Android apps | **38** |
 | Installable-web/PWA Android experiences | **1 unique service** |
 
 The canonical service metadata includes service type, registration, text/image/voice/files/web-search capabilities, operator country, duplicate relationships, country confidence and provenance. A `null` capability means **not independently verified** — never “unsupported” by default.
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.5.0 — eustella only, October 23
+
+**[eustella](https://app.eustella.com/)** (Austria) is the sole addition selected by the curator from the October 23 discovery pass, with its [official Google Play app](https://play.google.com/store/apps/details?id=com.eustella). The publisher offers a permanent usage-limited free plan with registration. Web status remains **UNVERIFIED** pending a successful documented conversation test.
+
+Other leads are excluded following curator-reported instability. I’AM Chat (Mexico) is deferred after the curator reported a temporary closure for scalability improvements; this is not a permanent-shutdown finding. See the [decision and evidence report](reports/curation-v0.5.0-2026-10-23.md).
 
 ### v0.4.1 Peru follow-up — October 22
 
@@ -56,7 +62,7 @@ See the [Peru evidence and Android report](reports/peru-research-2026-10-22.md),
 
 ### v0.4.0 discovery review — October 22
 
-Five new **UNVERIFIED** candidates: **MATE and Euria (Switzerland), NG∞AI (South Africa), Labiba (Canada), and GovGuide Nigeria (Nigeria)**. The directory now includes **24 UNVERIFIED candidates** and two additional country associations. These are newly catalogued services, not claims of newly launched or independently trained national models.
+Five new **UNVERIFIED** candidates: **MATE and Euria (Switzerland), NG∞AI (South Africa), Labiba (Canada), and GovGuide Nigeria (Nigeria)**. At the October 22 snapshot, the directory included **24 UNVERIFIED candidates** and two additional country associations. These are newly catalogued services, not claims of newly launched or independently trained national models.
 
 **MATE and Euria** add two official Google Play app records. MATE's advertised free plan is limited to **10 requests per month**; NG∞AI is a free community pilot while online. Successful conversations, current quotas and access from Peru were not tested. Read the [October 22 evidence and deferred-candidate report](reports/curation-v0.4.0-2026-10-22.md).
 

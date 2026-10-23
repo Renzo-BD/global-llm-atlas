@@ -27,9 +27,11 @@ This directory is **not** a benchmark, leaderboard or dataset of model weights. 
 
 ## Current snapshot
 
-Version **0.4.1** (2026-10-22): 88 access points, 87 unique services, including **24 UNVERIFIED candidates**. 42 country/project associations and 37 official native/regional Android app records. Counts and field values change as the source is updated.
+Version **0.5.0** (2026-10-23): 89 access points, 88 unique services, including **25 UNVERIFIED candidates**. 42 country/project associations and 38 official native/regional Android app records. Counts and field values change as the source is updated.
 
 Peru follow-up: Jeimy access issues remain unresolved. Yachay/QuBERT research leads are tracked separately in `data/research-peru.json` and excluded from public-chat metrics. Copuchat represents the regional LatamGPT service. No additional official native Android apps were verified. See `reports/peru-research-2026-10-22.md`.
+
+October 23: only eustella (Austria) was added, with its official Google Play listing. Other discovery leads remain excluded at curator request. See `reports/curation-v0.5.0-2026-10-23.md`.
 
 ## Files for a future Hugging Face dataset repository
 
@@ -48,7 +50,7 @@ Copy `data/llms.csv`, `data/llms.json`, `data/android.csv` and `data/android.jso
 
 ## Limitations
 
-The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Twenty-four candidate records were unverified at the 2026-10-22 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
+The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Twenty-five candidate records were unverified at the 2026-10-23 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
 
 ## Responsible use and updates
 

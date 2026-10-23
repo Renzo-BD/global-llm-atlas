@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.4.1",
-  "released": "2026-10-22",
-  "scope_note": "64 previously curated access points plus 24 UNVERIFIED candidates. The 2026-10-22 official-source review adds MATE, Euria, NG∞AI, Labiba and GovGuide Nigeria, including new associations with South Africa and Nigeria. Source review is not a successful conversation, guest-access or free-tier test. Country association does not establish model-training origin. Historical curation and Kruti retirement are preserved. The Peru follow-up on 2026-10-22 documents Jeimy access errors without declaring shutdown, updates Copuchat/LatamGPT provenance, and tracks Yachay/QuBERT separately from qualifying public chats. No additional native Android apps were verified.",
+  "version": "0.5.0",
+  "released": "2026-10-23",
+  "scope_note": "64 previously curated access points plus 25 UNVERIFIED candidates. The 2026-10-23 update adds only curator-selected eustella (Austria), with an official Android listing. Source review does not establish successful conversation. Other October 23 leads remain excluded following curator feedback; I'AM Chat's temporary scalability closure is curator-reported. Peru research and Jeimy access limitations remain documented separately.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -2631,6 +2631,49 @@
             "https://fmcide.gov.ng/fmcide-and-meta-launch-govguide-nigeria-an-ai-powered-government-services-chatbot/"
           ],
           "note": "No official dedicated conversational Android app verified. Browser or WhatsApp access is not counted as a native app; similarly named store apps are not attributed without publisher evidence."
+        }
+      }
+    },
+    {
+      "id": "at-eustella",
+      "name": "eustella",
+      "url": "https://app.eustella.com/",
+      "country": "Austria",
+      "country_es": "Austria",
+      "iso2": "AT",
+      "continent": "Europe",
+      "service_type": "agent",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-23",
+      "operator_country": "Austria",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "curator_selected_official_source_review_pending_conversation_test",
+        "review_date": "2026-10-23",
+        "sources": [
+          "https://eustella.com/",
+          "https://eustella.com/pricing",
+          "https://eustella.com/services/terms-of-use",
+          "https://play.google.com/store/apps/details?id=com.eustella"
+        ],
+        "note": "Added as the sole candidate selected by the curator from the 2026-10-23 discovery pass. AI Newsrooms Technology GmbH identifies Vienna, Austria as its location. Publisher offers a permanent usage-limited free plan with account registration and describes open-weight-model-based assistance. No successful conversation, authenticated session or availability-from-Peru test was performed by the agent; do not infer a newly trained Austrian foundation model.",
+        "android_review": {
+          "review_date": "2026-10-23",
+          "result": "official_google_play_listing_verified",
+          "sources": [
+            "https://eustella.com/",
+            "https://play.google.com/store/apps/details?id=com.eustella"
+          ],
+          "note": "Publisher links Google Play and the listing identifies AI Newsrooms Technology GmbH in Austria with matching eustella.com website. Package com.eustella. Source review only: installation, sign-in and regional availability not tested."
         }
       }
     }

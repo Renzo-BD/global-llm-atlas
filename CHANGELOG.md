@@ -11,6 +11,18 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.5.0] - 2026-10-23
+
+### Added
+- Only eustella (Austria), selected by the curator from the October 23 discovery pass, as UNVERIFIED pending a documented successful conversation test.
+- Official eustella Android listing (Google Play, com.eustella).
+- Decision report preserving curator feedback: other leads excluded for instability; I’AM Chat temporarily closed for scalability improvements according to the curator.
+
+### Changed
+- 89 access points, 88 unique services, 42 country associations, 25 UNVERIFIED candidates and 38 native/regional Android apps.
+- Synchronized JSON/CSV, README, atlas notice, citation and repository Hugging Face card.
+- No other service entry or existing lifecycle state modified.
+
 ## [0.4.1] - 2026-10-22
 
 ### Changed
