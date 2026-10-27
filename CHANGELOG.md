@@ -11,6 +11,18 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.7.0] - 2026-10-27
+
+### Added
+- Theus as a Peru-associated multi-model platform, UNVERIFIED with official free-plan and operator evidence.
+- Nine research-watchlist records: SipánGPT, KUNTUR, ChasquiAyuda, PeruMedQA, IA-UPCH, UNMSM OPTIMACO, UTP LLM–LMS integration, Rosettia and LaCima; watchlist now has 12 records.
+- Detailed Peru deep-review report separating adaptations/artifacts, institutional research and public-chat eligibility.
+
+### Changed
+- CatIA provenance records a reproduced temporary authorized-access restriction; no automated lifecycle change.
+- Snapshot: 93 access points, 92 unique services, 43 country associations, 29 UNVERIFIED; 38 native/regional Android apps unchanged.
+- JSON/CSV, README, site notice, citation and dataset card synchronized. No successful conversation or new national foundation model claimed.
+
 ## [0.6.0] - 2026-10-27
 
 ### Added

@@ -91,3 +91,4 @@ at-eustella,eustella,https://app.eustella.com/,Austria,Austria,AT,Europe,agent,r
 th-typhoon,Typhoon Playground,https://playground.opentyphoon.ai/,Thailand,Tailandia,TH,Asia,playground,required,true,,,,,UNVERIFIED,2026-10-27,Thailand,,verified
 us-duck-ai,Duck.ai,https://duck.ai/,United States,Estados Unidos,US,North America,multi-model-platform,none,true,,,,,UNVERIFIED,2026-10-27,United States,,verified
 za-chanua,Chanua (HSRC),https://chanua.hsrc.ac.za/,South Africa,Sudáfrica,ZA,Africa,assistant,unknown,true,,,,,UNVERIFIED,2026-10-27,South Africa,,verified
+pe-theus,Theus,https://theus.pe/,Peru,Perú,PE,South America,multi-model-platform,optional,true,,,,,UNVERIFIED,2026-10-27,Peru,,verified

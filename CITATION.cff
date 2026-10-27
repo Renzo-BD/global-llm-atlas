@@ -7,6 +7,6 @@ type: software
 license: MIT
 url: "https://renzo-bd.github.io/global-llm-atlas/"
 repository-code: "https://github.com/Renzo-BD/global-llm-atlas"
-version: "0.6.0"
+version: "0.7.0"
 date-released: "2026-10-27"
 abstract: "An interactive atlas and reusable dataset of public conversational LLM/MLLM access points, with country association, lifecycle, provenance and Android availability."

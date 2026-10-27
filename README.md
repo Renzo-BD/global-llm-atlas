@@ -2,9 +2,9 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.6.0-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-92-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-91-56d7c5)
+[![Version](https://img.shields.io/badge/version-v0.7.0-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-93-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-92-56d7c5)
 ![Countries](https://img.shields.io/badge/country%20associations-43-7b61ff)
 ![Android apps](https://img.shields.io/badge/verified%20Android%20apps-38-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
@@ -31,12 +31,12 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.6.0 + Android metadata
+## 📍 Current snapshot — v0.7.0 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **92** (including 28 unverified candidates) |
-| Unique services | **91** (including 28 unverified candidates) |
+| Access points | **93** (including 29 unverified candidates) |
+| Unique services | **92** (including 29 unverified candidates) |
 | Country/project associations | **43** |
 | Verified native/regional Android apps | **38** |
 | Installable-web/PWA Android experiences | **1 unique service** |
@@ -46,6 +46,14 @@ The canonical service metadata includes service type, registration, text/image/v
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.7.0 — Peru deep review, October 27
+
+**[Theus](https://theus.pe/)** joins as a Peruvian multi-model platform, **UNVERIFIED** pending a successful conversation test. Official pages identify Lima operation and a limited recurring Free plan. This is orchestration of third-party models, not a newly established Peruvian foundation model.
+
+The [Peru research watchlist](data/research-peru.json) grows from 3 to **12 records**, including SipánGPT, KUNTUR, ChasquiAyuda, PeruMedQA, IA-UPCH, OPTIMACO-UNMSM, UTP LLM–LMS integration, Rosettia and LaCima. Model artifacts, adaptations, benchmarks and infrastructure are excluded from public-chat totals. CatIA currently redirects to a temporary authorized-access restriction; Jeimy remains unverified.
+
+See the [detailed Peru findings and evidence](reports/peru-deep-review-2026-10-27.md).
 
 ### v0.6.0 — source review, October 27
 

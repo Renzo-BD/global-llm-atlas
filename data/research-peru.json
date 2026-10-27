@@ -1,9 +1,9 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "peru-research-watchlist",
-  "version": "0.4.1",
-  "reviewed": "2026-10-22",
-  "scope_note": "Research leads only; these records are excluded from the main access-point and country counts. Publisher claims are distinguished from executed tests. Missing Android evidence does not establish lack of support.",
+  "version": "0.7.0",
+  "reviewed": "2026-10-27",
+  "scope_note": "Peru-associated research, adaptations and infrastructure only; excluded from main access-point counts. Country of subject matter or language does not prove developer nationality. Existing October 22 records retain their original evidence; new records have individual October 27 source reviews. No model training or inference was reproduced.",
   "entries": [
     {
       "id": "pe-yachay-slm-research",
@@ -72,6 +72,139 @@
         ],
         "note": "Reviewed publisher sources and targeted Google Play searches. No attributable native Android app verified; no installation or PWA verification performed."
       }
+    },
+    {
+      "id": "pe-sipangpt-research",
+      "name": "SipánGPT",
+      "association": "Publisher ussipan self-identifies with Universidad Señor de Sipán, Lambayeque, Peru; formal university endorsement not independently confirmed",
+      "url": "https://huggingface.co/ussipan/Llama-3.2-SipanGPT-v0.5-GGUF",
+      "type": "domain-fine-tuned-language-model",
+      "assessment": "Published Llama 3.2 1B adaptation, LoRA and GGUF artifacts. Publisher credits Jhan Gómez P. and claims 304,000 training conversations. API shows v0.5 last modified 2024-12-23. New V2 dataset metadata (2026-09-19) reports 350 train and 50 test examples. A Gemma 4 E2B GGUF repository (2026-09-20) exists, but its card documents conversion only and does not establish new fine-tuning. No model was executed.",
+      "catalog_decision": "watchlist_only_public_web_chat_not_verified",
+      "sources": [
+        "https://huggingface.co/ussipan",
+        "https://huggingface.co/ussipan/Llama-3.2-SipanGPT-v0.5-GGUF",
+        "https://huggingface.co/ussipan/Llama-3.2-SipanGPT-v0.5-lora",
+        "https://huggingface.co/datasets/ussipan/sipangpt-V2",
+        "https://huggingface.co/ussipan/sipangpt-gemma-4-e2b-it-gguf"
+      ],
+      "review_date": "2026-10-27"
+    },
+    {
+      "id": "pe-kuntur-legal-research",
+      "name": "KUNTUR — Peru Legal Gemma",
+      "association": "Peruvian constitutional-law project; SomosNLP 2024 hackathon, publisher credits Alonso Quispe",
+      "url": "https://huggingface.co/somosnlp/kuntur-peru-legal-es-gemma-2b-it-merged",
+      "type": "domain-fine-tuned-language-model",
+      "assessment": "Gemma-2B-IT adaptation using LoRA/QLoRA and a question/answer corpus derived from Peru's 1993 Constitution. Weight shards are publicly listed; training was not reproduced. Hugging Face Space runtime and API report RUNTIME_ERROR caused by quantization/dependency environment. Not an active verified public legal-chat service.",
+      "catalog_decision": "watchlist_only_demo_runtime_error",
+      "sources": [
+        "https://huggingface.co/somosnlp/kuntur-peru-legal-es-gemma-2b-it-merged",
+        "https://huggingface.co/spaces/somosnlp/KUNTUR",
+        "https://huggingface.co/api/spaces/somosnlp/KUNTUR",
+        "https://somosnlp.org/blog/proyectos-hackathon-2024"
+      ],
+      "review_date": "2026-10-27"
+    },
+    {
+      "id": "pe-chasquiayuda-research",
+      "name": "ChasquiAyuda",
+      "association": "Humanitarian adaptation focused on Peru; SomosNLP 2026 project, developer nationality/affiliation not established",
+      "url": "https://huggingface.co/somosnlp-hackathon-2026/chaskiayuda-model-dpo",
+      "type": "domain-fine-tuned-language-model",
+      "assessment": "Public PEFT adapter over Qwen2.5-7B-Instruct, with publisher-described DPO + QLoRA for Spanish humanitarian responses. API lists adapter_model.safetensors and adapter_config.json, modified 2026-06-21. Linked demo and its public API returned 401; this does not establish permanent closure. Card sample-count totals and adapter names are inconsistent; reported reward scores are not verified emergency-answer accuracy.",
+      "catalog_decision": "watchlist_only_public_demo_access_unconfirmed",
+      "sources": [
+        "https://huggingface.co/somosnlp-hackathon-2026/chaskiayuda-model-dpo",
+        "https://huggingface.co/spaces/somosnlp-hackathon-2026/chaskiayuda-demo",
+        "https://huggingface.co/api/models/somosnlp-hackathon-2026/chaskiayuda-model-dpo"
+      ],
+      "review_date": "2026-10-27"
+    },
+    {
+      "id": "pe-perumedqa-research",
+      "name": "PeruMedQA / adapted MedGemma",
+      "association": "International collaboration on Peruvian examinations; published affiliation includes Instituto de Investigación Científica, Universidad de Lima",
+      "url": "https://github.com/rodrigo-carrillo/PeruMedQA",
+      "type": "benchmark-and-domain-adaptation",
+      "assessment": "Published article (2026-03-18, DOI 10.1007/s40670-026-02692-w) describes 8,380 questions across 12 specialties and PEFT/LoRA adaptation of medgemma-4b-it. Original article abstract and author repository confirm research. Public data/code/results exist; downloadable fine-tuned model weights and a qualifying public chat were not established. Do not present exam performance as clinical validation.",
+      "catalog_decision": "watchlist_only_no_qualifying_public_chat",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s40670-026-02692-w",
+        "https://github.com/rodrigo-carrillo/PeruMedQA",
+        "https://arxiv.org/abs/2509.11517"
+      ],
+      "review_date": "2026-10-27"
+    },
+    {
+      "id": "pe-ia-upch-lab",
+      "name": "IA-UPCH laboratory",
+      "association": "Universidad Peruana Cayetano Heredia, Lima, Peru",
+      "url": "https://ciencias.cayetano.edu.pe/noticias/laboratorio-de-inteligencia-artificial/",
+      "type": "research-infrastructure",
+      "assessment": "Official September 22, 2025 page explicitly describes projects using foundation models, LLMs, GPT/open variants and multimodal health AI, with training/deployment infrastructure. Coordinator named Moises Meza Rodriguez. GPU infrastructure is evidence of capacity, not proof of a released institutional foundation model. This strengthens the earlier course-only university lead.",
+      "catalog_decision": "watchlist_only_infrastructure_not_released_model",
+      "sources": [
+        "https://ciencias.cayetano.edu.pe/noticias/laboratorio-de-inteligencia-artificial/"
+      ],
+      "review_date": "2026-10-27"
+    },
+    {
+      "id": "pe-unmsm-optimaco-llm",
+      "name": "Knowledge graphs for LLM training — OPTIMACO",
+      "association": "Universidad Nacional Mayor de San Marcos, Peru",
+      "url": "https://vrip.unmsm.edu.pe/grupo_investigacion/optimaco/",
+      "type": "registered-research-project",
+      "assessment": "Official VRIP group page lists Implementación de grafos de conocimiento para entrenar Modelos de Lenguaje de Gran Escala, project code B251412668e. No weights, architecture, released model or public chat were established from this listing.",
+      "catalog_decision": "watchlist_only_registered_project",
+      "sources": [
+        "https://vrip.unmsm.edu.pe/grupo_investigacion/optimaco/"
+      ],
+      "review_date": "2026-10-27",
+      "project_code": "B251412668e"
+    },
+    {
+      "id": "pe-utp-llm-lms",
+      "name": "Integration of LLMs with university LMS",
+      "association": "Universidad Tecnológica del Perú, Ate/Lima, Peru",
+      "url": "https://www.utp.edu.pe/web/sites/default/files/2026-01/Registro-de-proyectos-de-investigacion-Transparencia-2025-2.pdf",
+      "type": "applied-research-project",
+      "assessment": "Official transparency registry, page 22, lists project P-2025-LIM-09 led by Adolfo Jorge Prado Ventocilla: integration through modular architecture and interoperable APIs, planned functional LMS prototype. Registry records Apr 2025–Apr 2026 and En ejecución at its snapshot; current completion status not verified. A reduction target is an objective, not a measured result. No new base model established.",
+      "catalog_decision": "watchlist_only_applied_llm_integration",
+      "sources": [
+        "https://www.utp.edu.pe/web/sites/default/files/2026-01/Registro-de-proyectos-de-investigacion-Transparencia-2025-2.pdf"
+      ],
+      "review_date": "2026-10-27",
+      "project_code": "P-2025-LIM-09",
+      "source_page": 22
+    },
+    {
+      "id": "pe-rosettia-quechua-research",
+      "name": "Rosettia — Chanka/Ayacucho Quechua",
+      "association": "Peru-related language focus; international hackathon team, no Peruvian university ownership inferred",
+      "url": "https://huggingface.co/somosnlp-hackathon-2026/rosettia-quy-gspo-nllb13b-lora",
+      "type": "machine-translation-adaptation",
+      "assessment": "Publisher documents LoRA/GSPO adaptation of NLLB-200-1.3B for Spanish to Chanka/Ayacucho Quechua and related Qwen-based work. Model card explicitly notes single-benchmark evaluation and no native-speaker evaluation. Translation system, not a verified general-purpose conversational assistant or from-scratch national model.",
+      "catalog_decision": "watchlist_only_translation_not_general_chat",
+      "sources": [
+        "https://huggingface.co/somosnlp-hackathon-2026/rosettia-quy-gspo-nllb13b-lora",
+        "https://huggingface.co/Thermostatic/rosettia-chanka-4b-base"
+      ],
+      "review_date": "2026-10-27"
+    },
+    {
+      "id": "pe-lacima-nlp",
+      "name": "LaCima FINESI — NLP research line",
+      "association": "Publisher self-identifies as FINESI / Universidad Nacional del Altiplano, Puno, Peru",
+      "url": "https://lacima.edu.pe/es/investigacion",
+      "type": "research-line",
+      "assessment": "Live GET returned a research-line page describing language models, verifiable retrieval/RAG, Quechua and Aymara, with named team and publication links. No named released general LLM or qualifying public web conversation established; institutional association rests on the laboratory site's self-identification.",
+      "catalog_decision": "watchlist_only_research_line",
+      "sources": [
+        "https://lacima.edu.pe/es/investigacion",
+        "https://lacima.edu.pe/en"
+      ],
+      "review_date": "2026-10-27"
     }
   ]
 }

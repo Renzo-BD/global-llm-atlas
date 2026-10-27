@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "released": "2026-10-27",
-  "scope_note": "64 previously curated access points plus 28 UNVERIFIED candidates. The 2026-10-27 review adds Typhoon Playground (Thailand), Duck.ai (United States) and Chanua (South Africa), with official links and source evidence. Thailand is newly represented. No new conversation test is claimed; English/Spanish usability, quotas and access from Peru remain subject to verification. Prior curator exclusions remain in force; Jeimy presentation reachability is updated without promoting its lifecycle.",
+  "scope_note": "64 previously curated access points plus 29 UNVERIFIED candidates. Peru deep review adds Theus as a Peruvian third-party multi-model platform with official free-plan evidence, not a Peruvian foundation model. Separate Peru research watchlist now includes 12 model/adaptation, benchmark, project and infrastructure records, excluded from public-chat totals. CatIA currently shows temporary authorized-access restriction. Jeimy remains UNVERIFIED; no new successful conversation test claimed.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -2417,6 +2417,15 @@
             "https://catalogoia.servicios.gob.pe/catia"
           ],
           "note": "Official evidence describes a website widget; no dedicated Android app or installable PWA was verified."
+        },
+        "access_review_2026_10_27": {
+          "review_date": "2026-10-27",
+          "result": "publisher_declared_temporary_authorized_access_only",
+          "sources": [
+            "https://catalogoia.servicios.gob.pe/",
+            "https://catalogoia.servicios.gob.pe/catia"
+          ],
+          "note": "Both root and CatIA route redirect to /acceso-restringido with a publisher notice that the catalog is temporarily available only to authorized persons, plus username/password form. Direct GET reproduced this with HTTP 200 at the restricted page. This is not public chat availability. Preserve UNVERIFIED pending curator lifecycle review; do not infer permanent discontinuation or a new underlying model from cached transparency content."
         }
       }
     },
@@ -2811,6 +2820,52 @@
             "https://chanua.hsrc.ac.za/about"
           ],
           "note": "Publisher sources and targeted Google Play searches did not establish an official native conversational Android app. Mobile-browser access does not imply a native app or verified installable PWA."
+        }
+      }
+    },
+    {
+      "id": "pe-theus",
+      "name": "Theus",
+      "url": "https://theus.pe/",
+      "country": "Peru",
+      "country_es": "Perú",
+      "iso2": "PE",
+      "continent": "South America",
+      "service_type": "multi-model-platform",
+      "registration": "optional",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-27",
+      "operator_country": "Peru",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-10-27",
+        "sources": [
+          "https://theus.pe/",
+          "https://theus.pe/precios/",
+          "https://theus.pe/nosotros/",
+          "https://theus.pe/chat-theus/",
+          "https://astratech.pe/",
+          "https://chat.theus.pe/"
+        ],
+        "note": "Publisher identifies Theus as a Lima-built/operated product of Marketrix S.A.C. / Astratech, founded by Mariano Suquilanda Gallo. Homepage has a no-account conversation composer; recurring Free plan is documented with 5-hour/7-day usage windows and no card, while account chat/CLI/Desktop use registration. Direct homepage GET 200; chat.theus.pe redirects to /chat/ and returns account-loading shell. Third-party model orchestration via TITAN, not an independently trained Peruvian foundation model. No guest prompt, authenticated chat, performance, model list, executable or access-from-Peru test performed.",
+        "android_review": {
+          "review_date": "2026-10-27",
+          "result": "no_official_conversational_android_app_verified",
+          "sources": [
+            "https://theus.pe/",
+            "https://theus.pe/chat-theus/",
+            "https://docs.theus.pe/docs/novedades/"
+          ],
+          "note": "Publisher documents web, Windows/macOS desktop and CLI. Targeted Play search returned an Astratech developer name, without a verified matching conversational app/package; name similarity is insufficient. No native Android or installable-PWA record added; mobile browser use is separate."
         }
       }
     }
