@@ -279,6 +279,17 @@
             "https://latamgpt.org/"
           ],
           "note": "Official sources describe web chat and downloadable model weights. No attributable official native Android listing was verified in publisher-source and Google Play searches. Model-weight download is not an Android app."
+        },
+        "url_review": {
+          "review_date": "2026-10-27",
+          "issue": 19,
+          "method": "HTTP GET and official-source semantic review; no interactive browser session",
+          "result": "reachable_on_recheck",
+          "sources": [
+            "https://copuchat.latamgpt.org/",
+            "https://latamgpt.org/faq"
+          ],
+          "note": "Original timeout was not reproduced: repeated HTTP GET returned 200 with chat controls and data-collection consent. Search fetch still timed out. Keep URL and lifecycle; no consent accepted and no conversation submitted."
         }
       }
     },
@@ -739,7 +750,20 @@
       "duplicate_of": null,
       "country_confidence": "curator-verified",
       "provenance": {
-        "scope": "curator_html_seed"
+        "scope": "curator_html_seed",
+        "url_review": {
+          "review_date": "2026-10-27",
+          "issue": 19,
+          "method": "HTTP GET and official-source semantic review; no interactive browser session",
+          "result": "unresolved_access_and_eligibility",
+          "sources": [
+            "https://agent.crystal.ai/",
+            "https://www.crystal.ai/",
+            "https://www.domyn.com/agents",
+            "https://www.domyn.com/legal/software-licenses/crystal"
+          ],
+          "note": "Repeated direct GET returned HTTP 503 through the retrieval network. Search extraction returned an eight-month-old JavaScript shell, not current access proof. Official crystal.ai redirects to Domyn; publisher describes enterprise agents, demo requests and customer-authorized subscription access. No verified replacement public free chat. Keep URL and historical lifecycle pending normal-browser curator review; consider LIMITED if restricted access is confirmed. Do not infer discontinuation or global DNS failure."
+        }
       }
     },
     {
@@ -1897,13 +1921,13 @@
     {
       "id": "np-guffgpt",
       "name": "GuffGPT",
-      "url": "https://guffgpt.com/",
+      "url": "https://chat.guffgpt.com/",
       "country": "Nepal",
       "country_es": "Nepal",
       "iso2": "NP",
       "continent": "Asia",
       "service_type": "assistant",
-      "registration": "unknown",
+      "registration": "required",
       "capabilities": {
         "text": true,
         "image": null,
@@ -1918,7 +1942,20 @@
       "country_confidence": "partial",
       "provenance": {
         "scope": "candidate_pending_independent_verification",
-        "note": "Candidate only; free tier, language, country of origin and underlying model not independently confirmed"
+        "note": "Candidate only; free tier, language, country of origin and underlying model not independently confirmed",
+        "url_review": {
+          "review_date": "2026-10-27",
+          "issue": 19,
+          "method": "HTTP GET and official-source semantic review; no interactive browser session",
+          "result": "reachable_and_official_chat_url_corrected",
+          "sources": [
+            "https://guffgpt.com/",
+            "https://guffgpt.com/journal/how-to-use-guffgpt/",
+            "https://chat.guffgpt.com/"
+          ],
+          "previous_url": "https://guffgpt.com/",
+          "note": "Original 503 was not reproduced in repeated direct GET: landing page and official chat shell returned 200. Official landing/guide link the chat subdomain and document account sign-in, English/Nepali and free access subject to limits. Canonical URL now points to chat, registration required. No login or conversation tested; lifecycle stays UNVERIFIED."
+        }
       }
     },
     {
@@ -1972,7 +2009,19 @@
       "country_confidence": "partial",
       "provenance": {
         "scope": "candidate_pending_independent_verification",
-        "note": "Candidate only; free tier, language, country of origin and underlying model not independently confirmed"
+        "note": "Candidate only; free tier, language, country of origin and underlying model not independently confirmed",
+        "url_review": {
+          "review_date": "2026-10-27",
+          "issue": 19,
+          "method": "HTTP GET and official-source semantic review; no interactive browser session",
+          "result": "unresolved_access",
+          "sources": [
+            "https://cladik.com/",
+            "https://cladik.com/about",
+            "https://www.cladik.com/chat/new"
+          ],
+          "note": "Repeated direct GET to apex/about returned 503; www root/chat returned 530 through the retrieval network. Search fetch returned 502 at root and historical indexed About content. Failures corroborate access concern but do not prove worldwide outage, permanent closure or DNS removal. No reliable replacement verified. Keep UNVERIFIED and existing URL; curator should test from a normal browser/another network."
+        }
       }
     },
     {

@@ -6,6 +6,10 @@ The project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+- Review URL-check issue #19: correct GuffGPT to its officially linked chat endpoint and required registration; synchronize exports.
+- Record Copuchat/GuffGPT non-reproduced transport alerts and unresolved Crystal/Cladik access in a dated report and provenance. Lifecycle states and conversation-test dates remain unchanged.
+
 ### Planned
 - Continue official-evidence review for country associations and Android availability.
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
