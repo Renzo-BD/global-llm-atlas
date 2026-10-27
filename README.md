@@ -2,10 +2,10 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.5.0-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-89-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-88-56d7c5)
-![Countries](https://img.shields.io/badge/country%20associations-42-7b61ff)
+[![Version](https://img.shields.io/badge/version-v0.6.0-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-92-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-91-56d7c5)
+![Countries](https://img.shields.io/badge/country%20associations-43-7b61ff)
 ![Android apps](https://img.shields.io/badge/verified%20Android%20apps-38-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -31,20 +31,27 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.5.0 + Android metadata
+## 📍 Current snapshot — v0.6.0 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **89** (including 25 unverified candidates) |
-| Unique services | **88** (including 25 unverified candidates) |
-| Country/project associations | **42** |
+| Access points | **92** (including 28 unverified candidates) |
+| Unique services | **91** (including 28 unverified candidates) |
+| Country/project associations | **43** |
 | Verified native/regional Android apps | **38** |
 | Installable-web/PWA Android experiences | **1 unique service** |
+| Integrated Android access | **1** (Duck.ai through DuckDuckGo browser) |
 
 The canonical service metadata includes service type, registration, text/image/voice/files/web-search capabilities, operator country, duplicate relationships, country confidence and provenance. A `null` capability means **not independently verified** — never “unsupported” by default.
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.6.0 — source review, October 27
+
+Three **UNVERIFIED** candidates: **[Typhoon Playground](https://playground.opentyphoon.ai/)** (Thailand), **[Duck.ai](https://duck.ai/)** (United States) and **[Chanua](https://chanua.hsrc.ac.za/)** (South Africa). Thailand is newly represented. Duck.ai is available through the official DuckDuckGo Android browser, classified as integrated access. The native/regional app count stays at 38.
+
+Jeimy's presentation pages were reachable again; a working conversation remains unconfirmed. ChatSUTRA, OpenThai, AfroChat and other leads stay in the follow-up queue where access or criteria remain unresolved. Read the [October 27 evidence and decisions](reports/curation-v0.6.0-2026-10-27.md). No authenticated conversation test is claimed.
 
 ### v0.5.0 — eustella only, October 23
 
@@ -128,7 +135,8 @@ Current Android states are:
 - `native`: official native Android app, normally distributed through Google Play or an official product channel;
 - `regional`: official Android app distributed through a regional store or region-specific channel;
 - `pwa`: installable mobile web/PWA experience, shown separately and not counted as a native Android app;
-- `integrated` / `beta`: reserved by the schema for official integrated or beta distribution when independently verified.
+- `integrated`: conversational access through an official host app, such as Duck.ai in the DuckDuckGo browser; not counted as a standalone native app;
+- `beta`: official beta distribution when independently verified.
 
 Distribution channels are recorded separately (`google-play`, `rustore`, `official-download`, `official-regional`, `web-install`, etc.). Each Android record also carries its own verification date.
 

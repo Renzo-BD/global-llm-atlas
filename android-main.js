@@ -3,6 +3,7 @@
     if (!meta) return '<span class="cap unknown" title="Android availability not independently verified">?</span>';
     if (meta.status === 'native') return '<span class="cap yes" title="Official Android app verified">✓</span>';
     if (meta.status === 'regional') return '<span class="cap" title="Official regional Android distribution">R</span>';
+    if (meta.status === 'integrated') return '<span class="cap" title="Access integrated into an official host app">Integrated</span>';
     if (meta.status === 'pwa') return '<span class="cap" title="Installable web app / PWA">PWA</span>';
     return '<span class="cap unknown">?</span>';
   };

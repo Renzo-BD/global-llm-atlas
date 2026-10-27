@@ -27,9 +27,11 @@ This directory is **not** a benchmark, leaderboard or dataset of model weights. 
 
 ## Current snapshot
 
-Version **0.5.0** (2026-10-23): 89 access points, 88 unique services, including **25 UNVERIFIED candidates**. 42 country/project associations and 38 official native/regional Android app records. Counts and field values change as the source is updated.
+Version **0.6.0** (2026-10-27): 92 access points, 91 unique services, including **28 UNVERIFIED candidates**. 43 country/project associations and 38 official native/regional Android app records, plus one integrated Android access record. Counts and field values change as the source is updated.
 
 Peru follow-up: Jeimy access issues remain unresolved. Yachay/QuBERT research leads are tracked separately in `data/research-peru.json` and excluded from public-chat metrics. Copuchat represents the regional LatamGPT service. No additional official native Android apps were verified. See `reports/peru-research-2026-10-22.md`.
+
+October 27: Typhoon Playground, Duck.ai and Chanua added as UNVERIFIED candidates; Thailand newly represented. Duck.ai Android access is integrated through the DuckDuckGo browser. Jeimy presentation reachability improved, but conversation remains unconfirmed. See `reports/curation-v0.6.0-2026-10-27.md`.
 
 October 23: only eustella (Austria) was added, with its official Google Play listing. Other discovery leads remain excluded at curator request. See `reports/curation-v0.5.0-2026-10-23.md`.
 
@@ -50,7 +52,7 @@ Copy `data/llms.csv`, `data/llms.json`, `data/android.csv` and `data/android.jso
 
 ## Limitations
 
-The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Twenty-five candidate records were unverified at the 2026-10-23 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
+The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Twenty-eight candidate records were unverified at the 2026-10-27 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
 
 ## Responsible use and updates
 

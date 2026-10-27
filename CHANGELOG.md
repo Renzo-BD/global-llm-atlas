@@ -11,6 +11,19 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.6.0] - 2026-10-27
+
+### Added
+- Typhoon Playground (Thailand), Duck.ai (United States), and Chanua (South Africa), all UNVERIFIED with official sources and access URLs.
+- Thailand map coordinates; Duck.ai Android access through the official DuckDuckGo browser, classified as integrated.
+- Dated discovery report documenting exclusions, unresolved candidates and bounded Peru follow-up.
+
+### Changed
+- 92 access points, 91 unique services, 43 country associations, 28 UNVERIFIED candidates; native/regional Android apps remain 38.
+- Jeimy reachability follow-up records HTTP 200 presentation content without claiming a successful conversation or changing its lifecycle.
+- Synchronized JSON/CSV, site snapshot, README, citation and Hugging Face card; Android UI now labels/filters integrated access.
+- Existing lifecycle states, capabilities and curator exclusions preserved.
+
 ## [0.5.0] - 2026-10-23
 
 ### Added

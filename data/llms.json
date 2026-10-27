@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.5.0",
-  "released": "2026-10-23",
-  "scope_note": "64 previously curated access points plus 25 UNVERIFIED candidates. The 2026-10-23 update adds only curator-selected eustella (Austria), with an official Android listing. Source review does not establish successful conversation. Other October 23 leads remain excluded following curator feedback; I'AM Chat's temporary scalability closure is curator-reported. Peru research and Jeimy access limitations remain documented separately.",
+  "version": "0.6.0",
+  "released": "2026-10-27",
+  "scope_note": "64 previously curated access points plus 28 UNVERIFIED candidates. The 2026-10-27 review adds Typhoon Playground (Thailand), Duck.ai (United States) and Chanua (South Africa), with official links and source evidence. Thailand is newly represented. No new conversation test is claimed; English/Spanish usability, quotas and access from Peru remain subject to verification. Prior curator exclusions remain in force; Jeimy presentation reachability is updated without promoting its lifecycle.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -2029,6 +2029,15 @@
             "https://www.npmjs.com/package/@jeimy-ai/cli"
           ],
           "note": "Publisher describes mobile-browser access and a terminal CLI. Official product-source and targeted Google Play searches found no attributable native Android listing. Neither native support nor unsupported status is inferred; no PWA installation was verified."
+        },
+        "access_followup_2026_10_27": {
+          "review_date": "2026-10-27",
+          "result": "presentation_content_reachable_conversation_unconfirmed",
+          "sources": [
+            "https://jeimy.ai/chat",
+            "https://jeimy.ai/app"
+          ],
+          "note": "Official chat marketing page retrieved; direct /app GET returned 200 with presentation HTML and client-side application. Publisher still advertises limited free Colibrí and account registration. This updates reachability evidence only: no login/conversation tested, no proof of independent Peruvian foundation-model training; preserve UNVERIFIED, original URL, capabilities and prior review history."
         }
       }
     },
@@ -2674,6 +2683,134 @@
             "https://play.google.com/store/apps/details?id=com.eustella"
           ],
           "note": "Publisher links Google Play and the listing identifies AI Newsrooms Technology GmbH in Austria with matching eustella.com website. Package com.eustella. Source review only: installation, sign-in and regional availability not tested."
+        }
+      }
+    },
+    {
+      "id": "th-typhoon",
+      "name": "Typhoon Playground",
+      "url": "https://playground.opentyphoon.ai/",
+      "country": "Thailand",
+      "country_es": "Tailandia",
+      "iso2": "TH",
+      "continent": "Asia",
+      "service_type": "playground",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-27",
+      "operator_country": "Thailand",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-10-27",
+        "sources": [
+          "https://opentyphoon.ai/",
+          "https://playground.opentyphoon.ai/",
+          "https://docs.opentyphoon.ai/en/faq/",
+          "https://docs.opentyphoon.ai/en/prompting/",
+          "https://opentyphoon.ai/model/typhoon2-5"
+        ],
+        "note": "Official Thai model playground linked by Typhoon. HTTP 200 redirects to Google sign-in; login identifies SCB DataX, while FAQ credits SCB 10X. FAQ describes free research-showcase API; current playground quotas and international Google-account eligibility remain untested. English prompting is documented. Typhoon 2.5 is associated with Qwen 3; do not infer from-scratch training or the current served model. No account or conversation tested.",
+        "android_review": {
+          "review_date": "2026-10-27",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://opentyphoon.ai/",
+            "https://playground.opentyphoon.ai/"
+          ],
+          "note": "Publisher sources and targeted Google Play searches did not establish an official native conversational Android app. Mobile-browser access does not imply a native app or verified installable PWA."
+        }
+      }
+    },
+    {
+      "id": "us-duck-ai",
+      "name": "Duck.ai",
+      "url": "https://duck.ai/",
+      "country": "United States",
+      "country_es": "Estados Unidos",
+      "iso2": "US",
+      "continent": "North America",
+      "service_type": "multi-model-platform",
+      "registration": "none",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-27",
+      "operator_country": "United States",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-10-27",
+        "sources": [
+          "https://duck.ai/",
+          "https://duckduckgo.com/duckduckgo-help-pages/duckai/approach-to-ai",
+          "https://duckduckgo.com/duckduckgo-help-pages/duckai/usage-limits",
+          "https://duckduckgo.com/duckduckgo-help-pages/company/contact-us"
+        ],
+        "note": "DuckDuckGo documents no-account free chat with daily limits and paid upgrades. Official contact lists a Pennsylvania, USA address. Direct HTTP GET returned 200 with JavaScript app shell and English/Spanish locale links. Third-party model platform, not a DuckDuckGo foundation model. No conversation or access-from-Peru test performed; no current model version or capability inferred.",
+        "android_review": {
+          "review_date": "2026-10-27",
+          "result": "official_android_browser_integration_documented",
+          "sources": [
+            "https://duckduckgo.com/duckduckgo-help-pages/get-duckduckgo/does-duckduckgo-make-a-browser",
+            "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android"
+          ],
+          "note": "Duck.ai is integrated into the official DuckDuckGo Android browser. Record integrated access, not a separate native Duck.ai app. Installation and Peruvian availability untested."
+        }
+      }
+    },
+    {
+      "id": "za-chanua",
+      "name": "Chanua (HSRC)",
+      "url": "https://chanua.hsrc.ac.za/",
+      "country": "South Africa",
+      "country_es": "Sudáfrica",
+      "iso2": "ZA",
+      "continent": "Africa",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-10-27",
+      "operator_country": "South Africa",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-10-27",
+        "sources": [
+          "https://chanua.hsrc.ac.za/",
+          "https://chanua.hsrc.ac.za/about"
+        ],
+        "note": "HSRC institutional site describes a free career-guidance assistant, with English among eleven languages and labour-market coverage across five African countries. South Africa is the developer association; coverage countries are not additional model origins. Direct GET returned 200 with message/send controls and language selector; search retrieval timed out. Guidance is retrieval-based per publisher; no independently trained national model established. Visible initial page has no login wall, but session/account requirements and successful conversation remain untested.",
+        "android_review": {
+          "review_date": "2026-10-27",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://chanua.hsrc.ac.za/",
+            "https://chanua.hsrc.ac.za/about"
+          ],
+          "note": "Publisher sources and targeted Google Play searches did not establish an official native conversational Android app. Mobile-browser access does not imply a native app or verified installable PWA."
         }
       }
     }
