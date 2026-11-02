@@ -1,9 +1,9 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "peru-research-watchlist",
-  "version": "0.7.0",
-  "reviewed": "2026-10-27",
-  "scope_note": "Peru-associated research, adaptations and infrastructure only; excluded from main access-point counts. Country of subject matter or language does not prove developer nationality. Existing October 22 records retain their original evidence; new records have individual October 27 source reviews. No model training or inference was reproduced.",
+  "version": "0.7.1",
+  "reviewed": "2026-11-02",
+  "scope_note": "Peru-associated research, adaptations, benchmarks, deployments and infrastructure only; excluded from main access-point counts. Country of subject matter does not prove developer nationality. New November 2 records distinguish Peru's operational WhatsApp assistant from a foundation model and an academic Quechua benchmark from a released model. No model training or conversation was reproduced.",
   "entries": [
     {
       "id": "pe-yachay-slm-research",
@@ -205,6 +205,36 @@
         "https://lacima.edu.pe/en"
       ],
       "review_date": "2026-10-27"
+    },
+    {
+      "id": "pe-maia-hacerperu-produce",
+      "name": "MAIA / MYPE AsesorIA",
+      "association": "HacerPerú (Asociación Diversificando Perú), in cooperation with Peru's Ministry of Production (PRODUCE); also deployed in Panama and Colombia",
+      "url": "https://mypeasesoria.org/es/",
+      "type": "applied-conversational-llm-deployment",
+      "assessment": "Publisher and PRODUCE describe a free, operational WhatsApp-based business adviser. HacerPerú documents country-specific knowledge retrieval and LLM-generated coaching. The ministry's June 2026 cooperation agreement expands sector guidance. It is a Peruvian-led deployment of LLM technology, not evidence of a newly trained Peruvian foundation model. No independent WhatsApp conversation or underlying-model audit performed.",
+      "catalog_decision": "watchlist_only_whatsapp_only_no_own_web_chat_under_current_criteria",
+      "sources": [
+        "https://mypeasesoria.org/es/",
+        "https://mypeasesoria.org/es/about/",
+        "https://www.gob.pe/institucion/produce/noticias/1409857-produce-impulsa-una-nueva-etapa-de-maia-para-acercar-sus-servicios-a-mas-productores-y-emprendedores",
+        "https://www.gob.pe/institucion/produce/campa%C3%B1as/143068-maia"
+      ],
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "pe-pucp-quechua-collao-llm-benchmark",
+      "name": "Quechua Collao LLM morphosyntax benchmark",
+      "association": "Pool Pocco and Arturo Oncevay; Pool Pocco affiliated with Pontificia Universidad Católica del Perú in the publication",
+      "url": "https://aclanthology.org/2026.americasnlp-6.12/",
+      "type": "benchmark-research",
+      "assessment": "Peer-reviewed AmericasNLP 2026 paper presents a controlled sentence-transformation dataset for Quechua Collao and evaluates existing LLMs under different prompting conditions. This is a substantive Peru-related evaluation and dataset, not evidence of a newly trained or publicly served Peruvian LLM.",
+      "catalog_decision": "watchlist_only_benchmark_not_released_model",
+      "sources": [
+        "https://aclanthology.org/2026.americasnlp-6.12/"
+      ],
+      "review_date": "2026-11-02",
+      "doi": "10.18653/v1/2026.americasnlp-6.12"
     }
   ]
 }
