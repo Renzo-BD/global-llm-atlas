@@ -11,6 +11,16 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.7.1] - 2026-11-02
+
+### Added
+- MAIA / MYPE AsesorIA (HacerPerú and PRODUCE) and the PUCP-associated Quechua Collao LLM benchmark to the separate Peru research/deployment watchlist, now 14 records.
+- [November 2 Peru follow-up](reports/peru-followup-2026-11-02.md) documenting decisions and primary sources.
+
+### Changed
+- Jeimy publisher evidence now describes Colibrí, Águila and Apu; access remains UNVERIFIED pending a successful conversation.
+- Main catalog counts remain 93 access points, including 29 UNVERIFIED candidates. No new Peruvian foundation model is asserted.
+
 ## [0.7.0] - 2026-10-27
 
 ### Added
