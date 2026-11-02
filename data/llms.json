@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.7.0",
-  "released": "2026-10-27",
-  "scope_note": "64 previously curated access points plus 29 UNVERIFIED candidates. Peru deep review adds Theus as a Peruvian third-party multi-model platform with official free-plan evidence, not a Peruvian foundation model. Separate Peru research watchlist now includes 12 model/adaptation, benchmark, project and infrastructure records, excluded from public-chat totals. CatIA currently shows temporary authorized-access restriction. Jeimy remains UNVERIFIED; no new successful conversation test claimed.",
+  "version": "0.7.1",
+  "released": "2026-11-02",
+  "scope_note": "64 previously curated access points plus 29 UNVERIFIED candidates. November 2 Peru review updates Jeimy publisher evidence and adds MAIA plus a Quechua Collao LLM benchmark to the separate 14-record research/deployment watchlist. No new qualifying public web-chat access point or independently trained Peruvian foundation model was verified. Jeimy remains UNVERIFIED pending successful conversation testing.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -2038,6 +2038,15 @@
             "https://jeimy.ai/app"
           ],
           "note": "Official chat marketing page retrieved; direct /app GET returned 200 with presentation HTML and client-side application. Publisher still advertises limited free Colibrí and account registration. This updates reachability evidence only: no login/conversation tested, no proof of independent Peruvian foundation-model training; preserve UNVERIFIED, original URL, capabilities and prior review history."
+        },
+        "publisher_followup_2026_11_02": {
+          "review_date": "2026-11-02",
+          "result": "publisher_pages_retrievable_conversation_unconfirmed",
+          "sources": [
+            "https://jeimy.ai/",
+            "https://jeimy.ai/chat"
+          ],
+          "note": "Publisher now prominently presents Colibrí, Águila and Apu in one chat, limited free use of Colibrí, and paid tiers. Search retrieval and official HTML presentation confirm public marketing pages, not a successful login or conversation. No independent evidence of model architecture, training, or ownership was found. Retain UNVERIFIED and avoid changing capabilities or Android fields based solely on marketing claims."
         }
       }
     },
