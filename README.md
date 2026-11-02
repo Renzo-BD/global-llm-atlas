@@ -2,7 +2,7 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.7.0-blue)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-v0.7.1-blue)](CHANGELOG.md)
 ![Access points](https://img.shields.io/badge/access%20points-93-2ea44f)
 ![Unique services](https://img.shields.io/badge/unique%20services-92-56d7c5)
 ![Countries](https://img.shields.io/badge/country%20associations-43-7b61ff)
@@ -31,7 +31,7 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.7.0 + Android metadata
+## 📍 Current snapshot — v0.7.1 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
@@ -46,6 +46,10 @@ The canonical service metadata includes service type, registration, text/image/v
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.7.1 — Peru follow-up, November 2
+
+The [Peru research and deployment watchlist](data/research-peru.json) now has **14 records**. **MAIA**, operated by HacerPerú with PRODUCE, is an operational WhatsApp adviser, and a **PUCP-associated Quechua Collao benchmark** evaluates existing LLMs. Neither establishes a new Peruvian foundation model or a qualifying separate web chat under current Atlas criteria. Jeimy publisher pages now describe Colibrí, Águila and Apu; a successful conversation remains unverified. The main catalog remains **93 access points**, including **29 UNVERIFIED** candidates. See the [November 2 evidence and decisions](reports/peru-followup-2026-11-02.md).
 
 ### v0.7.0 — Peru deep review, October 27
 
