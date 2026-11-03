@@ -92,3 +92,10 @@ th-typhoon,Typhoon Playground,https://playground.opentyphoon.ai/,Thailand,Tailan
 us-duck-ai,Duck.ai,https://duck.ai/,United States,Estados Unidos,US,North America,multi-model-platform,none,true,,,,,UNVERIFIED,2026-10-27,United States,,verified
 za-chanua,Chanua (HSRC),https://chanua.hsrc.ac.za/,South Africa,Sudáfrica,ZA,Africa,assistant,unknown,true,,,,,UNVERIFIED,2026-10-27,South Africa,,verified
 pe-theus,Theus,https://theus.pe/,Peru,Perú,PE,South America,multi-model-platform,optional,true,,,,,UNVERIFIED,2026-10-27,Peru,,verified
+ug-sunflower,Sunflower,https://sunflower.sunbird.ai/,Uganda,Uganda,UG,Africa,model-chat,unknown,true,,,,,UNVERIFIED,2026-11-03,Uganda,,verified
+nz-asi-govgpt,ASI GovGPT,https://chat.asi.nz/,New Zealand,Nueva Zelanda,NZ,Oceania,assistant,unknown,true,,,,true,UNVERIFIED,2026-11-03,New Zealand,,verified
+si-alma,Alma (Slovenia.info),https://www.slovenia.info/en/,Slovenia,Eslovenia,SI,Europe,assistant,none,true,,,,,UNVERIFIED,2026-11-03,Slovenia,,verified
+pt-gov-pt-assistant,gov.pt virtual assistant,https://www.gov.pt/,Portugal,Portugal,PT,Europe,assistant,none,true,,,,,UNVERIFIED,2026-11-03,Portugal,,verified
+tn-tunai,TunAI,https://tunai.tn/,Tunisia,Túnez,TN,Africa,multi-model-platform,required,true,,,,,UNVERIFIED,2026-11-03,Tunisia,,verified
+et-bini,Bini (BinaSmart),https://www.bina.et/ai,Ethiopia,Etiopía,ET,Africa,assistant,unknown,true,,,,,UNVERIFIED,2026-11-03,Ethiopia,,verified
+et-addisgpt,AddisGPT,https://app.addisgpt.ai/,Ethiopia,Etiopía,ET,Africa,assistant,required,true,,,,,UNVERIFIED,2026-11-03,,,partial
