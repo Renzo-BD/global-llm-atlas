@@ -11,6 +11,19 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.8.0] - 2026-11-03
+
+### Added
+- Seven source-backed UNVERIFIED public-chat candidates: Sunflower (Uganda), ASI GovGPT (New Zealand), Alma (Slovenia), gov.pt virtual assistant (Portugal), TunAI (Tunisia), Bini and AddisGPT (Ethiopia).
+- The official AddisGPT Android Google Play listing; its app publisher is US-registered and the Ethiopia association is explicitly partial.
+
+### Changed
+- Catalog totals: 100 access points, 99 unique services, 49 country associations and 36 UNVERIFIED candidates. Verified native/regional Android listings: 39.
+- Each candidate records primary-source provenance, model-origin distinctions, and an Android review. No successful independent conversation or APK installation is asserted.
+
+### Deferred
+- GaMS pending English/Spanish conversation test; Peru YachAIbot pending public chat access verification; Ghana Chat pending live Space access. No Android app is inferred from unrelated names or generic service apps.
+
 ## [0.7.1] - 2026-11-02
 
 ### Added
