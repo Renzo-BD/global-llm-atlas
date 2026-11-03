@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.7.1",
-  "released": "2026-11-02",
-  "scope_note": "64 previously curated access points plus 29 UNVERIFIED candidates. November 2 Peru review updates Jeimy publisher evidence and adds MAIA plus a Quechua Collao LLM benchmark to the separate 14-record research/deployment watchlist. No new qualifying public web-chat access point or independently trained Peruvian foundation model was verified. Jeimy remains UNVERIFIED pending successful conversation testing.",
+  "version": "0.8.0",
+  "released": "2026-11-03",
+  "scope_note": "November 3 worldwide discovery adds 7 UNVERIFIED public-chat candidates from 6 new country associations (Uganda, New Zealand, Slovenia, Portugal, Tunisia, Ethiopia), including the AddisGPT Android listing. Candidate status reflects source review, not a successful agent conversation. Platform/assistant origin is separate from foundation-model origin; Ethiopia association for AddisGPT is partial because the store lists a US legal developer. Peru YachAIbot and Slovenia GaMS remain pending access/language testing.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -2875,6 +2875,299 @@
             "https://docs.theus.pe/docs/novedades/"
           ],
           "note": "Publisher documents web, Windows/macOS desktop and CLI. Targeted Play search returned an Astratech developer name, without a verified matching conversational app/package; name similarity is insufficient. No native Android or installable-PWA record added; mobile browser use is separate."
+        }
+      }
+    },
+    {
+      "id": "ug-sunflower",
+      "name": "Sunflower",
+      "url": "https://sunflower.sunbird.ai/",
+      "country": "Uganda",
+      "country_es": "Uganda",
+      "iso2": "UG",
+      "continent": "Africa",
+      "service_type": "model-chat",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-03",
+      "operator_country": "Uganda",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-03",
+        "sources": [
+          "https://sunbird.ai/sunflower/",
+          "https://sunflower.sunbird.ai/",
+          "https://api.sunbird.ai/tutorial"
+        ],
+        "note": "Sunbird AI in Kampala documents a free public web app and English alongside African languages. Sunflower is a locally adapted open-weight model family based on Qwen, not a model trained from scratch. Web shell indexed; no successful prompt or mobile installation independently tested.",
+        "android_review": {
+          "review_date": "2026-11-03",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://sunbird.ai/sunflower/",
+            "https://sunflower.sunbird.ai/",
+            "https://api.sunbird.ai/tutorial"
+          ],
+          "note": "Official publisher pages and targeted Google Play searches did not establish a matching dedicated conversational Android app. Similar names belong to unrelated products; mobile web access is not counted as native Android. APK installation and regional availability not tested."
+        }
+      }
+    },
+    {
+      "id": "nz-asi-govgpt",
+      "name": "ASI GovGPT",
+      "url": "https://chat.asi.nz/",
+      "country": "New Zealand",
+      "country_es": "Nueva Zelanda",
+      "iso2": "NZ",
+      "continent": "Oceania",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": true
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-03",
+      "operator_country": "New Zealand",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-03",
+        "sources": [
+          "https://asi.co.nz/ai/govgpt/",
+          "https://asi.co.nz/asi-govgpt-web-searching-ai-for-new-zealand/",
+          "https://chat.asi.nz/"
+        ],
+        "note": "ASI Solutions links a no-cost NZ-government information chat and documents answers in plain English. Chat subdomain could not be independently read through web retrieval. This is a domain-specific assistant; underlying model provenance and successful chat remain unverified.",
+        "android_review": {
+          "review_date": "2026-11-03",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://asi.co.nz/ai/govgpt/",
+            "https://asi.co.nz/asi-govgpt-web-searching-ai-for-new-zealand/",
+            "https://chat.asi.nz/"
+          ],
+          "note": "Official publisher pages and targeted Google Play searches did not establish a matching dedicated conversational Android app. Similar names belong to unrelated products; mobile web access is not counted as native Android. APK installation and regional availability not tested."
+        }
+      }
+    },
+    {
+      "id": "si-alma",
+      "name": "Alma (Slovenia.info)",
+      "url": "https://www.slovenia.info/en/",
+      "country": "Slovenia",
+      "country_es": "Eslovenia",
+      "iso2": "SI",
+      "continent": "Europe",
+      "service_type": "assistant",
+      "registration": "none",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-03",
+      "operator_country": "Slovenia",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-03",
+        "sources": [
+          "https://www.slovenia.info/en/business/content-digital-marketing/alma-slovenian-ai-travel-guide",
+          "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/40273-more-questions-deeper-conversations-how-visitors-are-using-alma"
+        ],
+        "note": "Official Slovenian Tourist Board website offers a public travel-advice chat in English and Spanish; 2026 usage statistics document actual conversations. Publisher says it uses OpenAI GPT technology; do not attribute its foundation model to Slovenia. Agent did not independently submit a prompt.",
+        "android_review": {
+          "review_date": "2026-11-03",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://www.slovenia.info/en/business/content-digital-marketing/alma-slovenian-ai-travel-guide",
+            "https://www.slovenia.info/en/press-centre/news-of-the-tourism-press-agency/40273-more-questions-deeper-conversations-how-visitors-are-using-alma"
+          ],
+          "note": "Official publisher pages and targeted Google Play searches did not establish a matching dedicated conversational Android app. Similar names belong to unrelated products; mobile web access is not counted as native Android. APK installation and regional availability not tested."
+        }
+      }
+    },
+    {
+      "id": "pt-gov-pt-assistant",
+      "name": "gov.pt virtual assistant",
+      "url": "https://www.gov.pt/",
+      "country": "Portugal",
+      "country_es": "Portugal",
+      "iso2": "PT",
+      "continent": "Europe",
+      "service_type": "assistant",
+      "registration": "none",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-03",
+      "operator_country": "Portugal",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-03",
+        "sources": [
+          "https://www.gov.pt/guias/a-assistente-virtual-do-portal-gov-pt",
+          "https://digital.gov.pt/noticias/assistente-virtual-do-gov-pt-facilita-a-interacao-em-12-idiomas"
+        ],
+        "note": "Official government portal documents a public text and voice chatbot in 12 languages including English and Spanish. It uses OpenAI ChatGPT as the base model. No independently sent prompt or Android app integration test.",
+        "android_review": {
+          "review_date": "2026-11-03",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://www.gov.pt/guias/a-assistente-virtual-do-portal-gov-pt",
+            "https://digital.gov.pt/noticias/assistente-virtual-do-gov-pt-facilita-a-interacao-em-12-idiomas"
+          ],
+          "note": "The gov.pt Google Play app is a document/identity/services app; official sources did not establish that this conversational assistant is available inside it. Not counted as a verified conversational Android app."
+        }
+      }
+    },
+    {
+      "id": "tn-tunai",
+      "name": "TunAI",
+      "url": "https://tunai.tn/",
+      "country": "Tunisia",
+      "country_es": "Túnez",
+      "iso2": "TN",
+      "continent": "Africa",
+      "service_type": "multi-model-platform",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-03",
+      "operator_country": "Tunisia",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-03",
+        "sources": [
+          "https://tunai.tn/",
+          "https://tunai.tn/privacy"
+        ],
+        "note": "AI GATEWAY SUARL identifies Tunis registration and advertises ten free standard-model web messages daily in English. It aggregates third-party models; no independently trained Tunisian foundation model is claimed. Registration flow and successful conversation were not tested.",
+        "android_review": {
+          "review_date": "2026-11-03",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://tunai.tn/",
+            "https://tunai.tn/privacy"
+          ],
+          "note": "Publisher privacy mentions mobile apps, but no official matching Android package or downloadable APK was verified. Store products called TunaiApp are unrelated salon apps."
+        }
+      }
+    },
+    {
+      "id": "et-bini",
+      "name": "Bini (BinaSmart)",
+      "url": "https://www.bina.et/ai",
+      "country": "Ethiopia",
+      "country_es": "Etiopía",
+      "iso2": "ET",
+      "continent": "Africa",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-03",
+      "operator_country": "Ethiopia",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-03",
+        "sources": [
+          "https://www.bina.et/ai",
+          "https://bina.et/amharic-ai"
+        ],
+        "note": "BinaSmart describes Addis Ababa-built retrieval and knowledge tools, English support, web chat and a free daily-limited tier. The sentence-generating model is explicitly licensed from an international provider. Direct page retrieval returned DisabledError; working chat not independently verified.",
+        "android_review": {
+          "review_date": "2026-11-03",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://www.bina.et/ai",
+            "https://bina.et/amharic-ai"
+          ],
+          "note": "Official publisher pages and targeted Google Play searches did not establish a matching dedicated conversational Android app. Similar names belong to unrelated products; mobile web access is not counted as native Android. APK installation and regional availability not tested."
+        }
+      }
+    },
+    {
+      "id": "et-addisgpt",
+      "name": "AddisGPT",
+      "url": "https://app.addisgpt.ai/",
+      "country": "Ethiopia",
+      "country_es": "Etiopía",
+      "iso2": "ET",
+      "continent": "Africa",
+      "service_type": "assistant",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-03",
+      "operator_country": null,
+      "duplicate_of": null,
+      "country_confidence": "partial",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-03",
+        "sources": [
+          "https://addisgpt.ai/",
+          "https://app.addisgpt.ai/",
+          "https://play.google.com/store/apps/details?id=com.addisgpt.app"
+        ],
+        "note": "Publisher announces free English/Amharic web chat and calls itself Ethiopian-led; official Google Play listing links addisgpt.ai, but identifies the legal developer Trending Business Solutions LLC in Virginia, United States. Ethiopia is a cultural/development association, not verified legal operator domicile or foundation model origin. Web app returned no readable content; successful conversation not tested.",
+        "android_review": {
+          "review_date": "2026-11-03",
+          "result": "official_google_play_listing_verified",
+          "sources": [
+            "https://addisgpt.ai/",
+            "https://app.addisgpt.ai/",
+            "https://play.google.com/store/apps/details?id=com.addisgpt.app"
+          ],
+          "note": "Official publisher links Google Play package com.addisgpt.app and store listing matches addisgpt.ai. Listing identifies US legal developer; app install, sign-in, APK signature and regional availability not tested."
         }
       }
     }
