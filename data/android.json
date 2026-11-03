@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "android",
-  "version": "0.6.0",
-  "released": "2026-10-27",
+  "version": "0.8.0",
+  "released": "2026-11-03",
   "methodology": "Only Android availability backed by an official product/store/download source is listed. A verification date records source review, not APK installation, a security audit, successful login or availability in every country. Absence means not independently verified, never unsupported. Related non-conversational companion apps are excluded from conversational access counts.",
   "entries": [
     {
@@ -302,6 +302,14 @@
       "url": "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android",
       "verified": "2026-10-27",
       "note": "Official DuckDuckGo Android browser includes optional Duck.ai, per publisher browser help and official store listing. Integrated access through a host browser, not a standalone native Duck.ai app. Installation, conversation and regional availability not tested."
+    },
+    {
+      "id": "et-addisgpt",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=com.addisgpt.app",
+      "verified": "2026-11-03",
+      "note": "Official AddisGPT publisher links this Google Play listing; package com.addisgpt.app and website match. Store identifies Trending Business Solutions LLC, Virginia, United States. Source listing verified only; APK extraction, install, login and Peru availability not tested."
     }
   ]
 }
