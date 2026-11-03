@@ -2,11 +2,11 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.7.1-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-93-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-92-56d7c5)
-![Countries](https://img.shields.io/badge/country%20associations-43-7b61ff)
-![Android apps](https://img.shields.io/badge/verified%20Android%20apps-38-3ddc84)
+[![Version](https://img.shields.io/badge/version-v0.8.0-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-100-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-99-56d7c5)
+![Countries](https://img.shields.io/badge/country%20associations-49-7b61ff)
+![Android apps](https://img.shields.io/badge/verified%20Android%20apps-39-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -31,14 +31,14 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.7.1 + Android metadata
+## 📍 Current snapshot — v0.8.0 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **93** (including 29 unverified candidates) |
-| Unique services | **92** (including 29 unverified candidates) |
-| Country/project associations | **43** |
-| Verified native/regional Android apps | **38** |
+| Access points | **100** (including 36 unverified candidates) |
+| Unique services | **99** (including 36 unverified candidates) |
+| Country/project associations | **49** |
+| Verified native/regional Android apps | **39** |
 | Installable-web/PWA Android experiences | **1 unique service** |
 | Integrated Android access | **1** (Duck.ai through DuckDuckGo browser) |
 
@@ -46,6 +46,12 @@ The canonical service metadata includes service type, registration, text/image/v
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.8.0 — worldwide candidate review, November 3
+
+Seven **UNVERIFIED** conversational access points enter the catalog: [Sunflower](https://sunflower.sunbird.ai/) (Uganda), [ASI GovGPT](https://chat.asi.nz/) (New Zealand), [Alma](https://www.slovenia.info/en/) (Slovenia), the [gov.pt assistant](https://www.gov.pt/) (Portugal), [TunAI](https://tunai.tn/) (Tunisia), [Bini](https://www.bina.et/ai) and [AddisGPT](https://app.addisgpt.ai/) (Ethiopia). These represent **six new country associations** and remain unverified until a successful independent conversation test. Sunflower is a locally adapted Qwen-based model; the assistants and multi-model platform do not imply locally trained foundation models. AddisGPT has partial Ethiopia country confidence because Google Play lists a US legal developer.
+
+The [official AddisGPT Android app](https://play.google.com/store/apps/details?id=com.addisgpt.app) brings verified native/regional app listings to **39**. Verification covers publisher/store matching, not APK extraction, installation, account access or availability in Peru. No matching dedicated conversational Android app was verified for the other six candidates. The gov.pt services app was not counted as conversational access, and similarly named Sunbird, Tunai and Alma apps were not attributed to these projects. See each entry's source and Android review metadata.
 
 ### v0.7.1 — Peru follow-up, November 2
 
