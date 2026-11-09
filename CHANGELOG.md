@@ -27,7 +27,7 @@ The project follows [Semantic Versioning](https://semver.org/).
 ### Fixed
 - Missing AddisGPT row in android.csv that caused the November 3 Pages deployment to fail validation.
 - Missing map coordinates for Uganda, New Zealand, Slovenia, Portugal, Tunisia and Ethiopia; Qatar added.
-- Android table cells now follow the actual Web-column index instead of a stale fixed position.
+- Android table placement now derives from the Web header rather than relying on a fixed column index.
 
 ## [0.8.0] - 2026-11-03
 

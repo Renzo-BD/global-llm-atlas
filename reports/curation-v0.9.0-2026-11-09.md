@@ -86,6 +86,6 @@ The separate 14-record Peru research/deployment watchlist is unchanged. None of 
 
 The previous final Pages run, [41668369417](https://github.com/Renzo-BD/global-llm-atlas/actions/runs/41668369417), failed at `data/android.csv: JSON/CSV mismatch`. The JSON had 42 Android records but the CSV only 41: AddisGPT was absent. Regenerating both exports repairs the publication blocker; `scripts/export_csv.py` makes the operation reproducible.
 
-The site still displayed v0.7.0 and lacked map coordinates for Uganda, New Zealand, Slovenia, Portugal, Tunisia and Ethiopia despite their v0.8.0 data records. Current snapshot displays are synchronized, those six markers restored and Qatar added. Android row cells now use the actual Web-column position; the previous fixed index placed them under the wrong headers.
+The site still displayed v0.7.0 and lacked map coordinates for Uganda, New Zealand, Slovenia, Portugal, Tunisia and Ethiopia despite their v0.8.0 data records. Current snapshot displays are synchronized, those six markers restored and Qatar added. Android row cells now derive their position from the Web header rather than a fixed index. This preserves the current layout and makes placement resilient to future column changes.
 
 Validation covers both schemas, unique IDs, duplicate targets, Android references, exact JSON/CSV parity, shared release metadata, map coverage and JavaScript syntax. Publication and Pages deployment status must be checked separately after pushing the reviewed commit.

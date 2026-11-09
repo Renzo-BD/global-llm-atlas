@@ -55,7 +55,7 @@ Android metadata follows the same uncertainty rule. Absence from `data/android.j
 - **[Fanar](https://chat.fanar.qa/), Qatar, and [Poe](https://poe.com/), United States:** added as UNVERIFIED. Official sources establish free access/free points and English support; independent conversations remain untested. Both have attributable Google Play listings. Store review does not establish APK installation or Peruvian availability.
 - **Mistral Vibe (formerly Le Chat):** updated name and Android branding, retaining stable ID `fr-le-chat`. Official Mistral evidence now announces Large 4 open weights; consumer model selection remains unverified.
 - All **100 pre-existing service URLs** received an automated transport check: 94 HTTP 200 responses, six non-200 responses requiring review. Authentication and restricted-access pages can return 200. Historical conversation dates and lifecycle states are preserved.
-- Repaired the missing AddisGPT CSV row that blocked the November 3 Pages deployment; added reproducible CSV generation. Restored six omitted country markers plus Qatar and aligned Android cells with their table headers.
+- Repaired the missing AddisGPT CSV row that blocked the November 3 Pages deployment; added reproducible CSV generation. Restored six omitted country markers plus Qatar and made Android column placement follow the table headers.
 
 See the [dated review, primary sources and exclusions](reports/curation-v0.9.0-2026-11-09.md) and [complete automated transport report](reports/url-check-2026-11-09.md). Regenerate exports with `python scripts/export_csv.py`, then run `python scripts/validate_data.py`.
 
