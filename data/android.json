@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "android",
-  "version": "0.8.0",
-  "released": "2026-11-03",
+  "version": "0.9.0",
+  "released": "2026-11-09",
   "methodology": "Only Android availability backed by an official product/store/download source is listed. A verification date records source review, not APK installation, a security audit, successful login or availability in every country. Absence means not independently verified, never unsupported. Related non-conversational companion apps are excluded from conversational access counts.",
   "entries": [
     {
@@ -80,8 +80,8 @@
       "status": "native",
       "distribution": "google-play",
       "url": "https://play.google.com/store/apps/details?id=ai.mistral.chat",
-      "verified": "2026-09-15",
-      "note": "Android app now branded Vibe by Mistral."
+      "verified": "2026-11-09",
+      "note": "Official ai.mistral.chat listing is now Vibe by Mistral (ex-Le Chat), published by MISTRAL AI, France. Stable Atlas ID retained. Source branding verified; APK installation, login and Peru availability not tested."
     },
     {
       "id": "jp-felo",
@@ -310,6 +310,22 @@
       "url": "https://play.google.com/store/apps/details?id=com.addisgpt.app",
       "verified": "2026-11-03",
       "note": "Official AddisGPT publisher links this Google Play listing; package com.addisgpt.app and website match. Store identifies Trending Business Solutions LLC, Virginia, United States. Source listing verified only; APK extraction, install, login and Peru availability not tested."
+    },
+    {
+      "id": "qa-fanar",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=com.fanarmobile",
+      "verified": "2026-11-09",
+      "note": "Google Play lists Hamad Bin Khalifa University in Qatar and links fanar.qa. Package com.fanarmobile matches the official service. Installation, APK signature, login and availability in Peru not tested."
+    },
+    {
+      "id": "us-poe",
+      "status": "native",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=com.poe.android",
+      "verified": "2026-11-09",
+      "note": "Official download page advertises Android; Google Play package com.poe.android identifies Quora, Inc., United States and links poe.com. No installation, APK extraction or Peru availability test."
     }
   ]
 }

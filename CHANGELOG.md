@@ -11,6 +11,24 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.9.0] - 2026-11-09
+
+### Added
+- YachAIbot (PCM/SGTD, Peru), ACTIVE following an anonymous Spanish browser conversation; dated prompt/result and screenshot evidence.
+- Fanar (Qatar) and Poe (United States) as UNVERIFIED source-backed candidates, with official Google Play metadata.
+- A complete transport report for the 100 pre-existing service URLs, a dated curation report and `scripts/export_csv.py` for reproducible JSON-to-CSV exports.
+
+### Changed
+- Snapshot: 103 access points, 102 unique services, 50 country associations, 38 UNVERIFIED candidates; 41 native/regional Android app listings.
+- Le Chat display/Android branding updated to Mistral Vibe without changing its stable ID. Mistral Large 4 open-weight announcement recorded separately from consumer availability.
+- Sahabat-AI entry normalized from its 404 /dashboard route to the official root application. Peru source follow-up documents Jeimy, Theus and CatIA without asserting new conversation tests.
+- README, site snapshot, citation and Hugging Face card synchronized to the release. Dates of untested historical entries retained.
+
+### Fixed
+- Missing AddisGPT row in android.csv that caused the November 3 Pages deployment to fail validation.
+- Missing map coordinates for Uganda, New Zealand, Slovenia, Portugal, Tunisia and Ethiopia; Qatar added.
+- Android table cells now follow the actual Web-column index instead of a stale fixed position.
+
 ## [0.8.0] - 2026-11-03
 
 ### Added

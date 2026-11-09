@@ -9,7 +9,7 @@ cn-manus,native,google-play,https://play.google.com/store/apps/details?id=tech.b
 cn-minimax,native,official-download,https://chat.minimax.io/download,2026-09-15,
 cn-qwen,native,google-play,https://play.google.com/store/apps/details?id=com.tongyi.intl,2026-09-15,
 es-luzia,native,google-play,https://play.google.com/store/apps/details?id=co.thewordlab.luzia,2026-09-15,
-fr-le-chat,native,google-play,https://play.google.com/store/apps/details?id=ai.mistral.chat,2026-09-15,Android app now branded Vibe by Mistral.
+fr-le-chat,native,google-play,https://play.google.com/store/apps/details?id=ai.mistral.chat,2026-11-09,"Official ai.mistral.chat listing is now Vibe by Mistral (ex-Le Chat), published by MISTRAL AI, France. Stable Atlas ID retained. Source branding verified; APK installation, login and Peru availability not tested."
 jp-felo,native,google-play,https://play.google.com/store/apps/details?id=ai.felo.search,2026-09-15,
 ru-alice-yandex,native,google-play,https://play.google.com/store/apps/details?id=com.yandex.aliceapp,2026-09-15,
 ru-gigachat,regional,rustore,https://www.rustore.ru/catalog/app/com.sdkit.search.app,2026-09-15,
@@ -40,3 +40,6 @@ ch-mate,native,google-play,https://play.google.com/store/apps/details?id=com.swi
 ch-euria,native,google-play,https://play.google.com/store/apps/details?id=com.infomaniak.euria,2026-10-22,"Official Google Play listing and publisher product evidence reviewed. Installation, login and availability from Peru were not tested."
 at-eustella,native,google-play,https://play.google.com/store/apps/details?id=com.eustella,2026-10-23,"Official eustella Google Play listing, package com.eustella, linked by publisher and attributed to AI Newsrooms Technology GmbH (Austria). Source reviewed; installation, login and availability from Peru not tested."
 us-duck-ai,integrated,google-play,https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android,2026-10-27,"Official DuckDuckGo Android browser includes optional Duck.ai, per publisher browser help and official store listing. Integrated access through a host browser, not a standalone native Duck.ai app. Installation, conversation and regional availability not tested."
+et-addisgpt,native,google-play,https://play.google.com/store/apps/details?id=com.addisgpt.app,2026-11-03,"Official AddisGPT publisher links this Google Play listing; package com.addisgpt.app and website match. Store identifies Trending Business Solutions LLC, Virginia, United States. Source listing verified only; APK extraction, install, login and Peru availability not tested."
+qa-fanar,native,google-play,https://play.google.com/store/apps/details?id=com.fanarmobile,2026-11-09,"Google Play lists Hamad Bin Khalifa University in Qatar and links fanar.qa. Package com.fanarmobile matches the official service. Installation, APK signature, login and availability in Peru not tested."
+us-poe,native,google-play,https://play.google.com/store/apps/details?id=com.poe.android,2026-11-09,"Official download page advertises Android; Google Play package com.poe.android identifies Quora, Inc., United States and links poe.com. No installation, APK extraction or Peru availability test."

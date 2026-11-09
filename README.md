@@ -2,11 +2,11 @@
 
 > **Discover conversational AI around the world — country by country, with evidence instead of hype.**
 
-[![Version](https://img.shields.io/badge/version-v0.8.0-blue)](CHANGELOG.md)
-![Access points](https://img.shields.io/badge/access%20points-100-2ea44f)
-![Unique services](https://img.shields.io/badge/unique%20services-99-56d7c5)
-![Countries](https://img.shields.io/badge/country%20associations-49-7b61ff)
-![Android apps](https://img.shields.io/badge/verified%20Android%20apps-39-3ddc84)
+[![Version](https://img.shields.io/badge/version-v0.9.0-blue)](CHANGELOG.md)
+![Access points](https://img.shields.io/badge/access%20points-103-2ea44f)
+![Unique services](https://img.shields.io/badge/unique%20services-102-56d7c5)
+![Countries](https://img.shields.io/badge/country%20associations-50-7b61ff)
+![Android apps](https://img.shields.io/badge/verified%20Android%20apps-41-3ddc84)
 ![Maintenance](https://img.shields.io/badge/check-weekly-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -31,14 +31,14 @@ Star Global LLM Atlas if you want to follow a dataset that aims to answer a dece
 
 > **Know a public conversational AI from a country we are missing?** Contributions with evidence are especially valuable.
 
-## 📍 Current snapshot — v0.8.0 + Android metadata
+## 📍 Current snapshot — v0.9.0 + Android metadata
 
 | Metric | Current dataset |
 |---|---:|
-| Access points | **100** (including 36 unverified candidates) |
-| Unique services | **99** (including 36 unverified candidates) |
-| Country/project associations | **49** |
-| Verified native/regional Android apps | **39** |
+| Access points | **103** (including 38 unverified candidates) |
+| Unique services | **102** (including 38 unverified candidates) |
+| Country/project associations | **50** |
+| Verified native/regional Android apps | **41** |
 | Installable-web/PWA Android experiences | **1 unique service** |
 | Integrated Android access | **1** (Duck.ai through DuckDuckGo browser) |
 
@@ -46,6 +46,18 @@ The canonical service metadata includes service type, registration, text/image/v
 
 Android metadata follows the same uncertainty rule. Absence from `data/android.json` means **not independently verified**, not that Android support has been disproven.
 
+
+### v0.9.0 — maintenance and evidence review, November 9
+
+**103 access points · 102 unique services · 50 country associations · 38 UNVERIFIED candidates · 41 native/regional Android listings.**
+
+- **[YachAIbot (PCM/SGTD)](https://yachaibot.servicios.gob.pe/normativas/), Peru:** added as ACTIVE after one successful anonymous Spanish conversation with document references. Institutional retrieval assistant; no Peruvian foundation-model claim. Related portal tools are not counted separately.
+- **[Fanar](https://chat.fanar.qa/), Qatar, and [Poe](https://poe.com/), United States:** added as UNVERIFIED. Official sources establish free access/free points and English support; independent conversations remain untested. Both have attributable Google Play listings. Store review does not establish APK installation or Peruvian availability.
+- **Mistral Vibe (formerly Le Chat):** updated name and Android branding, retaining stable ID `fr-le-chat`. Official Mistral evidence now announces Large 4 open weights; consumer model selection remains unverified.
+- All **100 pre-existing service URLs** received an automated transport check: 94 HTTP 200 responses, six non-200 responses requiring review. Authentication and restricted-access pages can return 200. Historical conversation dates and lifecycle states are preserved.
+- Repaired the missing AddisGPT CSV row that blocked the November 3 Pages deployment; added reproducible CSV generation. Restored six omitted country markers plus Qatar and aligned Android cells with their table headers.
+
+See the [dated review, primary sources and exclusions](reports/curation-v0.9.0-2026-11-09.md) and [complete automated transport report](reports/url-check-2026-11-09.md). Regenerate exports with `python scripts/export_csv.py`, then run `python scripts/validate_data.py`.
 
 ### v0.8.0 — worldwide candidate review, November 3
 

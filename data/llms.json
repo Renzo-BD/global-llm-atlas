@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.8.0",
-  "released": "2026-11-03",
-  "scope_note": "November 3 worldwide discovery adds 7 UNVERIFIED public-chat candidates from 6 new country associations (Uganda, New Zealand, Slovenia, Portugal, Tunisia, Ethiopia), including the AddisGPT Android listing. Candidate status reflects source review, not a successful agent conversation. Platform/assistant origin is separate from foundation-model origin; Ethiopia association for AddisGPT is partial because the store lists a US legal developer. Peru YachAIbot and Slovenia GaMS remain pending access/language testing.",
+  "version": "0.9.0",
+  "released": "2026-11-09",
+  "scope_note": "November 9 maintenance review: HTTP checks of all 100 pre-existing access points; YachAIbot (Peru) added after a successful anonymous Spanish conversation, Fanar (Qatar) and Poe (United States) added as source-backed UNVERIFIED candidates. Mistral Vibe branding and Sahabat-AI URL corrected. Source reviews, transport checks and conversation tests remain distinct; historical verification dates are preserved for services not conversation-tested today.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -657,7 +657,7 @@
     },
     {
       "id": "fr-le-chat",
-      "name": "Le Chat",
+      "name": "Mistral Vibe (formerly Le Chat)",
       "url": "https://chat.mistral.ai/chat",
       "country": "France",
       "country_es": "Francia",
@@ -686,14 +686,29 @@
             "source": "https://mistral.ai/news/mistral-large-4/",
             "review_date": "2026-10-16",
             "note": "API public preview; weights announced for end of October, not established as released at review date. Availability in Le Chat not independently established."
+          },
+          {
+            "model": "Mistral Large 4 open weights",
+            "source": "https://mistral.ai/news/mistral-large-4-oss/",
+            "review_date": "2026-11-09",
+            "note": "Publisher now announces open weights, superseding the October 16 pending-release finding. This does not establish the model selected in the consumer chat; no inference or weight download performed."
           }
-        ]
+        ],
+        "branding_review_2026_11_09": {
+          "review_date": "2026-11-09",
+          "sources": [
+            "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
+            "https://mistral.ai/products/vibe/",
+            "https://play.google.com/store/apps/details?id=ai.mistral.chat"
+          ],
+          "note": "Official help, product and matching Android listing confirm Le Chat is now Vibe, retaining the chat.mistral.ai entry. Stable Atlas ID fr-le-chat preserved. Publisher still offers a limited Free plan; advanced work/code features have paid-plan conditions. No account or conversation tested today."
+        }
       }
     },
     {
       "id": "id-sahabat-ai",
       "name": "Sahabat-AI",
-      "url": "https://chat.sahabat-ai.com/dashboard",
+      "url": "https://chat.sahabat-ai.com/",
       "country": "Indonesia",
       "country_es": "Indonesia",
       "iso2": "ID",
@@ -713,7 +728,15 @@
       "duplicate_of": null,
       "country_confidence": "verified",
       "provenance": {
-        "scope": "curator_html_seed"
+        "scope": "curator_html_seed",
+        "url_review_2026_11_09": {
+          "review_date": "2026-11-09",
+          "sources": [
+            "https://chat.sahabat-ai.com/dashboard",
+            "https://chat.sahabat-ai.com/"
+          ],
+          "note": "Tracked /dashboard route returned HTTP 404; root on the same official host returned HTTP 200 with Sahabat-AI application branding. Entry normalized to root. No authenticated chat test or lifecycle change; prior conversation-verification date retained."
+        }
       }
     },
     {
@@ -2047,6 +2070,13 @@
             "https://jeimy.ai/chat"
           ],
           "note": "Publisher now prominently presents Colibrí, Águila and Apu in one chat, limited free use of Colibrí, and paid tiers. Search retrieval and official HTML presentation confirm public marketing pages, not a successful login or conversation. No independent evidence of model architecture, training, or ownership was found. Retain UNVERIFIED and avoid changing capabilities or Android fields based solely on marketing claims."
+        },
+        "access_followup_2026_11_09": {
+          "review_date": "2026-11-09",
+          "sources": [
+            "https://jeimy.ai/"
+          ],
+          "note": "Publisher still offers limited free Colibrí and paid Águila/Apu access; direct /app returned HTTP 200. Presentation reachability is not a successful conversation or proof of independently trained Peruvian foundation models. No official native Android distribution verified."
         }
       }
     },
@@ -2435,6 +2465,13 @@
             "https://catalogoia.servicios.gob.pe/catia"
           ],
           "note": "Both root and CatIA route redirect to /acceso-restringido with a publisher notice that the catalog is temporarily available only to authorized persons, plus username/password form. Direct GET reproduced this with HTTP 200 at the restricted page. This is not public chat availability. Preserve UNVERIFIED pending curator lifecycle review; do not infer permanent discontinuation or a new underlying model from cached transparency content."
+        },
+        "access_followup_2026_11_09": {
+          "review_date": "2026-11-09",
+          "sources": [
+            "https://catalogoia.servicios.gob.pe/catia"
+          ],
+          "note": "Tracked route again redirects to /acceso-restringido?returnUrl=%2Fcatia with HTTP 200. Public conversation remains unconfirmed; restricted access is not evidence of discontinuation."
         }
       }
     },
@@ -2788,6 +2825,13 @@
             "https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android"
           ],
           "note": "Duck.ai is integrated into the official DuckDuckGo Android browser. Record integrated access, not a separate native Duck.ai app. Installation and Peruvian availability untested."
+        },
+        "access_followup_2026_11_09": {
+          "review_date": "2026-11-09",
+          "sources": [
+            "https://duck.ai/"
+          ],
+          "note": "Normal Chrome inspection found the anonymous Spanish Free chat interface and prompt field. Submission was not performed because the page explicitly makes it acceptance of service terms. Retain UNVERIFIED; no successful conversation claimed."
         }
       }
     },
@@ -2875,6 +2919,14 @@
             "https://docs.theus.pe/docs/novedades/"
           ],
           "note": "Publisher documents web, Windows/macOS desktop and CLI. Targeted Play search returned an Astratech developer name, without a verified matching conversational app/package; name similarity is insufficient. No native Android or installable-PWA record added; mobile browser use is separate."
+        },
+        "access_followup_2026_11_09": {
+          "review_date": "2026-11-09",
+          "sources": [
+            "https://theus.pe/precios/",
+            "https://theus.pe/"
+          ],
+          "note": "Current pricing explicitly retains Free without a card, with usage windows of 5 hours and 7 days. Theus remains a multi-model service; no authenticated conversation or Android installation verified."
         }
       }
     },
@@ -3168,6 +3220,142 @@
             "https://play.google.com/store/apps/details?id=com.addisgpt.app"
           ],
           "note": "Official publisher links Google Play package com.addisgpt.app and store listing matches addisgpt.ai. Listing identifies US legal developer; app install, sign-in, APK signature and regional availability not tested."
+        }
+      }
+    },
+    {
+      "id": "pe-yachaibot",
+      "name": "YachAIbot (PCM/SGTD)",
+      "url": "https://yachaibot.servicios.gob.pe/normativas/",
+      "country": "Peru",
+      "country_es": "Perú",
+      "iso2": "PE",
+      "continent": "South America",
+      "service_type": "assistant",
+      "registration": "none",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "ACTIVE",
+      "last_manual_verification": "2026-11-09",
+      "operator_country": "Peru",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "anonymous_browser_conversation_verified",
+        "review_date": "2026-11-09",
+        "sources": [
+          "https://yachaibot.servicios.gob.pe/",
+          "https://yachaibot.servicios.gob.pe/normativas/"
+        ],
+        "note": "Official SGTD/PCM Spanish institutional assistant. Anonymous Chrome conversation produced a relevant answer with linked normative references, without account or payment. The portal describes RAG/FAISS retrieval; underlying foundation-model provenance not established. Other portal tools are not separately counted or conversation-tested.",
+        "conversation_test": {
+          "date": "2026-11-09",
+          "language": "es",
+          "registration": "none",
+          "prompt": "Hola. ¿Qué temas puedes explicar? Responde brevemente en español.",
+          "result": "success",
+          "response_summary": "Explained its scope across digital-government norms, public-website rules, software/security standards and the digital-government laboratory, with document citations and SPIJ links.",
+          "evidence": "reports/evidence/yachaibot-2026-11-09.png",
+          "limits": "One short functional test; not a legal accuracy audit, uptime guarantee or verification of the other entity assistants."
+        },
+        "android_review": {
+          "review_date": "2026-11-09",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://yachaibot.servicios.gob.pe/"
+          ],
+          "note": "Web chat verified. The portal link to YanApp concerns a different MIMP service and is not evidence of a YachAIbot Android app. No native APK or PWA installation verified."
+        }
+      }
+    },
+    {
+      "id": "qa-fanar",
+      "name": "Fanar",
+      "url": "https://chat.fanar.qa/",
+      "country": "Qatar",
+      "country_es": "Catar",
+      "iso2": "QA",
+      "continent": "Asia",
+      "service_type": "assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-09",
+      "operator_country": "Qatar",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-09",
+        "sources": [
+          "https://www.fanar.qa/en",
+          "https://www.hbku.edu.qa/en/web-summit-2026/technologies/fanar",
+          "https://chat.fanar.qa/",
+          "https://play.google.com/store/apps/details?id=com.fanarmobile"
+        ],
+        "note": "QCRI/HBKU identifies Qatar development; official site declares free access and links the web chat. Official Android description explicitly supports English as well as Arabic. Chrome rendered chat controls and sign-in. No prompt submitted or successful independent conversation; registration conditions remain unknown. Publisher distinguishes locally developed Fanar Star from Gemma2-based Fanar Prime; this is not a claim that all models are trained from scratch.",
+        "android_review": {
+          "review_date": "2026-11-09",
+          "result": "official_google_play_listing_verified",
+          "sources": [
+            "https://www.fanar.qa/en",
+            "https://play.google.com/store/apps/details?id=com.fanarmobile"
+          ],
+          "note": "Google Play lists Hamad Bin Khalifa University in Qatar and links fanar.qa. Package com.fanarmobile matches the official service. Installation, APK signature, login and availability in Peru not tested."
+        }
+      }
+    },
+    {
+      "id": "us-poe",
+      "name": "Poe",
+      "url": "https://poe.com/",
+      "country": "United States",
+      "country_es": "Estados Unidos",
+      "iso2": "US",
+      "continent": "North America",
+      "service_type": "multi-model-platform",
+      "registration": "required",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-09",
+      "operator_country": "United States",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_source_discovery_pending_conversation_test",
+        "review_date": "2026-11-09",
+        "sources": [
+          "https://poe.com/",
+          "https://help.poe.com/hc/en-us/articles/19944206309524-Poe-FAQs",
+          "https://poe.com/download",
+          "https://play.google.com/store/apps/details?id=com.poe.android"
+        ],
+        "note": "Quora multi-model platform. Official FAQ documents daily renewing points for non-paying users and English/Spanish interfaces; quotas vary by bot and no numeric allowance is asserted. Public entry redirects to sign-in. No authenticated conversation tested. US association follows Quora developer/operator, not the countries of every underlying model.",
+        "android_review": {
+          "review_date": "2026-11-09",
+          "result": "official_google_play_listing_verified",
+          "sources": [
+            "https://poe.com/download",
+            "https://play.google.com/store/apps/details?id=com.poe.android"
+          ],
+          "note": "Official download page advertises Android; Google Play package com.poe.android identifies Quora, Inc., United States and links poe.com. No installation, APK extraction or Peru availability test."
         }
       }
     }

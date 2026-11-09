@@ -33,7 +33,10 @@
       if (!id) return;
       const meta = androidById.get(id);
       const cells = [...tr.children];
-      const webCell = cells[7];
+      const webIndex = [...document.querySelectorAll('table thead th')]
+        .filter((th) => !th.hasAttribute('data-android-col'))
+        .findIndex((th) => th.textContent.trim().toLowerCase() === 'web');
+      const webCell = cells[webIndex];
       if (!webCell) return;
 
       const androidTd = document.createElement('td');

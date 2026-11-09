@@ -27,9 +27,11 @@ This directory is **not** a benchmark, leaderboard or dataset of model weights. 
 
 ## Current snapshot
 
-Version **0.7.0** (2026-10-27): 93 access points, 92 unique services, including **29 UNVERIFIED candidates**. 43 country/project associations and 38 official native/regional Android app records, plus one integrated Android access record. Counts and field values change as the source is updated.
+Version **0.9.0** (2026-11-09): 103 access points, 102 unique services, including **38 UNVERIFIED candidates**. 50 country/project associations and 41 official native/regional Android app listings, one unique PWA service and one integrated Android service. Source review is distinct from chat testing. Counts and field values change as the source is updated.
 
-Peru follow-up: Jeimy access issues remain unresolved. Yachay/QuBERT research leads are tracked separately in `data/research-peru.json` and excluded from public-chat metrics. Copuchat represents the regional LatamGPT service. No additional official native Android apps were verified. See `reports/peru-research-2026-10-22.md`.
+November 9: YachAIbot added after one successful anonymous Spanish conversation; Fanar and Poe added as source-reviewed candidates with official Android listings. Branding, exports and map coverage repaired. See `reports/curation-v0.9.0-2026-11-09.md`.
+
+Historical Peru follow-up: Jeimy access issues remain unresolved. Yachay/QuBERT research leads are tracked separately in `data/research-peru.json` and excluded from public-chat metrics. Copuchat represents the regional LatamGPT service. No additional official native Android apps were verified. See `reports/peru-research-2026-10-22.md`.
 
 Peru deep review, October 27: Theus added as an UNVERIFIED multi-model platform; the separate research watchlist grows to 12 records. CatIA currently shows temporary restricted access. See `reports/peru-deep-review-2026-10-27.md`.
 
@@ -54,7 +56,7 @@ Copy `data/llms.csv`, `data/llms.json`, `data/android.csv` and `data/android.jso
 
 ## Limitations
 
-The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Twenty-nine candidate records were unverified at the 2026-10-27 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
+The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Thirty-eight candidate records were unverified at the 2026-11-09 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
 
 ## Responsible use and updates
 

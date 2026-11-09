@@ -36,6 +36,8 @@ def check_export(path, expected):
 
 atlas = read_json("data/llms.json")
 android = read_json("data/android.json")
+if (atlas["version"], atlas["released"]) != (android["version"], android["released"]):
+    raise ValueError("Service and Android release metadata differ")
 for dataset, schema_path in [(atlas, "data/schema.json"), (android, "data/android-schema.json")]:
     validator = Draft202012Validator(read_json(schema_path), format_checker=FormatChecker())
     validator.validate(dataset)
@@ -50,6 +52,15 @@ for entry in atlas["entries"]:
 for entry in android["entries"]:
     if entry["id"] not in atlas_ids or not entry["url"].strip():
         raise ValueError(f'{entry["id"]}: missing atlas ID or Android URL')
+
+main_html = (ROOT / "index.html").read_text(encoding="utf-8")
+coordinate_match = re.search(r"const coords=\{(.*?)\};", main_html, re.DOTALL)
+if not coordinate_match:
+    raise ValueError("Atlas country coordinates not found")
+mapped_countries = set(re.findall(r"\b([A-Z]{2}):\s*\[", coordinate_match.group(1)))
+missing_countries = {entry["iso2"] for entry in atlas["entries"]} - mapped_countries
+if missing_countries:
+    raise ValueError(f"Missing map coordinates: {sorted(missing_countries)}")
 
 capabilities = ["text", "image", "voice", "files", "web_search"]
 base_fields = ["id", "name", "url", "country", "country_es", "iso2", "continent", "service_type", "registration"]
