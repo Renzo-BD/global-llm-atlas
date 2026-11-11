@@ -68,7 +68,7 @@ pk-warisha,Warisha AI,https://warishaai.com/,Pakistan,Pakistán,PK,Asia,assistan
 bd-moyna,Moyna AI,https://moyna.ai/en,Bangladesh,Bangladés,BD,Asia,multi-model-platform,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
 bd-assistant,Assistant.bd,https://assistant.bd/,Bangladesh,Bangladés,BD,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
 kh-angkorai,AngkorAI,https://www.angkorai.ai/,Cambodia,Camboya,KH,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
-np-guffgpt,GuffGPT,https://guffgpt.com/,Nepal,Nepal,NP,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
+np-guffgpt,GuffGPT,https://chat.guffgpt.com/,Nepal,Nepal,NP,Asia,assistant,required,true,,,,,UNVERIFIED,2026-10-13,,,partial
 np-shree,Shree AI,https://ai.meetshree.com/,Nepal,Nepal,NP,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
 lk-cladik,Cladik,https://cladik.com/,Sri Lanka,Sri Lanka,LK,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-10-13,,,partial
 pe-jeimy,Jeimy AI,https://jeimy.ai/app,Peru,Perú,PE,South America,assistant,required,true,,,,,UNVERIFIED,2026-10-22,,,partial
