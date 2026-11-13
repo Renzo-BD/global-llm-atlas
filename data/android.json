@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "android",
-  "version": "0.9.0",
-  "released": "2026-11-09",
+  "version": "0.10.0",
+  "released": "2026-11-13",
   "methodology": "Only Android availability backed by an official product/store/download source is listed. A verification date records source review, not APK installation, a security audit, successful login or availability in every country. Absence means not independently verified, never unsupported. Related non-conversational companion apps are excluded from conversational access counts.",
   "entries": [
     {
@@ -326,6 +326,14 @@
       "url": "https://play.google.com/store/apps/details?id=com.poe.android",
       "verified": "2026-11-09",
       "note": "Official download page advertises Android; Google Play package com.poe.android identifies Quora, Inc., United States and links poe.com. No installation, APK extraction or Peru availability test."
+    },
+    {
+      "id": "us-google-search-ai-mode",
+      "status": "integrated",
+      "distribution": "google-play",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
+      "verified": "2026-11-13",
+      "note": "Google Search Help documents AI Mode within the Google app by Google LLC. Store and integration documentation reviewed. Installation and account access were not tested."
     }
   ]
 }

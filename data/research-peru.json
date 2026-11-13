@@ -1,9 +1,9 @@
 {
   "project": "Global LLM Atlas",
   "dimension": "peru-research-watchlist",
-  "version": "0.7.1",
-  "reviewed": "2026-11-02",
-  "scope_note": "Peru-associated research, adaptations, benchmarks, deployments and infrastructure only; excluded from main access-point counts. Country of subject matter does not prove developer nationality. New November 2 records distinguish Peru's operational WhatsApp assistant from a foundation model and an academic Quechua benchmark from a released model. No model training or conversation was reproduced.",
+  "version": "0.10.0",
+  "reviewed": "2026-11-13",
+  "scope_note": "Peru-associated research, adaptations, benchmarks and deployments tracked outside the main catalog. The November 13 review adds UNEBOT to the watchlist while its public conversation and model remain unverified.",
   "entries": [
     {
       "id": "pe-yachay-slm-research",
@@ -235,6 +235,19 @@
       ],
       "review_date": "2026-11-02",
       "doi": "10.18653/v1/2026.americasnlp-6.12"
+    },
+    {
+      "id": "pe-unebot-institutional",
+      "name": "UNEBOT (UNE)",
+      "association": "Peru; Universidad Nacional de Educación Enrique Guzmán y Valle",
+      "url": "https://www.une.edu.pe/uneweb/une-implementa-unebot-chatbot-institucional-basado-en-ia/",
+      "type": "institutional-assistant",
+      "assessment": "UNE announced the assistant in June 2026 for questions about the university and its documents. A search-indexed institutional page shows a text prompt. A working chat and the underlying model were not confirmed in this review.",
+      "catalog_decision": "watchlist_only_public_conversation_and_model_unverified",
+      "sources": [
+        "https://www.une.edu.pe/uneweb/une-implementa-unebot-chatbot-institucional-basado-en-ia/",
+        "https://www.une.edu.pe/uneweb/politica-y-objetivos-de-la-calidad/"
+      ]
     }
   ]
 }

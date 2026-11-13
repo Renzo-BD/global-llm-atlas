@@ -27,7 +27,7 @@ This directory is **not** a benchmark, leaderboard or dataset of model weights. 
 
 ## Current snapshot
 
-Version **0.9.0** (2026-11-09): 103 access points, 102 unique services, including **38 UNVERIFIED candidates**. 50 country/project associations and 41 official native/regional Android app listings, one unique PWA service and one integrated Android service. Source review is distinct from chat testing. Counts and field values change as the source is updated.
+Version **0.10.0** (2026-11-13) includes 105 access points, 104 unique services, 39 UNVERIFIED candidates and 50 country associations. Android metadata includes 41 native or regional app listings, one unique PWA service and two integrated services.
 
 November 9: YachAIbot added after one successful anonymous Spanish conversation; Fanar and Poe added as source-reviewed candidates with official Android listings. Branding, exports and map coverage repaired. See `reports/curation-v0.9.0-2026-11-09.md`.
 
@@ -56,7 +56,7 @@ Copy `data/llms.csv`, `data/llms.json`, `data/android.csv` and `data/android.jso
 
 ## Limitations
 
-The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Thirty-eight candidate records were unverified at the 2026-11-09 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
+The atlas is incomplete and geographically uneven. Free tiers, access, branding, language support and regional restrictions can change rapidly. Thirty-nine candidate records were unverified at the 2026-11-13 snapshot; do not treat them as confirmed free-to-use services or proof of proprietary base models. No legal/model-owner claims should be inferred solely from country association.
 
 ## Responsible use and updates
 

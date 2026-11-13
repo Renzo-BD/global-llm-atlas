@@ -102,3 +102,5 @@ et-addisgpt,AddisGPT,https://app.addisgpt.ai/,Ethiopia,Etiopía,ET,Africa,assist
 pe-yachaibot,YachAIbot (PCM/SGTD),https://yachaibot.servicios.gob.pe/normativas/,Peru,Perú,PE,South America,assistant,none,true,,,,,ACTIVE,2026-11-09,Peru,,verified
 qa-fanar,Fanar,https://chat.fanar.qa/,Qatar,Catar,QA,Asia,assistant,unknown,true,,,,,UNVERIFIED,2026-11-09,Qatar,,verified
 us-poe,Poe,https://poe.com/,United States,Estados Unidos,US,North America,multi-model-platform,required,true,,,,,UNVERIFIED,2026-11-09,United States,,verified
+pe-promperu-planifica,Planifica Tu Viaje (PROMPERÚ),https://www.peru.travel/es,Peru,Perú,PE,South America,assistant,none,true,,,,,ACTIVE,2026-11-13,Peru,,verified
+us-google-search-ai-mode,Google Search AI Mode,https://www.google.com/ai,United States,Estados Unidos,US,North America,search-assistant,unknown,true,,,,true,UNVERIFIED,2026-11-13,United States,,verified

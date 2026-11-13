@@ -11,6 +11,18 @@ The project follows [Semantic Versioning](https://semver.org/).
 - Re-test `LIMITED` and `INACTIVE` services and normalize unstable URLs.
 - Continue systematic country expansion.
 
+## [0.10.0] - 2026-11-13
+
+### Added
+- Planifica Tu Viaje (PROMPERÚ), ACTIVE after a Spanish test conversation without registration.
+- Google Search AI Mode, UNVERIFIED pending a successful conversation. The Android catalog records its official Google app integration.
+- UNEBOT in the Peru research and deployment watchlist.
+
+### Changed
+- Added primary-source launch notes for Gemini 4 Hydrogen, Gemini 4 Carbon, Qwen4-Max Preview and ERNIE 5.5 Flash Preview to the existing service records.
+- Reviewed the 103 pre-existing access URLs and recorded follow-up evidence for Jeimy AI, Theus and CatIA.
+- Snapshot now covers 105 access points, 104 unique services, 50 country associations and 39 UNVERIFIED candidates. Android covers 41 native or regional apps and two integrations.
+
 ## [0.9.0] - 2026-11-09
 
 ### Added

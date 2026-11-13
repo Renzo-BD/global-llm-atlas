@@ -1,8 +1,8 @@
 {
   "project": "Global LLM Atlas",
-  "version": "0.9.0",
-  "released": "2026-11-09",
-  "scope_note": "November 9 maintenance review: HTTP checks of all 100 pre-existing access points; YachAIbot (Peru) added after a successful anonymous Spanish conversation, Fanar (Qatar) and Poe (United States) added as source-backed UNVERIFIED candidates. Mistral Vibe branding and Sahabat-AI URL corrected. Source reviews, transport checks and conversation tests remain distinct; historical verification dates are preserved for services not conversation-tested today.",
+  "version": "0.10.0",
+  "released": "2026-11-13",
+  "scope_note": "November 13 review adds the Spanish-tested PROMPERÚ travel assistant and source-reviewed Google Search AI Mode. Updated provider model announcements and checked transport for the 103 existing access points.",
   "entries": [
     {
       "id": "de-textcortex",
@@ -357,7 +357,15 @@
       "duplicate_of": null,
       "country_confidence": "curator-verified",
       "provenance": {
-        "scope": "curator_html_seed"
+        "scope": "curator_html_seed",
+        "model_announcements": [
+          {
+            "model": "ERNIE 5.5 Flash Preview",
+            "source": "https://cloud.baidu.com/product/qianfan_home/model_3.html",
+            "review_date": "2026-11-13",
+            "note": "Baidu documents the Qianfan preview. Free ERNIE web-chat access was not verified."
+          }
+        ]
       }
     },
     {
@@ -461,7 +469,15 @@
       "duplicate_of": null,
       "country_confidence": "curator-verified",
       "provenance": {
-        "scope": "curator_html_seed"
+        "scope": "curator_html_seed",
+        "model_announcements": [
+          {
+            "model": "Qwen4-Max Preview",
+            "source": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+            "review_date": "2026-11-13",
+            "note": "Alibaba Cloud documents an API preview under Token Plan from November 11 through November 25, UTC+8. Free Qwen web-chat access was not verified."
+          }
+        ]
       }
     },
     {
@@ -1160,6 +1176,20 @@
             "source": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
             "review_date": "2026-10-16",
             "note": "Official app availability announcement; plan and regional access not independently tested."
+          },
+          {
+            "model": "Gemini 4 Hydrogen",
+            "announcement_date": "2026-11-12",
+            "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+            "review_date": "2026-11-13",
+            "note": "Google announced Hydrogen for all tiers. Individual quotas and model selection were not tested."
+          },
+          {
+            "model": "Gemini 4 Carbon",
+            "announcement_date": "2026-11-10",
+            "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+            "review_date": "2026-11-13",
+            "note": "Google announced consumer access for AI Ultra subscribers and paid developer access via the API in AI Studio. Free conversational access to Carbon was not established."
           }
         ]
       }
@@ -1187,7 +1217,23 @@
       "duplicate_of": null,
       "country_confidence": "verified",
       "provenance": {
-        "scope": "curator_html_seed"
+        "scope": "curator_html_seed",
+        "model_announcements": [
+          {
+            "model": "Gemini 4 Hydrogen",
+            "announcement_date": "2026-11-12",
+            "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+            "review_date": "2026-11-13",
+            "note": "Google announced Hydrogen for all tiers. Individual quotas and model selection were not tested."
+          },
+          {
+            "model": "Gemini 4 Carbon",
+            "announcement_date": "2026-11-10",
+            "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+            "review_date": "2026-11-13",
+            "note": "Google announced consumer access for AI Ultra subscribers and paid developer access via the API in AI Studio. Free conversational access to Carbon was not established."
+          }
+        ]
       }
     },
     {
@@ -2077,6 +2123,14 @@
             "https://jeimy.ai/"
           ],
           "note": "Publisher still offers limited free Colibrí and paid Águila/Apu access; direct /app returned HTTP 200. Presentation reachability is not a successful conversation or proof of independently trained Peruvian foundation models. No official native Android distribution verified."
+        },
+        "access_followup_2026_11_13": {
+          "review_date": "2026-11-13",
+          "sources": [
+            "https://jeimy.ai/",
+            "https://jeimy.ai/chat"
+          ],
+          "note": "Publisher advertises free limited Colibrí and browser access on mobile. The tracked /app route returned 200. Independent conversation and official native Android distribution remain unverified."
         }
       }
     },
@@ -2472,6 +2526,13 @@
             "https://catalogoia.servicios.gob.pe/catia"
           ],
           "note": "Tracked route again redirects to /acceso-restringido?returnUrl=%2Fcatia with HTTP 200. Public conversation remains unconfirmed; restricted access is not evidence of discontinuation."
+        },
+        "access_followup_2026_11_13": {
+          "review_date": "2026-11-13",
+          "sources": [
+            "https://catalogoia.servicios.gob.pe/catia"
+          ],
+          "note": "HTTP request again ended at /acceso-restringido. The 200 response is a restricted-access page."
         }
       }
     },
@@ -2927,6 +2988,14 @@
             "https://theus.pe/"
           ],
           "note": "Current pricing explicitly retains Free without a card, with usage windows of 5 hours and 7 days. Theus remains a multi-model service; no authenticated conversation or Android installation verified."
+        },
+        "access_followup_2026_11_13": {
+          "review_date": "2026-11-13",
+          "sources": [
+            "https://theus.pe/",
+            "https://theus.pe/precios/"
+          ],
+          "note": "Publisher continues to advertise a limited Free plan. The homepage responded with HTTP 200. Authenticated chat usability and a dedicated Android app remain unverified."
         }
       }
     },
@@ -3356,6 +3425,109 @@
             "https://play.google.com/store/apps/details?id=com.poe.android"
           ],
           "note": "Official download page advertises Android; Google Play package com.poe.android identifies Quora, Inc., United States and links poe.com. No installation, APK extraction or Peru availability test."
+        }
+      }
+    },
+    {
+      "id": "pe-promperu-planifica",
+      "name": "Planifica Tu Viaje (PROMPERÚ)",
+      "url": "https://www.peru.travel/es",
+      "country": "Peru",
+      "country_es": "Perú",
+      "iso2": "PE",
+      "continent": "South America",
+      "service_type": "assistant",
+      "registration": "none",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": null
+      },
+      "status": "ACTIVE",
+      "last_manual_verification": "2026-11-13",
+      "operator_country": "Peru",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "anonymous_spanish_web_conversation_tested",
+        "review_date": "2026-11-13",
+        "sources": [
+          "https://www.peru.travel/es",
+          "https://www.peru.travel/es/noticias/peru-da-el-siguiente-paso-con-el-asistente-virtual-de-viajes-con-ia-en-peru-travel",
+          "https://www.gob.pe/institucion/promperu/noticias/1375589-mincetur-y-promperu-lanzan-asistente-virtual-con-inteligencia-artificial-para-planificar-viajes-al-peru"
+        ],
+        "note": "Official tourism deployment launched in April 2026 by MINCETUR and PROMPERÚ. The portal embeds a Mindtrip conversational service using multilingual LLMs. The Peru association refers to the institutional deployment. The underlying model and provider training provenance are unverified.",
+        "conversation_test": {
+          "date": "2026-11-13",
+          "language": "es",
+          "registration": "none",
+          "prompt": "Sugiere dos lugares culturales para visitar en Arequipa. Responde brevemente en español.",
+          "result": "success",
+          "response_summary": "Returned Plaza de Armas and Mirador de Yanahuara with short Spanish explanations and map cards.",
+          "evidence": "reports/evidence/peru-travel-2026-11-13.png"
+        },
+        "android_review": {
+          "review_date": "2026-11-13",
+          "result": "no_official_conversational_app_verified",
+          "sources": [
+            "https://www.peru.travel/es",
+            "https://mindtrip.ai/ios",
+            "https://play.google.com/store/apps/details?id=com.travel.mindtrip"
+          ],
+          "note": "Official Peru.travel deployment was found on the web. The matching-name Google Play app is published by AppAi Labs. The provider download page reviewed lists iOS. Official Android integration for this deployment is unverified."
+        }
+      }
+    },
+    {
+      "id": "us-google-search-ai-mode",
+      "name": "Google Search AI Mode",
+      "url": "https://www.google.com/ai",
+      "country": "United States",
+      "country_es": "Estados Unidos",
+      "iso2": "US",
+      "continent": "North America",
+      "service_type": "search-assistant",
+      "registration": "unknown",
+      "capabilities": {
+        "text": true,
+        "image": null,
+        "voice": null,
+        "files": null,
+        "web_search": true
+      },
+      "status": "UNVERIFIED",
+      "last_manual_verification": "2026-11-13",
+      "operator_country": "United States",
+      "duplicate_of": null,
+      "country_confidence": "verified",
+      "provenance": {
+        "scope": "official_sources_and_web_interface_review",
+        "review_date": "2026-11-13",
+        "sources": [
+          "https://support.google.com/websearch/answer/16011537?co=GENIE.Platform%3DDesktop&hl=es-LA",
+          "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+          "https://support.google.com/websearch/answer/16011537?co=GENIE.Platform%3DAndroid&hl=EN"
+        ],
+        "note": "Google documents a conversational Search interface with follow-up questions and standard access in supported languages and countries, including Spanish and Peru. The official route opened the Spanish composer in a browser with an existing Google session. Anonymous use and successful conversation were not tested. This Search surface is separate from the Gemini app.",
+        "model_announcements": [
+          {
+            "model": "Gemini 4 Hydrogen",
+            "announcement_date": "2026-11-12",
+            "source": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+            "review_date": "2026-11-13",
+            "note": "Google announced Hydrogen for standard Search AI Mode. Model selection and account entitlements were not tested."
+          }
+        ],
+        "android_review": {
+          "review_date": "2026-11-13",
+          "result": "official_host_app_documented",
+          "sources": [
+            "https://support.google.com/websearch/answer/16011537?co=GENIE.Platform%3DAndroid&hl=EN",
+            "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox"
+          ],
+          "note": "Google documents AI Mode in the Google app on Android. The official listing is published by Google LLC. Installation and account availability were not tested."
         }
       }
     }
